@@ -1,0 +1,59 @@
+.banner > img{
+	width:100%;
+}
+.company{
+	width:100%;
+}
+.company .left{
+	width:12%;
+	float:left;
+	margin:75px 0 0 14%;
+}
+.company .left ul{
+	border-left:1px solid #a6a6a6;
+}
+.company .left ul li{
+	position:relative;
+	height:55px;
+}
+.company .left ul li a{
+	font-size:18px;
+	line-height:55px;
+	padding-left:10px;
+	color:#999;
+}
+.company .left ul li.current a{
+	color: #000;
+	line-height:35px;
+}
+.company .left ul li p{
+	position: absolute;
+	left:10px;
+	bottom:3px;
+	font-size:14px;
+	color: #000;
+}
+.company .left ul li span{
+	position:absolute;
+	top:0;
+	left:-2px;
+	height:55px;
+	width:3px;
+	background-color:#000;
+}
+.company .content{
+	width:60%;
+	float:right;
+	margin:72px 14% 25px 0;
+}
+.company .content p{
+	font-size:14px;
+	line-height:35px;
+	color:#777;
+	text-align:justify;
+	text-indent:25px;
+}
+.company .content img{
+	width:100%;
+	margin-top:15px;
+}
