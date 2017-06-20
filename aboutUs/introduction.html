@@ -1,0 +1,203 @@
+ <!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>公司简介</title>
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<script type="text/javascript" src="../js/jquery-1.12.3.min.js"></script>
+</head>
+<body>
+	<!-- 模块一 -->
+	<div class="banner">	
+		<img src="../images/aboutUs.png" alt="">
+		<div class="top">
+			<!-- logo 导航 -->
+			<div class="logo">
+				<img src="../images/logo.png" alt="汇熙资本">
+			</div>
+			<!-- 大屏幕导航 -->
+			<div class="navOne">
+				<ul>
+					<li><a href="#" class="current">首页</a></li>
+					<li>
+						<a href="javascript:;">关于我们</a>
+						<dl>
+							<dd><a href="#">公司简介</a></dd>
+							<dd><a href="#">组织架构</a></dd>
+							<dd><a href="#">汇熙团队</a></dd>
+							<dd><a href="#">愿景与使命</a></dd>
+						</dl>
+					</li>
+					<li>
+						<a href="javascript:;">投资体系</a>
+						<dl>
+							<dd><a href="#">1</a></dd>
+							<dd><a href="#">2</a></dd>
+							<dd><a href="#">3</a></dd>
+						</dl>
+					</li>
+					<li>
+						<a href="javascript:;">每日策略</a>
+						<dl>
+							<dd><a href="#">1</a></dd>
+							<dd><a href="#">2</a></dd>
+							<dd><a href="#">3</a></dd>
+						</dl>
+					</li>
+					<li>
+						<a href="javascript:;">汇熙动态</a>
+						<dl>
+							<dd><a href="#">1</a></dd>
+							<dd><a href="#">2</a></dd>
+							<dd><a href="#">3</a></dd>
+						</dl>
+					</li>
+					<li>
+						<a href="javascript:;">汇熙产品</a>
+						<dl>
+							<dd><a href="#">1</a></dd>
+							<dd><a href="#">2</a></dd>
+							<dd><a href="#">3</a></dd>
+						</dl>
+					</li>
+					<li>
+						<a href="javascript:;">客户服务</a>
+						<dl>
+							<dd><a href="#">1</a></dd>
+							<dd><a href="#">2</a></dd>
+							<dd><a href="#">3</a></dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+			<!-- 收缩导航 -->
+			<div class="navTwo">
+				<span></span>
+				<ul>
+					<li><a href="#">首页</a></li>
+					<li>
+						<a href="javascript:;">关于我们</a>
+						<dl>
+							<dd><a href="#">公司简介</a></dd>
+							<dd><a href="#">组织架构</a></dd>
+							<dd><a href="#">汇熙团队</a></dd>
+							<dd><a href="#">愿景与使命</a></dd>
+						</dl>
+					</li>
+					<li>
+						<a href="javascript:;">投资体系</a>
+						<dl>
+							<dd><a href="#">1</a></dd>
+							<dd><a href="#">2</a></dd>
+							<dd><a href="#">3</a></dd>
+						</dl>
+					</li>
+					<li>
+						<a href="javascript:;">每日策略</a>
+						<dl>
+							<dd><a href="#">1</a></dd>
+							<dd><a href="#">2</a></dd>
+							<dd><a href="#">3</a></dd>
+						</dl>
+					</li>
+					<li>
+						<a href="javascript:;">汇熙动态</a>
+						<dl>
+							<dd><a href="#">1</a></dd>
+							<dd><a href="#">2</a></dd>
+							<dd><a href="#">3</a></dd>
+						</dl>
+					</li>
+					<li>
+						<a href="javascript:;">汇熙产品</a>
+						<dl>
+							<dd><a href="#">1</a></dd>
+							<dd><a href="#">2</a></dd>
+							<dd><a href="#">3</a></dd>
+						</dl>
+					</li>
+					<li>
+						<a href="javascript:;">客户服务</a>
+						<dl>
+							<dd><a href="#">1</a></dd>
+							<dd><a href="#">2</a></dd>
+							<dd><a href="#">3</a></dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+
+
+	<!-- 模块八 -->
+	<div class="partSeven">
+		<div class="left">
+			<img src="../images/logo.png" alt="" />
+			<ul>
+				<li>
+					<i class="icon1"></i>
+					<p>福建省厦门市思明区环岛东路1811号<br />中航紫金广场B塔2304</p>
+				</li>
+				<li>
+					<i class="icon2"></i>
+					<p>电话：0592-5565118</p>
+				</li>
+				<li>
+					<i class="icon3"></i>
+					<p>邮箱：service@huixitouzi.com</p>
+				</li>
+			</ul>
+		</div>
+		<div class="center">
+			<ul>
+				<li><a href="#">关于汇熙</a></li>
+				<li><a href="#">投资体系</a></li>
+				<li><a href="#">每日策略</a></li>
+				<li><a href="#">汇熙动态</a></li>
+				<li><a href="#">汇熙产品</a></li>
+				<li><a href="#">客户服务</a></li>
+			</ul>
+			<p>Copyright© 2017 huixitouzi.ALL rights reserved.</p>
+		</div>
+		<div class="right">
+			<img src="../images/ewm.png" alt="" />
+			<p>扫一扫关注汇熙微信公众号了解更多资讯</p>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+	$(function(){
+		
+		$('.navTwo span').click(function(){
+			var marginLeft = $('.banner').css('margin-left');
+			if(marginLeft == '0px'){
+				var screenHeight = $(window).height();
+				$('.navTwo ul').css('height',screenHeight);
+				$('body').css('overflow-y','hidden');
+				$('.banner').animate({marginLeft:-240},500);
+				$('.partOne').animate({marginLeft:-240},500);
+			}else{
+				$('body').css('overflow-y','auto');
+				$('.banner').animate({marginLeft:0},500);
+				$('.partOne').animate({marginLeft:0},500);
+			}
+			
+		});
+		$('.navTwo ul li > a').click(function(){
+			$('.navTwo ul li').find('dl').slideUp();
+			$('.navTwo ul li').find('a').removeClass('current');
+			$(this).addClass('current');
+			if($(this).siblings('dl').css('display') == 'none')
+				$(this).siblings('dl').slideDown();
+		});
+		
+	})
+
+
+	</script>
+
+</body>
+</html>
