@@ -46,14 +46,78 @@
 	float:right;
 	margin:72px 14% 25px 0;
 }
-.company .content p{
+.company .content > p{
 	font-size:14px;
 	line-height:35px;
 	color:#777;
 	text-align:justify;
 	text-indent:25px;
 }
-.company .content img{
+.company .content > img{
 	width:100%;
-	margin-top:15px;
+}
+/*******公司文化**********/
+.company .content ul.cultureUl{
+	width:100%;
+	overflow:hidden;
+}
+.company .content ul.cultureUl li{
+	float:left;
+	position:relative;
+	width:32%;
+	margin:20px 1% 0 0;
+}
+.company .content ul.cultureUl li h2{
+	position:absolute;
+	left:50%;
+	top:25%;
+	font-size:25px;
+	transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+	color:#fff;
+}
+.company .content ul.cultureUl li p{
+	position:absolute;
+	left:50%;
+	top:50%;
+	font-size:25px;
+	transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+	color:#fff;
+}
+.company .content ul.cultureUl li img{
+	width:100%;
+}
+
+
+@media screen and (max-width:959px){
+	.company .content ul.cultureUl li h2,
+	.company .content ul.cultureUl li p{
+		font-size:16px;
+	}
+	.company .left{
+		width:50%;
+	}
+	.company .content {
+		float:none;
+		clear: both;
+		width:70%;
+		margin:30px auto;
+	}
+}
+@media screen and (min-width:960px) and (max-width:1460px){
+	.company .left{
+		width:16%;
+		margin:75px 0 0 10%;
+	}
+	.company .content{
+		width:70%;
+		margin:72px 4% 25px 0;
+	}
+
+}
+@media screen and (min-width:1460px){
+	
 }
