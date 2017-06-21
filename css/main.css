@@ -399,13 +399,20 @@ hr {
     width: 150px;
   }
 }
-.navbar-default .navbar-nav > li > a.special-menu-item {
+.navbar-default .navbar-nav > li.special-menu-item {
   background-color: #000;
   color: #fff;
 }
-
-.navbar-default .navbar-nav > li > a.special-menu-item:hover,
-.navbar-default .navbar-nav > li > a.special-menu-item:focus {
+.navbar-default .navbar-nav > li.special-menu-item a{
+  display: inline-block;
+  color: #fff;
+}
+.navbar-default .navbar-nav > li.special-menu-item a:hover{
+  background-color: transparent;
+  color:#666;
+}
+.navbar-default .navbar-nav > li.special-menu-item:hover,
+.navbar-default .navbar-nav > li.special-menu-item:focus {
   background-color: #000;
 }
 
