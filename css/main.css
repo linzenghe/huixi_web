@@ -1929,21 +1929,21 @@ ul.social-icons li a i {
   padding-right: 0;
 }
 .tag-list li a {
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-  border-radius: 2px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border-radius:5px;
   display: block;
   margin-bottom: 5px;
-  padding: 4px 10px;
-  background-color: #406da4;
+  padding:2px 20px;
+  background-color:#000;
   color: #fff;
   border: 1px solid transparent;
 }
-.tag-list li a:hover, .tag-list li a:focus {
+/*.tag-list li a:hover, .tag-list li a:focus {
   background-color: #fff;
   border-color: #777;
   color: #7b7b7b;
-}
+}*/
 
 /* blog single item */
 .blog.single .section-heading {
