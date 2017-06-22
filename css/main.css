@@ -757,9 +757,33 @@ hr {
   margin-left: -10px;
   margin-right: -10px;
   background: #fff;
+  border:1px solid #ddd;
 }
 .news .news_item .item_h img{
   width: 100%;
+}
+.news .news_item .item_b{
+  padding: 30px 20px 80px 20px;
+  position: relative;
+}
+.news .news_item .item_b .news_t{
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+.news .news_item .item_b .news_p{
+  font-size: 16px;
+  color: #666;
+  line-height: 26px;
+}
+.news .news_item .item_b .news_more{
+  font-size: 16px;
+  color: #666;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }
 /* END NEWS */
 /*///////////////////////////////////*/
