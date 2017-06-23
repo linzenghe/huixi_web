@@ -448,6 +448,10 @@ hr {
   background: #000;
   opacity: 0.3;
 }
+
+.carousel-control:focus {
+  opacity: 0.3;
+}
 .carousel-control:hover {
   opacity: 0.7;
 }
@@ -610,8 +614,7 @@ hr {
   line-height: 36px;
   position: relative;
 }
-.section_title .intro_en:before {
-  content:"";
+.section_title .intro_en .before {
   width: 100px;
   height: 24px;
   background: url("../images/arrow.png") no-repeat -15px 0;
@@ -620,8 +623,8 @@ hr {
   margin-top: -12px;
   left: 50%;
 }
-.section_title .intro_en:after {
-  content:"";
+.section_title .intro_en .after {
+
   width: 100px;
   height: 24px;
   background: url("../images/arrow.png") no-repeat -136px 0;
@@ -639,16 +642,16 @@ hr {
 .section_title_w .intro_en{
   color: #fff;
 }
-.section_title_w .intro_en:before {
+.section_title_w .intro_en .before {
   background: url("../images/arrow_w.png") no-repeat -15px 0;
 }
-.section_title_w .intro_en:after {
+.section_title_w .intro_en .after {
   background: url("../images/arrow_w.png") no-repeat -136px 0;
 }
-.introduce .section_title .intro_en:before{
+.introduce .section_title .intro_en .before{
   margin-left: -295px;
 }
-.introduce .section_title .intro_en:after{
+.introduce .section_title .intro_en .after{
   margin-left: 195px;
 }
 .introduce .intro_2 .intro_ch{
@@ -684,10 +687,10 @@ hr {
   height: 840px;
   padding: 100px 0;
 }
-.about_us .section_title .intro_en:before{
+.about_us .section_title .intro_en .before{
   margin-left: -190px;
 }
-.about_us .section_title .intro_en:after{
+.about_us .section_title .intro_en .after{
   margin-left: 90px;
 }
 .about_1 .about_ch{
@@ -743,10 +746,10 @@ hr {
     padding-left: 15px;
   }
 }
-.daily .section_title .intro_en:before{
+.daily .section_title .intro_en .before{
   margin-left: -226px;
 }
-.daily .section_title .intro_en:after{
+.daily .section_title .intro_en .after{
   margin-left: 126px;
 }
 .portfolio-item {
@@ -848,10 +851,10 @@ hr {
 .news_1{
   margin: 0 10px;
 }
-.news .section_title .intro_en:before{
+.news .section_title .intro_en .before{
   margin-left: -222px;
 }
-.news .section_title .intro_en:after{
+.news .section_title .intro_en .after{
   margin-left: 122px;
 }
 .news .news_item{
@@ -947,10 +950,10 @@ hr {
     padding-left: 15px;
   }
 }
-.partner .section_title .intro_en:before{
+.partner .section_title .intro_en .before{
   margin-left: -268px;
 }
-.partner .section_title .intro_en:after{
+.partner .section_title .intro_en .after{
   margin-left: 168px;
 }
 .list-client-logo {
@@ -1065,34 +1068,34 @@ footer .weChat p{
   .section_title .intro_en{
     font-size: 18px;
   }
-  .introduce .section_title .intro_en:before{
+  .introduce .section_title .intro_en .before{
     margin-left: -245px;
   }
-  .introduce .section_title .intro_en:after{
+  .introduce .section_title .intro_en .after{
     margin-left: 145px;
   }
-  .about_us .section_title .intro_en:before{
+  .about_us .section_title .intro_en .before{
     margin-left: -168px;
   }
-  .about_us .section_title .intro_en:after{
+  .about_us .section_title .intro_en .after{
     margin-left: 68px;
   }
-  .daily .section_title .intro_en:before{
+  .daily .section_title .intro_en .before{
     margin-left: -195px;
   }
-  .daily .section_title .intro_en:after{
+  .daily .section_title .intro_en .after{
     margin-left: 95px;
   }
-  .news .section_title .intro_en:before{
+  .news .section_title .intro_en .before{
     margin-left: -192px;
   }
-  .news .section_title .intro_en:after{
+  .news .section_title .intro_en .after{
     margin-left: 92px;
   }
-  .partner .section_title .intro_en:before{
+  .partner .section_title .intro_en .before{
     margin-left: -228px;
   }
-  .partner .section_title .intro_en:after{
+  .partner .section_title .intro_en .after{
     margin-left: 128px;
   }
   .introduce .intro_2 .intro_ch{
@@ -1160,34 +1163,34 @@ footer .weChat p{
   .section_title .intro_en{
     font-size: 16px;
   }
-  .introduce .section_title .intro_en:before{
+  .introduce .section_title .intro_en .before{
     margin-left: -215px;
   }
-  .introduce .section_title .intro_en:after{
+  .introduce .section_title .intro_en .after{
     margin-left: 115px;
   }
-  .about_us .section_title .intro_en:before{
+  .about_us .section_title .intro_en .before{
     margin-left: -148px;
   }
-  .about_us .section_title .intro_en:after{
+  .about_us .section_title .intro_en .after{
     margin-left: 48px;
   }
-  .daily .section_title .intro_en:before{
+  .daily .section_title .intro_en .before{
     margin-left: -175px;
   }
-  .daily .section_title .intro_en:after{
+  .daily .section_title .intro_en .after{
     margin-left: 75px;
   }
-  .news .section_title .intro_en:before{
+  .news .section_title .intro_en .before{
     margin-left: -172px;
   }
-  .news .section_title .intro_en:after{
+  .news .section_title .intro_en .after{
     margin-left: 72px;
   }
-  .partner .section_title .intro_en:before{
+  .partner .section_title .intro_en .before{
     margin-left: -205px;
   }
-  .partner .section_title .intro_en:after{
+  .partner .section_title .intro_en .after{
     margin-left: 105px;
   }
   .introduce .intro_2 .intro_ch{
@@ -1280,36 +1283,36 @@ footer .weChat p{
   .section_title .intro_en:after{
     width: 80px;
   }
-  .introduce .section_title .intro_en:before{
+  .introduce .section_title .intro_en .before{
     margin-left: -180px;
 
   }
-  .introduce .section_title .intro_en:after{
+  .introduce .section_title .intro_en .after{
     margin-left: 100px;
 
   }
-  .about_us .section_title .intro_en:before{
+  .about_us .section_title .intro_en .before{
     margin-left: -128px;
   }
-  .about_us .section_title .intro_en:after{
+  .about_us .section_title .intro_en .after{
     margin-left: 48px;
   }
-  .daily .section_title .intro_en:before{
+  .daily .section_title .intro_en .before{
     margin-left: -145px;
   }
-  .daily .section_title .intro_en:after{
+  .daily .section_title .intro_en .after{
     margin-left: 65px;
   }
-  .news .section_title .intro_en:before{
+  .news .section_title .intro_en .before{
     margin-left: -142px;
   }
-  .news .section_title .intro_en:after{
+  .news .section_title .intro_en .after{
     margin-left: 62px;
   }
-  .partner .section_title .intro_en:before{
+  .partner .section_title .intro_en .before{
     margin-left: -170px;
   }
-  .partner .section_title .intro_en:after{
+  .partner .section_title .intro_en .after{
     margin-left: 90px;
   }
   .introduce .intro_2 .intro_ch{
