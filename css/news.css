@@ -1,0 +1,164 @@
+/*reset*/
+body,p,ol,ul,li,dl,dd,dt,
+h1,h2,h3,h4,h5,h6,input,i{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-weight:normal;
+	outline:none;
+	border:0;
+	font-style:normal;
+}
+/* NEWS */
+.navLeft{
+	width:18%;
+	float:left;
+	margin-top:70px;
+	margin-left:2%;
+}
+.navLeft ul{
+	border-left:1px solid #a6a6a6;
+}
+.navLeft ul li{
+	position:relative;
+	height:55px;
+}
+.navLeft ul li a{
+	font-size:18px;
+	line-height:55px;
+	padding-left:10px;
+	color:#999;
+}
+.navLeft ul li.current a{
+	color: #000;
+	line-height:35px;
+}
+.navLeft ul li p{
+	position: absolute;
+	left:10px;
+	bottom:3px;
+	font-size:14px;
+	color: #000;
+}
+.navLeft ul li span{
+	position:absolute;
+	top:0;
+	left:-2px;
+	height:55px;
+	width:3px;
+	background-color:#000;
+}
+.content{
+	width:78%;
+	float:right;
+	margin-top:70px;
+	margin-right:2%;
+	margin-bottom:50px;
+}
+.content > img{
+	width:100%;
+}
+.content > p{
+	font-size:14px;
+	line-height:35px;
+	color:#777;
+	text-align:justify;
+	text-indent:25px;
+}
+.content .title{
+	position:relative;
+	width:100%;
+	text-align:center;
+	margin:0 0 30px 0;
+}
+.content .title h2{
+	width:100%;
+	font-size:30px;
+	color:#333;
+}
+.content .title span{
+	font-size:22px;
+	color:#999;
+	line-height:70px;
+	display:block;
+	width:100%;
+	border-bottom:1px solid #ddd;
+}
+.content .title i{
+	position:absolute;
+	left:50%;
+	bottom:-16px;
+	margin-left:-16px;
+	width:32px;
+	height:32px;
+	background:url(../images/titleIcon.png) no-repeat;
+}
+
+.entry-title a{
+	font-size:24px;
+	color:#333;
+	height:60px;
+	line-height:60px;
+}
+
+.excerpt p{
+	font-size:12px;
+	color:#999;
+	line-height:25px;
+}
+
+.read-more a{
+	float:right;
+	font-size:12px;
+	color:#999;
+}
+
+/* RVENTRECORD */
+ul.eventRecord{
+	width:100%;
+	margin-top:30px;
+	overflow:hidden;
+}
+ul.eventRecord li{
+	float:left;
+	min-width:220px;
+	width:25%;
+}
+ul.eventRecord li img{
+	width:200px;
+	display:block;
+	margin:0 auto;
+}
+ul.eventRecord li h2{
+	font-size:16px;
+	height:50px;
+	margin-top:20px;
+	width:200px;
+	margin:15px auto 5px;
+	line-height:25px;
+}
+ul.eventRecord li span{
+	width:200px;
+	height:4px;
+	display:block;
+	border-left:30px solid #000;
+	margin:0 auto;
+}
+ul.eventRecord li p{
+	font-size:12px;
+	width:200px;
+	height:40px;
+	line-height:20px;
+	margin:10px auto 5px;
+	color:#999;
+}
+
+@media (max-width: 767px){
+	.navLeft{
+		width:98%;
+	}
+	.content{
+		width:96%;
+		margin-left:2%;
+	}
+}
