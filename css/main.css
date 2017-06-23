@@ -14,6 +14,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #656565;
 }
 
+ul,li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
 a {
   color: #333;
@@ -780,12 +785,158 @@ hr {
 }
 .news .news_item .item_b .news_more{
   font-size: 16px;
-  color: #666;
+  color: #999;
   position: absolute;
   bottom: 20px;
   right: 20px;
 }
+.news .news_item .item_b .news_more:hover{
+  color: #666;
+}
 /* END NEWS */
+/* SIGN */
+@media (max-width:992px){
+  .sign .container{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+.sign .sign_left{
+  padding-top:100px;
+}
+.sign .sign_left .sign_img{
+  width: 50%;
+}
+.sign .sign_left .sign_img img{
+  width: 100%;
+}
+.sign .sign_right{
+  border-left:2px solid #ddd;
+  position: relative;
+  height: 100%;
+}
+.sign .sign_item{
+  margin: 100px 0;
+}
+.sign .sign_item .sign_ch{
+  font-size: 20px;
+  color: #333;
+  padding-left: 16px;
+  position: relative;
+}
+.sign .sign_item .sign_ch:before{
+  content: "";
+  position: absolute;
+  width:16px ;
+  height: 16px;
+  background: #000;
+  left: -25px;
+  top: 7px;
+}
+.sign .sign_item .sign_en{
+  padding-left: 16px;
+  font-size: 16px;
+  color: #666;
+}
+/* END SIGN */
+
+/* PARTNER */
+.partner{padding: 100px 0}
+@media (max-width:992px){
+  .partner .container{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+.partner .section_title .intro_en:before{
+  margin-left: -212px;
+}
+.partner .section_title .intro_en:after{
+  margin-left: 112px;
+}
+.partner .partner_list{
+  margin-top: 50px;
+}
+.partner .partner_list li{
+  width: 20%;
+  float: left;
+}
+.partner .partner_list li h5{
+  font-size: 14px;
+  margin-top: 14px;
+}
+/* END PARTNER */
+/* FOOTER */
+footer{
+  background: #262626;
+  padding: 45px 0 0;
+  color: #fff;
+}
+@media (max-width:992px){
+  footer .container{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+footer .contact_list{
+  margin-top: 24px;
+}
+footer .contact_list li{
+  position: relative;
+  line-height: 32px;
+  font-size: 14px;
+  padding-left: 28px;
+}
+footer .contact_list li i{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 5px;
+  left: 0;
+}
+footer .contact_list .address i{
+  background: url("../images/icon/home.png") no-repeat 0 0 ;
+  background-size: 100% 100%;
+}
+footer .contact_list .phone i{
+  background: url("../images/icon/phone.png") no-repeat 0 0 ;
+  background-size: 100% 100%;
+}
+footer .contact_list .email i{
+  background: url("../images/icon/email.png") no-repeat 0 0 ;
+  background-size: 100% 100%;
+}
+footer .contact_list .email a{
+  color: #fff;
+}
+footer .contact_list .email a:hover{
+  color: #999;
+}
+footer .footer_nav_list{
+  margin-top: 56px;
+  margin-bottom: 30px;
+}
+footer .footer-nav a{
+  color: #fff;
+  font-size: 14px;
+  line-height: 32px;
+}
+footer .footer-nav a:hover{
+  color: #999;
+}
+.copyRight{
+  background: #323232;
+  line-height: 50px;
+}
+footer .weChat{
+  width: 140px;
+}
+footer .weChat p{
+  margin-top: 12px;
+  font-size: 12px;
+  text-align: center;
+}
+/* END FOOTER */
 /*///////////////////////////////////*/
 /* ----------------------------------------------------- */
 /* BOOTSTRAP UI ELEMENTS 
