@@ -189,3 +189,43 @@
 .filled{ margin:30px 0 30px;}
 .filled .fill{min-width:30%;padding:0 2%;background:#000;line-height:40px;border:none;color:#fff;display: inline-block;text-align: center;}
 .filled .bhome{  min-width:30%;padding:0 2%; background:#c8cecf; line-height:40px; border:none;color:#fff; display:inline-block; text-align:center; margin-left:2%;}
+
+.navLeft{
+    width:23%;
+    float:left;
+    margin-top:70px;
+    margin-left:2%;
+}
+.navLeft ul{
+    border-left:1px solid #a6a6a6;
+}
+.navLeft ul li{
+    position:relative;
+    height:55px;
+}
+.navLeft ul li a{
+    font-size:18px;
+    line-height:55px;
+    padding-left:10px;
+    color:#999;
+}
+.navLeft ul li.current a{
+    color: #000;
+    line-height:35px;
+}
+.navLeft ul li p{
+    position: absolute;
+    left:10px;
+    bottom:3px;
+    font-size:14px;
+    color: #000;
+    margin: 0;
+}
+.navLeft ul li span{
+    position:absolute;
+    top:0;
+    left:-2px;
+    height:55px;
+    width:3px;
+    background-color:#000;
+}
