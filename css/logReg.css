@@ -2,56 +2,18 @@
 @media screen and (max-width: 992px) {
     .reg_wrapper{padding-top: 50px}
 }
-.step1{
-    border-bottom:1px solid #c8cecf;
-    padding: 70px 17% 70px 20%;
-    overflow:hidden;
-}
+.step1{  border-bottom:1px solid #c8cecf;  padding: 70px 17% 70px 20%;  overflow:hidden;  }
 
 .stepInfo{ position:relative; }
-.step1 li {
-    float: left;
-    width: 47%;
-    height: 34px;
-    background: url(../images/step.png) right bottom no-repeat;
-}
+.step1 li {  float: left;  width: 47%;  height: 34px;  background: url(../images/step.png) right bottom no-repeat;  }
 .step1 li.active{ background:url(../images/step.png) right 0 no-repeat; }
-.stepIco {
-    position: absolute;
-    width: 56px;
-}
-.step1 .first {
-    left: -1%;
-}
-.step1 .two {
-    left: 48%;
-}
-.step1 .last {
-    left: 95%;
-}
-.step1 p {
-    color: #666;
-    text-align: center;
-    margin-left: -28px;
-}
-.step1 span {
-    color: #fff;
-    background: #c8cecf;
-    width: 34px;
-    height: 34px;
-    line-height: 34px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 50%;
-}
-.step1 em {
-    font-style: normal;
-    display: block;
-    font-size: 15px;
-    white-space:nowrap;
-    margin: 15px 0 0;
-    color: #999;
-}
+.stepIco {  position: absolute;  width: 56px;  }
+.step1 .first {  left: -1%;  }
+.step1 .two {  left: 48%;  }
+.step1 .last {  left: 95%;  }
+.step1 p {  color: #666;  text-align: center;  margin-left: -28px;  }
+.step1 span {  color: #fff;  background: #c8cecf;  width: 34px;  height: 34px;  line-height: 34px;  display: inline-block;  text-align: center;  border-radius: 50%;  }
+.step1 em {  font-style: normal;  display: block;  font-size: 15px;  white-space:nowrap;  margin: 15px 0 0;  color: #999;  }
 .stepIco.active span{ background:#000;  }
 .stepIco.active em{ color:#000; }
 
@@ -64,68 +26,26 @@
 .choose .panelCh .bottom{text-align:center;}
 .choose .panelCh .bottom span{ width:25px;height:25px;display:inline-block;background:url(../images/choose.png) 0 bottom no-repeat;margin: 10px auto 6px;}
 .choose .panelCh .bottom input[type='radio']{ display:none; }
-
 .choose .panelCh.current{ border:1px solid #000; }
 .choose .panelCh.current h3{ background: #000; }
 .choose .panelCh.current .cremark{border-top:1px solid #000;border-bottom:1px solid #000;color: #333;}
 .choose .panelCh.current .bottom span{  background-position: 0 0; }
 
-
-
 .ccontent{padding-top: 30px;padding-bottom: 30px}
 .ccleft{padding-left: 10%;padding-right: 5%}
 .ccleft .tl{color:#251f21;font-weight:normal;padding: 8px 0 14px;line-height: 24px;font-size: 16px;}
 .ccleft .tl span{ font-size:14px;color:#666666; border-left:2px solid #dbdfe0;padding:0 0 0 10px; margin-left:10px; }
-.addform .item {
-    margin-bottom: 16px;
-    width: 100%;
-    position: relative;
-}
-.addform  .input-group-addon{
-    padding: 11px 12px;
-}
-.addform .form-control{
-    padding: 18px 12px;
-}
-.ccleft .item .input-group-btn {
-    width: 100px;
-    font-size: 13px;
-}
-.ccleft .item .input-group-btn select {
-    width: 100%;
-    padding: 8.5px 10px;
-    border-radius: 0;
-    border-color: #ccc;
-    border-right-color: transparent;
-}
+.addform .item {  margin-bottom: 16px;  width: 100%;  position: relative;  }
+.addform  .input-group-addon{  padding: 11px 12px;  }
+.addform .form-control{  padding: 18px 12px;  }
+.ccleft .item .input-group-btn {  width: 100px;  font-size: 13px;  }
+.ccleft .item .input-group-btn select {  width: 100%;  padding: 8.5px 10px;  border-radius: 0;  border-color: #ccc;  border-right-color: transparent;  }
 .ccleft .add{position:absolute;top:0;right:0;font-size: 23px;background: #fff;text-align: center;padding: 0;line-height: 36px;width: 40px;border: 1px solid #cdcdcd;color: #cdcdcd;cursor:pointer;}
-.vcCode {
-    position: absolute;
-    right: 0;
-    width: 35%;
-    height: 100%;
-}
-.vcCode img {
-    width: 100%;
-    height: 100%;
-    border: 1px solid #eaeaea;
-}
-.vcCode .refresh {
-    position: absolute;
-    right: 0;
-    color: #666;
-    font-size: 12px;
-    cursor: pointer;
-    word-break: keep-all;
-    white-space: nowrap;
-    bottom: -20px;
-}
-.vcCode .refresh:hover{
-    color: #999;
-}
-.ccright{
-    border-left:1px solid #c8cecf;
-}
+.vcCode {  position: absolute;  right: 0;  width: 35%;  height: 100%;  }
+.vcCode img {  width: 100%;  height: 100%;  border: 1px solid #eaeaea;  }
+.vcCode .refresh {  position: absolute;  right: 0;  color: #666;  font-size: 12px;  cursor: pointer;  word-break: keep-all;  white-space: nowrap;  bottom: -20px;  }
+.vcCode .refresh:hover{  color: #999;  }
+.ccright{  border-left:1px solid #c8cecf;  }
 .ccright .tl{font-size:16px;color:#999;padding: 4px 0 14px;line-height: 24px;text-align:center;}
 .ccright .tl span{ color:#333; }
 .ccright .upp{margin: 0 20%;overflow:hidden;padding: 18px 0 16px;text-align: center;}
@@ -140,19 +60,10 @@
 .change .next_walk{ background:#000; border:0;color:#fff; line-height:40px; width:48%; float:right }
 
 .step2 li{width: 33%}
-.step2 .first {
-    left: -1%;
-}
-.step2 .two {
-    left: 33%;
-}
-.step2 .three {
-    left: 66%;
-}
-.step2 .last {
-    left: 99%;
-}
-
+.step2 .first {  left: -1%;  }
+.step2 .two {  left: 33%;  }
+.step2 .three {  left: 66%;  }
+.step2 .last { left: 99%;  }
 
 /*调查问卷*/
 .mquestion{ padding: 24px 5% 50px 5%; }
@@ -171,14 +82,7 @@
 .icheckbox_div.current label{ color:#000; }
 .question .title{padding: 0 0 0 22px;}
 .icheckbox_div label{ margin-left:8px;color: #666;font-weight: normal }
-.icheckbox_div a.radio {
-    background: transparent url(../images/radio.png) no-repeat center top;
-    vertical-align: middle;
-    height: 20px;
-    width: 20px;
-    position: relative;
-    display: inline-block;
-}
+.icheckbox_div a.radio {background: transparent url(../images/radio.png) no-repeat center top;vertical-align: middle;height: 20px;width: 20px;position: relative;display: inline-block;  }
 .icheckbox_div a.Checked { background-position: center bottom;}
 .icheckbox_div a.Checkboxd { background-position: center bottom;}
 
@@ -189,43 +93,3 @@
 .filled{ margin:30px 0 30px;}
 .filled .fill{min-width:30%;padding:0 2%;background:#000;line-height:40px;border:none;color:#fff;display: inline-block;text-align: center;}
 .filled .bhome{  min-width:30%;padding:0 2%; background:#c8cecf; line-height:40px; border:none;color:#fff; display:inline-block; text-align:center; margin-left:2%;}
-
-.navLeft{
-    width:23%;
-    float:left;
-    margin-top:70px;
-    margin-left:2%;
-}
-.navLeft ul{
-    border-left:1px solid #a6a6a6;
-}
-.navLeft ul li{
-    position:relative;
-    height:55px;
-}
-.navLeft ul li a{
-    font-size:18px;
-    line-height:55px;
-    padding-left:10px;
-    color:#999;
-}
-.navLeft ul li.current a{
-    color: #000;
-    line-height:35px;
-}
-.navLeft ul li p{
-    position: absolute;
-    left:10px;
-    bottom:3px;
-    font-size:14px;
-    color: #000;
-    margin: 0;
-}
-.navLeft ul li span{
-    position:absolute;
-    top:0;
-    left:-2px;
-    height:55px;
-    width:3px;
-    background-color:#000;
-}
