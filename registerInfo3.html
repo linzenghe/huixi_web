@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>汇熙资本</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/logReg.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!-- WRAPPER -->
+    <div class="wrapper reg_wrapper">
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a href="index.html" class="navbar-brand navbar-logo">
+                        <img src="images/logo/logo.png">
+                    </a>
+                </div>
+                <!-- MAIN NAVIGATION -->
+                <div id="main-nav" class="navbar-collapse collapse navbar-mega-menu">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown active">
+                            <a href="#">首页</a>
+                        </li>
+                        <li class="dropdown ">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">关于汇熙 <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">公司简介</a></li>
+                                <li><a href="#">企业文化</a></li>
+                                <li><a href="#">组织架构</a></li>
+                                <li><a href="#">汇熙团队</a></li>
+                                <li><a href="#">愿景与使命</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown ">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">投资体系 <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">投资理念及模式</a></li>
+                                <li><a href="#">投资流程</a></li>
+                                <li><a href="#">产业逻辑</a></li>
+                                <li><a href="#">风险控制</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown ">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">汇眼金金<i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">每日交易策略</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown ">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">熙息相通<i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">公司新闻</a></li>
+                                <li><a href="#">媒体报道</a></li>
+                                <li><a href="#">活动纪实</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown ">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">汇熙产品<i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">汇熙产品</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown ">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">客户服务<i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">常见问题</a></li>
+                                <li><a href="#">投资流程</a></li>
+                                <li><a href="#">下载中心</a></li>
+                                <li><a href="#">客户登陆</a></li>
+                            </ul>
+                        </li>
+                        <li class="special-menu-item"><a href="#" class="login" target="_blank">登录</a>/ <a href="#" class="register">注册</a></li>
+                    </ul>
+                </div>
+                <!-- END MAIN NAVIGATION -->
+            </div>
+        </nav>
+        <!-- END NAVBAR -->
+        <!-- register -->
+        <section class="register">
+            <div class="container">
+                <section class="clearfix">
+                    <div class="step1 step2">
+                        <div class="stepInfo">
+                            <ul>
+                                <li class="active"></li>
+                                <li class="active"></li>
+                                <li></li>
+                            </ul>
+                            <div class="stepIco first active">
+                                <p><span>1</span><em>选择会员身份</em></p>
+                            </div>
+                            <div class="stepIco two active">
+                                <p><span>2</span><em>填写会员信息</em></p>
+                            </div>
+                            <div class="stepIco three active">
+                                <p><span>2</span><em>特定对象认定</em></p>
+                            </div>
+                            <div class="stepIco last">
+                                <p><span>3</span><em>完成注册</em></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mquestion">
+                        <div class="clearfix">
+                            <!--问卷调查 begin-->
+                            <form method="post" name="addform" id="form" action="">
+                                <input type="hidden" name="SurveyID" value="13">
+                                <input type="hidden" name="type" value="1">
+                                <div class="question_box">
+                                    <div class="remark">
+                                        <h3 style="font-size:20px;font-weight:normal; margin-bottom:20px;">私募投资基金投资者风险问卷调查  ：</h3>
+                                        <p class="MsoNormal" style="text-indent:21.1pt;">
+                                            <b>风险提示：私募基金投资需承担各类风险，本金可能遭受损失。同时，私募基金投资还要考虑市场风险、信用风险、流动性风险、操作风险等各类投资风险。您在基金认购过程中应当注意核对自己的风险识别和风险承受能力，选择与自己风险识别能力和风险承受能力相匹配的私募基金。</b><b></b>
+                                        </p>
+                                        <p class="MsoNormal" style="text-indent:21.0pt;margin-top: 24px">
+                                            以下一系列问题可在您选择合适的私募基金前，协助评估您的风险承受能力、理财方式及投资目标。
+                                        </p>
+                                    </div>
+                                    <div class="question " tabindex="5001" style="overflow: hidden; outline: none;">
+                                        <!--问题类型1 begin-->
+                                        <div class="question1">
+                                            <h3><em>一</em>、特定对象确认</h3>
+
+                                            <!--eachforch begin-->
+                                            <div class="que_content">
+                                                <div class="title">1、承诺您是为自己购买私募基金产品
+                                                    <input type="hidden" name="title" value="208">
+                                                </div>
+                                                <div class="matrix"><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="208_option" class="option" value="否(0)"></span><label class="option_label"><em>A </em> 否</label><input type="hidden" name="208_score" value="0"></div><div class="icheckbox_div current"> <span><a href="javascript:;" class="radio Checked"></a><input type="radio" name="208_option" class="option" value="是(0)"></span><label class="option_label"><em>B </em> 是</label><input type="hidden" name="208_score" value="0"></div></div>
+                                            </div>
+                                            <!--eachforch end-->
+
+                                            <!--eachforch begin-->
+                                            <div class="que_content">
+                                                <div class="title">2、您符合合格投资者财务条件：金融资产不低于300万元（金融资产包括银行存款、股票、债券、基金份额、资产管理计划、银行理财产品、信托计划、保险产品、期货权益等）或最近三年个人年均收入不低于50万元
+                                                    <input type="hidden" name="title" value="209">
+                                                </div>
+                                                <div class="matrix"><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="209_option" class="option" value="否(0)"></span><label class="option_label"><em>A </em> 否</label><input type="hidden" name="209_score" value="0"></div><div class="icheckbox_div current"> <span><a href="javascript:;" class="radio Checked"></a><input type="radio" name="209_option" class="option" value="是(0)"></span><label class="option_label"><em>B </em> 是</label><input type="hidden" name="209_score" value="0"></div></div>
+                                            </div>
+                                            <!--eachforch end-->
+                                        </div>
+                                        <!--问题类型1 end-->
+
+                                        <!--问题类型1 begin-->
+                                        <div class="question1">
+                                            <h3><em>二</em>、基本信息</h3>
+
+                                            <!--eachforch begin-->
+                                            <div class="que_content">
+                                                <div class="title">1、您的年龄介于
+                                                    <input type="hidden" name="title" value="210">
+                                                </div>
+                                                <div class="matrix"><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="210_option" class="option" value="18-30岁(7)"></span><label class="option_label"><em>A </em> 18-30岁</label><input type="hidden" name="210_score" value="7"></div><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="210_option" class="option" value="31-50岁(8)"></span><label class="option_label"><em>B </em> 31-50岁</label><input type="hidden" name="210_score" value="8"></div><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="210_option" class="option" value="51-65岁(4)"></span><label class="option_label"><em>C </em> 51-65岁</label><input type="hidden" name="210_score" value="4"></div><div class="icheckbox_div current"> <span><a href="javascript:;" class="radio Checked"></a><input type="radio" name="210_option" class="option" value="高于65岁(1)"></span><label class="option_label"><em>D </em> 高于65岁</label><input type="hidden" name="210_score" value="1"></div></div>
+                                            </div>
+                                            <!--eachforch end-->
+
+                                            <!--eachforch begin-->
+                                            <div class="que_content">
+                                                <div class="title">2、您的学历
+                                                    <input type="hidden" name="title" value="211">
+                                                </div>
+                                                <div class="matrix"><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="211_option" class="option" value="高中及以下(1)"></span><label class="option_label"><em>A </em> 高中及以下</label><input type="hidden" name="211_score" value="1"></div><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="211_option" class="option" value="中专或大专(5)"></span><label class="option_label"><em>B </em> 中专或大专</label><input type="hidden" name="211_score" value="5"></div><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="211_option" class="option" value="本科(7)"></span><label class="option_label"><em>C </em> 本科</label><input type="hidden" name="211_score" value="7"></div><div class="icheckbox_div current"> <span><a href="javascript:;" class="radio Checked"></a><input type="radio" name="211_option" class="option" value="硕士及以上(8)"></span><label class="option_label"><em>D </em> 硕士及以上</label><input type="hidden" name="211_score" value="8"></div></div>
+                                            </div>
+                                            <!--eachforch end-->
+
+                                            <!--eachforch begin-->
+                                            <div class="que_content">
+                                                <div class="title">3、您的职业为
+                                                    <input type="hidden" name="title" value="212">
+                                                </div>
+                                                <div class="matrix"><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="212_option" class="option" value="无固定职业(1)"></span><label class="option_label"><em>A </em> 无固定职业</label><input type="hidden" name="212_score" value="1"></div><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="212_option" class="option" value="专业技术人员(4)"></span><label class="option_label"><em>B </em> 专业技术人员</label><input type="hidden" name="212_score" value="4"></div><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="212_option" class="option" value="一般企事业单位员工(6)"></span><label class="option_label"><em>C </em> 一般企事业单位员工</label><input type="hidden" name="212_score" value="6"></div><div class="icheckbox_div current"> <span><a href="javascript:;" class="radio Checked"></a><input type="radio" name="212_option" class="option" value="金融行业一般从业人员(8)"></span><label class="option_label"><em>D </em> 金融行业一般从业人员</label><input type="hidden" name="212_score" value="8"></div></div>
+                                            </div>
+                                            <!--eachforch end-->
+                                        </div>
+                                        <!--问题类型1 end-->
+
+                                        <!--问题类型1 begin-->
+                                        <div class="question1">
+                                            <h3><em>三</em>、财务状况</h3>
+
+                                            <!--eachforch begin-->
+                                            <div class="que_content">
+                                                <div class="title">1、您的家庭可支配年收入为（折合人民币）
+                                                    <input type="hidden" name="title" value="213">
+                                                </div>
+                                                <div class="matrix"><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="213_option" class="option" value="50万元以下(1)"></span><label class="option_label"><em>A </em> 50万元以下</label><input type="hidden" name="213_score" value="1"></div><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="213_option" class="option" value="50—100万元(3)"></span><label class="option_label"><em>B </em> 50—100万元</label><input type="hidden" name="213_score" value="3"></div><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="213_option" class="option" value=" 100—500万元(6)"></span><label class="option_label"><em>C </em>  100—500万元</label><input type="hidden" name="213_score" value="6"></div><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="213_option" class="option" value="500—1000万元(7)"></span><label class="option_label"><em>D </em> 500—1000万元</label><input type="hidden" name="213_score" value="7"></div><div class="icheckbox_div current"> <span><a href="javascript:;" class="radio Checked"></a><input type="radio" name="213_option" class="option" value="1000万元以上(8)"></span><label class="option_label"><em>E </em> 1000万元以上</label><input type="hidden" name="213_score" value="8"></div></div>
+                                            </div>
+                                            <!--eachforch end-->
+
+                                            <!--eachforch begin-->
+                                            <div class="que_content">
+                                                <div class="title">2、在您每年的家庭可支配收入中，可用于金融投资（储蓄存款除外）的比例为
+                                                    <input type="hidden" name="title" value="214">
+                                                </div>
+                                                <div class="matrix"><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="214_option" class="option" value="小于10%(2)"></span><label class="option_label"><em>A </em> 小于10%</label><input type="hidden" name="214_score" value="2"></div><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="214_option" class="option" value="10%至25%(5)"></span><label class="option_label"><em>B </em> 10%至25%</label><input type="hidden" name="214_score" value="5"></div><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="214_option" class="option" value="25%至50%(7)"></span><label class="option_label"><em>C </em> 25%至50%</label><input type="hidden" name="214_score" value="7"></div><div class="icheckbox_div current"> <span><a href="javascript:;" class="radio Checked"></a><input type="radio" name="214_option" class="option" value="大于50%(8)"></span><label class="option_label"><em>D </em> 大于50%</label><input type="hidden" name="214_score" value="8"></div></div>
+                                            </div>
+                                            <!--eachforch end-->
+                                        </div>
+                                        <!--问题类型1 end-->
+
+                                        <!--问题类型1 begin-->
+                                        <div class="question1">
+                                            <h3><em>四</em>、投资知识</h3>
+
+                                            <!--eachforch begin-->
+                                            <div class="que_content">
+                                                <div class="title">1、您的投资知识可描述为
+                                                    <input type="hidden" name="title" value="215">
+                                                </div>
+                                                <div class="matrix"><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="215_option" class="option" value="有限：基本没有金融产品方面的知识(0)"></span><label class="option_label"><em>A </em> 有限：基本没有金融产品方面的知识</label><input type="hidden" name="215_score" value="0"></div><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="215_option" class="option" value="一般：对金融产品及其相关风险具有基本的知识和理解(5)"></span><label class="option_label"><em>B </em> 一般：对金融产品及其相关风险具有基本的知识和理解</label><input type="hidden" name="215_score" value="5"></div><div class="icheckbox_div current"> <span><a href="javascript:;" class="radio Checked"></a><input type="radio" name="215_option" class="option" value="丰富：对金融产品及其相关风险具有丰富的知识和理解(8)"></span><label class="option_label"><em>C </em> 丰富：对金融产品及其相关风险具有丰富的知识和理解</label><input type="hidden" name="215_score" value="8"></div></div>
+                                            </div>
+                                            <!--eachforch end-->
+
+                                            <!--eachforch begin-->
+                                            <div class="que_content">
+                                                <div class="title">2、您的投资经验可描述为
+                                                    <input type="hidden" name="title" value="216">
+                                                </div>
+                                                <div class="matrix"><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="216_option" class="option" value="除银行储蓄外，基本没有其他投资经验(0)"></span><label class="option_label"><em>A </em> 除银行储蓄外，基本没有其他投资经验</label><input type="hidden" name="216_score" value="0"></div><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="216_option" class="option" value="购买过债券、保险等理财产品(4)"></span><label class="option_label"><em>B </em> 购买过债券、保险等理财产品</label><input type="hidden" name="216_score" value="4"></div><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="216_option" class="option" value="参与过股票、基金等产品的交易(7)"></span><label class="option_label"><em>C </em> 参与过股票、基金等产品的交易</label><input type="hidden" name="216_score" value="7"></div><div class="icheckbox_div current"> <span><a href="javascript:;" class="radio Checked"></a><input type="radio" name="216_option" class="option" value="参与过权证、期货、期权等产品的交易(8)"></span><label class="option_label"><em>D </em> 参与过权证、期货、期权等产品的交易</label><input type="hidden" name="216_score" value="8"></div></div>
+                                            </div>
+                                            <!--eachforch end-->
+
+                                            <!--eachforch begin-->
+                                            <div class="que_content">
+                                                <div class="title">3、您有多少年投资基金、股票、信托、私募证券或金融衍生产品等风险投资品的经验
+                                                    <input type="hidden" name="title" value="217">
+                                                </div>
+                                                <div class="matrix"><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="217_option" class="option" value="没有经验(0)"></span><label class="option_label"><em>A </em> 没有经验</label><input type="hidden" name="217_score" value="0"></div><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="217_option" class="option" value="少于2年(3)"></span><label class="option_label"><em>B </em> 少于2年</label><input type="hidden" name="217_score" value="3"></div><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="217_option" class="option" value="2至5年(6)"></span><label class="option_label"><em>C </em> 2至5年</label><input type="hidden" name="217_score" value="6"></div><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="217_option" class="option" value="5至10年(7)"></span><label class="option_label"><em>D </em> 5至10年</label><input type="hidden" name="217_score" value="7"></div><div class="icheckbox_div current"> <span><a href="javascript:;" class="radio Checked"></a><input type="radio" name="217_option" class="option" value="10年以上(8)"></span><label class="option_label"><em>E </em> 10年以上</label><input type="hidden" name="217_score" value="8"></div></div>
+                                            </div>
+                                            <!--eachforch end-->
+                                        </div>
+                                        <!--问题类型1 end-->
+
+                                        <!--问题类型1 begin-->
+                                        <div class="question1">
+                                            <h3><em>五</em>、投资目标</h3>
+
+                                            <!--eachforch begin-->
+                                            <div class="que_content">
+                                                <div class="title">1、您计划的投资期限是多久
+                                                    <input type="hidden" name="title" value="218">
+                                                </div>
+                                                <div class="matrix"><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="218_option" class="option" value="1年以下(1)"></span><label class="option_label"><em>A </em> 1年以下</label><input type="hidden" name="218_score" value="1"></div><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="218_option" class="option" value="1至3年(5)"></span><label class="option_label"><em>B </em> 1至3年</label><input type="hidden" name="218_score" value="5"></div><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="218_option" class="option" value="3至5年(7)"></span><label class="option_label"><em>C </em> 3至5年</label><input type="hidden" name="218_score" value="7"></div><div class="icheckbox_div current"> <span><a href="javascript:;" class="radio Checked"></a><input type="radio" name="218_option" class="option" value="5年以上(8)"></span><label class="option_label"><em>D </em> 5年以上</label><input type="hidden" name="218_score" value="8"></div></div>
+                                            </div>
+                                            <!--eachforch end-->
+
+                                            <!--eachforch begin-->
+                                            <div class="que_content">
+                                                <div class="title">2、您的投资目的是
+                                                    <input type="hidden" name="title" value="219">
+                                                </div>
+                                                <div class="matrix"><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="219_option" class="option" value="资产保值(0)"></span><label class="option_label"><em>A </em> 资产保值</label><input type="hidden" name="219_score" value="0"></div><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="219_option" class="option" value="资产稳健增长(6)"></span><label class="option_label"><em>B </em> 资产稳健增长</label><input type="hidden" name="219_score" value="6"></div><div class="icheckbox_div current"> <span><a href="javascript:;" class="radio Checked"></a><input type="radio" name="219_option" class="option" value="资产迅速增长(8)"></span><label class="option_label"><em>C </em> 资产迅速增长</label><input type="hidden" name="219_score" value="8"></div></div>
+                                            </div>
+                                            <!--eachforch end-->
+                                        </div>
+                                        <!--问题类型1 end-->
+
+                                        <!--问题类型1 begin-->
+                                        <div class="question1">
+                                            <h3><em>六</em>、风险偏好</h3>
+
+                                            <!--eachforch begin-->
+                                            <div class="que_content">
+                                                <div class="title">1、以下哪项描述最符合您的投资态度
+                                                    <input type="hidden" name="title" value="220">
+                                                </div>
+                                                <div class="matrix"><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="220_option" class="option" value="厌恶风险，不希望本金损失，希望获得稳定回报(0)"></span><label class="option_label"><em>A </em> 厌恶风险，不希望本金损失，希望获得稳定回报</label><input type="hidden" name="220_score" value="0"></div><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="220_option" class="option" value="保守投资，不希望本金损失，愿意承担一定幅度的收益波动(3)"></span><label class="option_label"><em>B </em> 保守投资，不希望本金损失，愿意承担一定幅度的收益波动</label><input type="hidden" name="220_score" value="3"></div><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="220_option" class="option" value="寻求资金的较高收益和成长性，愿意为此承担有限本金损失(7)"></span><label class="option_label"><em>C </em> 寻求资金的较高收益和成长性，愿意为此承担有限本金损失</label><input type="hidden" name="220_score" value="7"></div><div class="icheckbox_div current"> <span><a href="javascript:;" class="radio Checked"></a><input type="radio" name="220_option" class="option" value="希望赚取高回报，愿意为此承担较大本金损失(8)"></span><label class="option_label"><em>D </em> 希望赚取高回报，愿意为此承担较大本金损失</label><input type="hidden" name="220_score" value="8"></div></div>
+                                            </div>
+                                            <!--eachforch end-->
+
+                                            <!--eachforch begin-->
+                                            <div class="que_content">
+                                                <div class="title">2、假设有两种投资：投资A预期获得10%的收益，可能承担的损失非常小；投资B预期获得30%的收益，但可能承担较大亏损。您会怎么支配您的投资：
+                                                    <input type="hidden" name="title" value="221">
+                                                </div>
+                                                <div class="matrix"><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="221_option" class="option" value=" 全部投资于收益较小且风险较小的A(1)"></span><label class="option_label"><em>A </em>  全部投资于收益较小且风险较小的A</label><input type="hidden" name="221_score" value="1"></div><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="221_option" class="option" value="同时投资于A和B，但大部分资金投资于收益较小且风险较小的A(5)"></span><label class="option_label"><em>B </em> 同时投资于A和B，但大部分资金投资于收益较小且风险较小的A</label><input type="hidden" name="221_score" value="5"></div><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="221_option" class="option" value="同时投资于A和B，但大部分资金投资于收益较大且风险较大的B(7)"></span><label class="option_label"><em>C </em> 同时投资于A和B，但大部分资金投资于收益较大且风险较大的B</label><input type="hidden" name="221_score" value="7"></div><div class="icheckbox_div current"> <span><a href="javascript:;" class="radio Checked"></a><input type="radio" name="221_option" class="option" value="全部投资于收益较大且风险较大的B(8)"></span><label class="option_label"><em>D </em> 全部投资于收益较大且风险较大的B</label><input type="hidden" name="221_score" value="8"></div></div>
+                                            </div>
+                                            <!--eachforch end-->
+
+                                            <!--eachforch begin-->
+                                            <div class="que_content">
+                                                <div class="title">3、您认为自己能承受的最大投资损失是多少
+                                                    <input type="hidden" name="title" value="222">
+                                                </div>
+                                                <div class="matrix"><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="222_option" class="option" value="10%以内(1)"></span><label class="option_label"><em>A </em> 10%以内</label><input type="hidden" name="222_score" value="1"></div><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="222_option" class="option" value="10%-30%(5)"></span><label class="option_label"><em>B </em> 10%-30%</label><input type="hidden" name="222_score" value="5"></div><div class="icheckbox_div"> <span><a href="javascript:;" class="radio"></a><input type="radio" name="222_option" class="option" value="30%-50%(7)"></span><label class="option_label"><em>C </em> 30%-50%</label><input type="hidden" name="222_score" value="7"></div><div class="icheckbox_div current"> <span><a href="javascript:;" class="radio Checked"></a><input type="radio" name="222_option" class="option" value="超过50%(8)"></span><label class="option_label"><em>D </em> 超过50%</label><input type="hidden" name="222_score" value="8"></div></div>
+                                            </div>
+                                            <!--eachforch end-->
+                                        </div>
+                                        <!--问题类型1 end-->
+                                    </div>
+                                    <!--提交 begin-->
+                                    <p class="filled">
+                                        <input type="hidden" name="Phone" placeholder="请输入手机号码" value="15757854899" class="text1">
+                                        <input type="hidden" name="Password" placeholder="密码" value="he694899" class="text1">
+                                        <input type="hidden" name="Account" placeholder="姓名/账号" value="hehe" class="text1">
+                                        <input type="hidden" name="CardType" placeholder="证件类型" value="身份证" class="text1">
+                                        <input type="hidden" name="CardID" placeholder="证件号" value="350426199505105555" class="text1">
+                                        <input type="button" class="fill" value="提交问卷" onclick="addResult()">
+                                        <input type="reset" class="bhome" value="重新填写">
+                                    </p>
+                                </div>
+                                <!--问卷调查 end-->
+                            </form>
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <!-- END register -->
+        <!-- FOOTER -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <!-- COLUMN 1 -->
+                        <h3 class="sr-only">联系方式</h3>
+                        <img src="images/logo/logo_w.png" class="logo" alt="">
+                        <address>
+                            <ul class="contact_list">
+                                <li class="address"><i></i>福建省厦门市思明区环岛东路1811号<br>中航紫金广场B塔2304</li>
+                                <li class="phone"><i></i>电话：0592-5565118</li>
+                                <li class="email"><i></i>邮箱：<a href="mailto:service@huixitouzi.com">service@huixitouzi.com</a></li>
+                            </ul>
+                        </address>
+                        <!-- END COLUMN 1 -->
+                    </div>
+                    <div class="col-sm-4">
+                        <!-- COLUMN 2 -->
+                        <div class="row footer_nav_list">
+                            <div class="col-xs-6" >
+                                <ul class="list-unstyled footer-nav ">
+                                    <li><a href="#">关于汇熙</a></li>
+                                    <li><a href="#">汇熙动态</a></li>
+                                    <li><a href="#">投资体系</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-6">
+                                <ul class="list-unstyled footer-nav ">
+                                    <li><a href="#">汇熙产品</a></li>
+                                    <li><a href="#">每日策略</a></li>
+                                    <li><a href="#">客户服务 </a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!-- END COLUMN 2 -->
+                    </div>
+                    <div class="col-sm-3 clearfix">
+                        <!-- END COLUMN 3 -->
+                        <div class="weChat">
+                            <img src="images/ewm.png">
+                            <p>扫一扫关注汇熙公众号<br>了解更多资讯</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyRight text-center">Copyright© 2017 huixitouzi.ALL rights reserved.</div>
+        </footer>
+    </div>
+    <!-- END WRAPPER -->
+    <!-- JAVASCRIPTS -->
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nicescroll.js"></script>
+    <script>
+        $(".question").niceScroll({
+            cursorcolor:"#c8cecf",
+            cursoropacitymax:1,
+            touchbehavior:false,
+            autohidemode:false,
+            cursorwidth:"6px",
+            cursorborder:"0",
+            cursorborderradius:"2px"
+        });
+    </script>
+</body>
+
+</html>

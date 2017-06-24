@@ -2,6 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de1244d6-5868-454d-bf5e-51bc62941077" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/choose.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/step.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/vcCode.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/logReg.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.nicescroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/register.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/registerInfo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/registerInfo2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/registerInfo3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index2.html" afterPath="$PROJECT_DIR$/index2.html" />
     </list>
@@ -21,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index2.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="123" column="94" lean-forward="false" selection-start-line="123" selection-start-column="94" selection-end-line="123" selection-end-column="94" />
+            <state relative-caret-position="220">
+              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="37" />
               <folding>
                 <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -33,11 +45,57 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="91" column="23" lean-forward="true" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logReg.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/logReg.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="159" column="32" lean-forward="false" selection-start-line="159" selection-start-column="32" selection-end-line="159" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registerInfo3.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/registerInfo3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1429">
+              <caret line="176" column="0" lean-forward="true" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#section#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#section#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#section#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#section#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registerInfo2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/registerInfo2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="93" column="43" lean-forward="false" selection-start-line="93" selection-start-column="43" selection-end-line="93" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-361">
-              <caret line="1314" column="37" lean-forward="false" selection-start-line="1314" selection-start-column="37" selection-end-line="1314" selection-end-column="37" />
+            <state relative-caret-position="312">
+              <caret line="460" column="1" lean-forward="true" selection-start-line="460" selection-start-column="1" selection-end-line="460" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -45,11 +103,15 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>top</find>
-      <find>navTwo</find>
-      <find>navbar</find>
       <find>60</find>
       <find>hover</find>
       <find>menu</find>
@@ -74,6 +136,12 @@
       <find>.carousel-control:</find>
       <find>:</find>
       <find>:be</find>
+      <find>index_wrapper</find>
+      <find>cremark</find>
+      <find>.step1 em</find>
+      <find>image</find>
+      <find>vcCode</find>
+      <find>question</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,8 +153,15 @@
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="E:/huixiziben/tid_1_repute-lite/index.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index2.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/css/login.css" />
+        <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/register.html" />
+        <option value="$PROJECT_DIR$/registerInfo.html" />
+        <option value="$PROJECT_DIR$/registerInfo2.html" />
+        <option value="$PROJECT_DIR$/registerInfo3.html" />
+        <option value="$PROJECT_DIR$/css/logReg.css" />
       </list>
     </option>
   </component>
@@ -97,10 +172,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="610" />
-    <option name="y" value="122" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1874" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -140,75 +215,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="huixi_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="huixi_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partner" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="huixi_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="huixi_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="huixi_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="huixi_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="icon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="huixi_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="huixi_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -224,16 +231,17 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.CSS" />
     <property name="SearchEverywhereHistoryKey" value="px&#9;null&#9;null" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="P:\huixi_web\images\daily" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\huixi_web\js" />
+      <recent name="E:\huixi_web" />
+      <recent name="E:\huixi_web\images" />
       <recent name="P:\huixi_web\images" />
       <recent name="P:\huixi_web\images\icon" />
-      <recent name="P:\huixi_web\images\logo" />
-      <recent name="P:\huixi_web\images\news" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="P:\huixi_web\images\daily" />
     </key>
   </component>
@@ -335,12 +343,12 @@
       <workItem from="1498095026821" duration="20491000" />
       <workItem from="1498181558077" duration="163000" />
       <workItem from="1498181730031" duration="26046000" />
-      <workItem from="1498223028022" duration="14344000" />
+      <workItem from="1498223028022" duration="38032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88561000" />
+    <option name="totallyTimeSpent" value="112249000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -352,10 +360,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="610" y="122" width="1400" height="1000" extended-state="0" />
+    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18135838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16361679" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -579,19 +587,93 @@
       </provider>
     </entry>
     <entry file="file://D:/之前的项目/123/231/edyd-web/src/main/resources/templates/index.ftl" />
+    <entry file="file://$PROJECT_DIR$/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/step.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="126" column="42" lean-forward="false" selection-start-line="126" selection-start-column="42" selection-end-line="126" selection-end-column="42" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-361">
-          <caret line="1314" column="37" lean-forward="false" selection-start-line="1314" selection-start-column="37" selection-end-line="1314" selection-end-column="37" />
+        <state relative-caret-position="312">
+          <caret line="460" column="1" lean-forward="true" selection-start-line="460" selection-start-column="1" selection-end-line="460" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index2.html">
+    <entry file="file://$PROJECT_DIR$/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="123" column="94" lean-forward="false" selection-start-line="123" selection-start-column="94" selection-end-line="123" selection-end-column="94" />
+        <state relative-caret-position="202">
+          <caret line="91" column="23" lean-forward="true" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registerInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="142" column="91" lean-forward="false" selection-start-line="142" selection-start-column="91" selection-end-line="142" selection-end-column="91" />
           <folding>
+            <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#1;n#section#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#form#0;n#div#0;n#div#1;n#section#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#form#0;n#div#0;n#div#1;n#section#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#5;n#div#0;n#form#0;n#div#0;n#div#1;n#section#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.nicescroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registerInfo2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="93" column="43" lean-forward="false" selection-start-line="93" selection-start-column="43" selection-end-line="93" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/logReg.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="159" column="32" lean-forward="false" selection-start-line="159" selection-start-column="32" selection-end-line="159" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registerInfo3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1429">
+          <caret line="176" column="0" lean-forward="true" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#section#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#section#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#section#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#section#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>

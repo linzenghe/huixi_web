@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>汇熙资本</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/logReg.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!-- WRAPPER -->
+    <div class="wrapper reg_wrapper">
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a href="index.html" class="navbar-brand navbar-logo">
+                        <img src="images/logo/logo.png">
+                    </a>
+                </div>
+                <!-- MAIN NAVIGATION -->
+                <div id="main-nav" class="navbar-collapse collapse navbar-mega-menu">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown active">
+                            <a href="#">首页</a>
+                        </li>
+                        <li class="dropdown ">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">关于汇熙 <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">公司简介</a></li>
+                                <li><a href="#">企业文化</a></li>
+                                <li><a href="#">组织架构</a></li>
+                                <li><a href="#">汇熙团队</a></li>
+                                <li><a href="#">愿景与使命</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown ">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">投资体系 <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">投资理念及模式</a></li>
+                                <li><a href="#">投资流程</a></li>
+                                <li><a href="#">产业逻辑</a></li>
+                                <li><a href="#">风险控制</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown ">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">汇眼金金<i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">每日交易策略</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown ">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">熙息相通<i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">公司新闻</a></li>
+                                <li><a href="#">媒体报道</a></li>
+                                <li><a href="#">活动纪实</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown ">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">汇熙产品<i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">汇熙产品</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown ">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">客户服务<i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">常见问题</a></li>
+                                <li><a href="#">投资流程</a></li>
+                                <li><a href="#">下载中心</a></li>
+                                <li><a href="#">客户登陆</a></li>
+                            </ul>
+                        </li>
+                        <li class="special-menu-item"><a href="#" class="login" target="_blank">登录</a>/ <a href="#" class="register">注册</a></li>
+                    </ul>
+                </div>
+                <!-- END MAIN NAVIGATION -->
+            </div>
+        </nav>
+        <!-- END NAVBAR -->
+        <!-- LOGIN -->
+        <section class="register">
+            <div class="container">
+                <section class="clearfix">
+                    <div class="step1">
+                        <div class="stepInfo">
+                            <ul>
+                                <li class="active"></li>
+                                <li></li>
+                            </ul>
+                            <div class="stepIco first ">
+                                <p><span>1</span><em>选择会员身份</em></p>
+                            </div>
+                            <div class="stepIco two active">
+                                <p><span>2</span><em>填写会员信息</em></p>
+                            </div>
+                            <div class="stepIco last">
+                                <p><span>3</span><em>完成注册</em></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ccontent">
+                        <div class="clearfix change">
+                            <form name="addform" class="addform" id="addform" method="post">
+                                <div class="ccleft col-sm-7">
+                                    <h5 class="tl">产品持有人<span>请您如实填写基本信息并提交持有产品证明</span></h5>
+                                    <div class="item input-group">
+                                        <span class="input-group-addon" ><i class="fa fa-user fa-fw"></i></span>
+                                        <input type="text" class="form-control" placeholder="姓名" >
+                                    </div>
+                                    <div class="item input-group">
+                                        <span class="input-group-addon" ><i class="fa fa-key fa-fw"></i></span>
+                                        <input type="text" class="form-control" placeholder="密码" >
+                                    </div>
+
+                                    <div class="item input-group">
+                                        <span class="input-group-addon" ><i class="fa fa-book fa-fw"></i></span>
+                                        <div class="input-group-btn">
+                                            <select >
+                                                <option >证件类型</option>
+                                                <option >身份证</option>
+                                                <option >营业执照</option>
+                                                <option >护照</option>
+                                                <option >回乡证</option>
+                                            </select>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="证件" >
+                                    </div>
+
+                                    <div class="item input-group">
+                                        <span class="input-group-addon" ><i class="fa fa-cubes fa-fw"></i></span>
+
+                                        <input type="text" class="form-control" readonly style="width: 90%;">
+                                        <a id="add" title="添加产品" class="add" name="btn-addp">+</a>
+                                    </div>
+
+                                    <div class="item input-group">
+                                        <span class="input-group-addon" ><i class="fa fa-phone fa-fw"></i></span>
+                                        <input type="text" class="form-control" placeholder="请输入手机号">
+                                        <span class="input-group-addon" >发送</span>
+                                    </div>
+                                    <div class="item clearfix">
+                                        <div class="input-group pull-left" style="width: 35%;">
+                                            <span class="input-group-addon" id="basic-addon1"><i class="fa fa-pencil fa-fw"></i></span>
+                                            <input type="text" class="form-control" placeholder="请输入验证码">
+                                        </div>
+                                        <div class=" pull-left" style="width: 30%; margin-left: 16px;">
+                                            <input type="text" class="form-control" placeholder="请输入图形验证码">
+                                        </div>
+                                        <div class="vcCode" style="width: 30%;">
+                                            <img src="images/vcCode.png"/>
+                                            <a class="text-primary refresh">看不清楚，换一张图</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ccright col-sm-5">
+                                    <p class="tl">注：请上传<span>持有产品证明</span>以确保其真实性</p>
+                                    <div class="picture"> <span class="up"><img  id="d1"></span>
+                                        <p class="upp">
+                                            <input type="button" class="up1" name="o-image" value="预览">
+                                            <a class="up2" id="">上传</a> </p>
+                                    </div>
+                                </div>
+                                <div class="ccleft2 col-sm-7">
+                                    <div>
+                                        <input type="checkbox" name="AutoLogin" checked="" value="true" id="yz">
+                                        </span> <a href="" class="agreement" target="_blank">本人已详阅会员服务协议并承诺遵守</a></p>
+                                        <p> <a href="http://starrockinvest.com/xs/user/register" class="prev_walk">上一步</a>
+                                            <input type="button" name="btn-add" value="下一步" class="next_walk" id="xz" onclick="Register()">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="wtip clearfix rcontent">温馨提示：根据中国证监会、中国基金业协会监管要求，应当依法保障私募基金投资者的知情权，禁止向不特定对象展示私募基金非公开信息。请您如实填写会员资料，感谢您的理解与支持。</div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <!-- END LOGIN -->
+        <!-- FOOTER -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <!-- COLUMN 1 -->
+                        <h3 class="sr-only">联系方式</h3>
+                        <img src="images/logo/logo_w.png" class="logo" alt="">
+                        <address>
+                            <ul class="contact_list">
+                                <li class="address"><i></i>福建省厦门市思明区环岛东路1811号<br>中航紫金广场B塔2304</li>
+                                <li class="phone"><i></i>电话：0592-5565118</li>
+                                <li class="email"><i></i>邮箱：<a href="mailto:service@huixitouzi.com">service@huixitouzi.com</a></li>
+                            </ul>
+                        </address>
+                        <!-- END COLUMN 1 -->
+                    </div>
+                    <div class="col-sm-4">
+                        <!-- COLUMN 2 -->
+                        <div class="row footer_nav_list">
+                            <div class="col-xs-6" >
+                                <ul class="list-unstyled footer-nav ">
+                                    <li><a href="#">关于汇熙</a></li>
+                                    <li><a href="#">汇熙动态</a></li>
+                                    <li><a href="#">投资体系</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-6">
+                                <ul class="list-unstyled footer-nav ">
+                                    <li><a href="#">汇熙产品</a></li>
+                                    <li><a href="#">每日策略</a></li>
+                                    <li><a href="#">客户服务 </a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!-- END COLUMN 2 -->
+                    </div>
+                    <div class="col-sm-3 clearfix">
+                        <!-- END COLUMN 3 -->
+                        <div class="weChat">
+                            <img src="images/ewm.png">
+                            <p>扫一扫关注汇熙公众号<br>了解更多资讯</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyRight text-center">Copyright© 2017 huixitouzi.ALL rights reserved.</div>
+        </footer>
+    </div>
+    <!-- END WRAPPER -->
+    <!-- JAVASCRIPTS -->
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

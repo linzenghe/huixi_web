@@ -94,6 +94,7 @@ hr {
 /* navigation bar */
 .index_wrapper{
   padding-top: 60px;
+  overflow-x: hidden;
 }
 .navbar {
   -moz-border-radius: 0;

@@ -1,0 +1,191 @@
+.reg_wrapper{padding-top: 60px}
+@media screen and (max-width: 992px) {
+    .reg_wrapper{padding-top: 50px}
+}
+.step1{
+    border-bottom:1px solid #c8cecf;
+    padding: 70px 17% 70px 20%;
+    overflow:hidden;
+}
+
+.stepInfo{ position:relative; }
+.step1 li {
+    float: left;
+    width: 47%;
+    height: 34px;
+    background: url(../images/step.png) right bottom no-repeat;
+}
+.step1 li.active{ background:url(../images/step.png) right 0 no-repeat; }
+.stepIco {
+    position: absolute;
+    width: 56px;
+}
+.step1 .first {
+    left: -1%;
+}
+.step1 .two {
+    left: 48%;
+}
+.step1 .last {
+    left: 95%;
+}
+.step1 p {
+    color: #666;
+    text-align: center;
+    margin-left: -28px;
+}
+.step1 span {
+    color: #fff;
+    background: #c8cecf;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+}
+.step1 em {
+    font-style: normal;
+    display: block;
+    font-size: 15px;
+    white-space:nowrap;
+    margin: 15px 0 0;
+    color: #999;
+}
+.stepIco.active span{ background:#000;  }
+.stepIco.active em{ color:#000; }
+
+.tip>p{line-height: 28px;margin: 24px 0;font-size: 16px}
+.wtip{margin-top: 60px;margin-bottom: 40px;font-size: 16px}
+.choose .panelCh{width: 250px;border:1px solid #c8cecf;display: inline-block;margin: 0 40px;}
+.choose .panelCh:hover{border:1px solid #c8cecf}
+.choose .panelCh h3{background: #c8cecf;text-align:center;color: #fff;line-height: 50px;margin: 0;}
+.choose .panelCh .cremark{border-top:1px solid #c8cecf;border-bottom:1px solid #c8cecf;padding: 26px 22px;min-height: 280px;line-height:28px;font-size:14px;color: #666;text-align: left;}
+.choose .panelCh .bottom{text-align:center;}
+.choose .panelCh .bottom span{ width:25px;height:25px;display:inline-block;background:url(../images/choose.png) 0 bottom no-repeat;margin: 10px auto 6px;}
+.choose .panelCh .bottom input[type='radio']{ display:none; }
+
+.choose .panelCh.current{ border:1px solid #000; }
+.choose .panelCh.current h3{ background: #000; }
+.choose .panelCh.current .cremark{border-top:1px solid #000;border-bottom:1px solid #000;color: #333;}
+.choose .panelCh.current .bottom span{  background-position: 0 0; }
+
+
+
+.ccontent{padding-top: 30px;padding-bottom: 30px}
+.ccleft{padding-left: 10%;padding-right: 5%}
+.ccleft .tl{color:#251f21;font-weight:normal;padding: 8px 0 14px;line-height: 24px;font-size: 16px;}
+.ccleft .tl span{ font-size:14px;color:#666666; border-left:2px solid #dbdfe0;padding:0 0 0 10px; margin-left:10px; }
+.addform .item {
+    margin-bottom: 16px;
+    width: 100%;
+    position: relative;
+}
+.addform  .input-group-addon{
+    padding: 11px 12px;
+}
+.addform .form-control{
+    padding: 18px 12px;
+}
+.ccleft .item .input-group-btn {
+    width: 100px;
+    font-size: 13px;
+}
+.ccleft .item .input-group-btn select {
+    width: 100%;
+    padding: 8.5px 10px;
+    border-radius: 0;
+    border-color: #ccc;
+    border-right-color: transparent;
+}
+.ccleft .add{position:absolute;top:0;right:0;font-size: 23px;background: #fff;text-align: center;padding: 0;line-height: 36px;width: 40px;border: 1px solid #cdcdcd;color: #cdcdcd;cursor:pointer;}
+.vcCode {
+    position: absolute;
+    right: 0;
+    width: 35%;
+    height: 100%;
+}
+.vcCode img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #eaeaea;
+}
+.vcCode .refresh {
+    position: absolute;
+    right: 0;
+    color: #666;
+    font-size: 12px;
+    cursor: pointer;
+    word-break: keep-all;
+    white-space: nowrap;
+    bottom: -20px;
+}
+.vcCode .refresh:hover{
+    color: #999;
+}
+.ccright{
+    border-left:1px solid #c8cecf;
+}
+.ccright .tl{font-size:16px;color:#999;padding: 4px 0 14px;line-height: 24px;text-align:center;}
+.ccright .tl span{ color:#333; }
+.ccright .upp{margin: 0 20%;overflow:hidden;padding: 18px 0 16px;text-align: center;}
+.ccright .up{background: url(../images/up.png) center 0  no-repeat;width: 196px;height: 246px;display:block;margin:0 auto;padding: 2px;}
+.ccright .up img{text-align:center;vertical-align: middle;width: 100%;height: 100%;}
+.ccright .up1,.ccright .up2{width: 47%;background:#fff;line-height: 38px;border: 1px solid #cdcdcd;text-align: center;color: #666;}
+.ccright .up2{ float:right; line-height: 40px}
+
+.ccleft2{padding-left: 10%;padding-right: 5%}
+.change .agreement{font-size:14px;color: #333;}
+.change .prev_walk{background:#c8cecf;border:0;color:#fff;line-height:40px;width:48%;float:left;text-align: center;}
+.change .next_walk{ background:#000; border:0;color:#fff; line-height:40px; width:48%; float:right }
+
+.step2 li{width: 33%}
+.step2 .first {
+    left: -1%;
+}
+.step2 .two {
+    left: 33%;
+}
+.step2 .three {
+    left: 66%;
+}
+.step2 .last {
+    left: 99%;
+}
+
+
+/*调查问卷*/
+.mquestion{ padding: 24px 5% 50px 5%; }
+.mquestion .remark{ margin: 0 96px 18px 0; }
+.mquestion .question{ height:350px; }
+.mquestion .icheckbox_div { line-height: 42px;}
+.question_box { color:#251f21 }
+.question_box em{font-style: normal}
+
+.question_box .remark{ border-bottom:1px solid #c8cecf; padding:0 0 20px 0;margin:0 30px 18px  0; }
+.question{ height:880px; overflow:hidden; }
+.question1{ margin:10px 0 0;}
+.question1 h3{ color:#333; font-weight:normal; font-size: 16px}
+.que_content{ margin-top:10px; }
+.icheckbox_div { line-height:38px;  }
+.icheckbox_div.current label{ color:#000; }
+.question .title{padding: 0 0 0 22px;}
+.icheckbox_div label{ margin-left:8px;color: #666;font-weight: normal }
+.icheckbox_div a.radio {
+    background: transparent url(../images/radio.png) no-repeat center top;
+    vertical-align: middle;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    display: inline-block;
+}
+.icheckbox_div a.Checked { background-position: center bottom;}
+.icheckbox_div a.Checkboxd { background-position: center bottom;}
+
+.icheckbox_div input[type="radio"]{ display:none; }
+.icheckbox_div input[type="checkbox"]{ display:none; }
+
+.question_box .filled{ margin:30px 0 10px; }
+.filled{ margin:30px 0 30px;}
+.filled .fill{min-width:30%;padding:0 2%;background:#000;line-height:40px;border:none;color:#fff;display: inline-block;text-align: center;}
+.filled .bhome{  min-width:30%;padding:0 2%; background:#c8cecf; line-height:40px; border:none;color:#fff; display:inline-block; text-align:center; margin-left:2%;}
