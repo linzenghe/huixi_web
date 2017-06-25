@@ -1552,18 +1552,6 @@ footer .weChat p{
   text-align: right;
 }
 
-.tab-content {
-  padding: 15px 8px;
-}
-
-.tab-pane.text-center img {
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  *zoom: 1;
-  *display: inline;
-}
-
 /* alerts */
 .alert {
   -moz-border-radius: 2px;
@@ -2276,4 +2264,43 @@ div[class*="col-"] > .form-group {
 
 .margin-bottom-50px {
   margin-bottom: 50px !important;
+}
+
+
+/*页面左侧导航*/
+.member{
+  padding: 100px 0;
+
+}
+@media (max-width:992px){
+  .member .container{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+.nav_left{border-left:1px solid #ddd;}
+.nav_left p{margin: 0}
+.nav_left .current{ border-left:3px solid #333; margin-left:-2px; line-height:40px;}
+.nav_left .current a{color:#333;}
+.nav_left .current p{color:#333;display: block}
+.nav_left li{line-height:60px; font-size:22px; padding-left:8%;}
+.nav_left li a{color:#999;font-size: 18px}
+.nav_left li a:hover{color:#666;}
+.nav_left li p{ color:#999; font-size:18px; font-weight:300;display: none}
+
+
+.tab-content{border: solid #ddd;border-width:0 1px 1px}
+.tab-pane{padding: 20px}
+.pro_t {
+  border-bottom: 1px solid #c8cecf;
+  line-height: 50px;
+  overflow: hidden;
+  margin: 0 0 28px 0;
+}
+.pro_t span {
+  border-bottom: 3px solid #333;
+  font-size: 22px;
+  padding: 0 10px 0 0;
+  color: #333;
+  display: inline-block;
 }

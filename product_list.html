@@ -9,7 +9,7 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="css/main.css" rel="stylesheet" type="text/css">
-    <link href="css/logReg.css" rel="stylesheet" type="text/css">
+    <link href="css/jPages.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <!-- WRAPPER -->
@@ -88,25 +88,104 @@
         </nav>
         <!-- END NAVBAR -->
         <!-- register -->
-        <section class="product_list clearfix">
+        <section class="member clearfix">
             <div class="container">
                 <div class="row">
-                    <div class="navLeft col-sm-3">
-                        <ul>
-                            <li class="current">
-                                <span></span>
-                                <a href="#">汇熙产品</a>
-                                <p>Huixi product</p>
-                            </li>
-                            <li>
-                                <a href="#">我的产品</a>
-                            </li>
-                            <li>
-                                <a href="#">账号管理</a>
-                            </li>
-                        </ul>
+                    <div class="col-sm-3">
+                        <div class="nav_left">
+                            <ul>
+                                <li class="current"><a href="#">产品列表</a><p>Product list</p></li>
+                                <li><a href="#">账号管理</a><P>Account management</P></li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="col-sm-9">
+                        <ul id="myTab" class="nav nav-tabs product_nav">
+                            <li class="dropdown active">
+                                <a href="#" id="myTabDrop1" class="dropdown-toggle"
+                                   data-toggle="dropdown"><span>产品一</span><b class="caret"></b></a>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+                                    <li><a href="#one" tabindex="-1" data-toggle="tab">产品一</a></li>
+                                    <li><a href="#two" tabindex="-1" data-toggle="tab">产品二</a></li>
+                                </ul>
+                            </li>
+                            <li class=""><a href="#home" data-toggle="tab">我的产品</a></li>
+                        </ul>
+                        <div id="myTabContent" class="tab-content">
+                            <div class="tab-pane fade in active" id="one">
+                                <div class="mypro">
+                                    <div class="pro" style="display: block;">
+                                        <!--产品内容 begin-->
+                                        <div class="pinfo">
+                                            <div class="pro_t"><span>汇熙一期</span></div>
+                                            <div class="ppc">
+                                                <div class="pl1">
+                                                    <table class="table table-bordered">
+                                                        <thead>
+                                                            <tr>
+                                                                <th></th>
+                                                                <th>最新估值（6.23)</th>
+                                                                <th>当期增长</th>
+                                                                <th>今年以来</th>
+                                                                <th>累计增长</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>汇熙1期</td>
+                                                                <td>347.78</td>
+                                                                <td>0.62%</td>
+                                                                <td>7.66%</td>
+                                                                <td>247.78%</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>汇熙1期</td>
+                                                                <td>347.78</td>
+                                                                <td>0.62%</td>
+                                                                <td>7.66%</td>
+                                                                <td>247.78%</td>
+                                                            </tr>
+                                                        </tbody>
+                                                        <tfoot>
+                                                            <tr>
+                                                                <td colspan="5">注：仅供汇熙1期客户和星石投资合作伙伴内部参阅，请勿外传</td>
+                                                            </tr>
+                                                        </tfoot>
+                                                    </table>
+                                                </div>
+                                                <div class="line_chart">
+                                                    <div class="pro_t"><span>净值走势图</span></div>
+                                                    <div id="pro_line" style="min-width:400px;height:400px"></div>
+                                                </div>
+                                                <div class="line_table">
+                                                    <div class="pro_t"><span>产品净值</span></div>
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>日期</th>
+                                                                <th>净值</th>
+                                                                <th>当期增长率</th>
+                                                                <th>累计增长率</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody id="products"></tbody>
+                                                    </table>
+                                                    <div class="holder"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--产品内容 end-->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="two">
+                                <p>产品二</p>
+                            </div>
+                            <div class="tab-pane fade  " id="home">
+                                <p>尊敬的客户：
+                                    您好！根据监管要求，私募单一产品业绩只能为产品持有人与合作伙伴提供。如您非产品持有人或合作伙伴，仅能查看产品净值情况。如您需要详细了解产品运作与投资思路，请添加我的产品并上传持有证明。感谢您的支持！</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -167,17 +246,164 @@
     <script src="js/jquery-2.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.nicescroll.js"></script>
+    <script src="js/highstock.js"></script>
+    <script src="js/jPages.min.js"></script>
     <script>
-        $(".question").niceScroll({
-            cursorcolor:"#c8cecf",
-            cursoropacitymax:1,
-            touchbehavior:false,
-            autohidemode:false,
-            cursorwidth:"6px",
-            cursorborder:"0",
-            cursorborderradius:"2px"
-        });
+        $(function () {
+            $(".product_nav .dropdown-menu li").bind("click",function () {
+                var navText=$(this).children("a").html();
+                $(".product_nav .dropdown-toggle span").text(navText);
+            })
+
+//            走势图
+            Highcharts.setOptions({
+                colors: ['#333', '#999']
+            });
+            var seriesOptions = [],
+                seriesCounter = 0,
+                names = ['MSFT', 'AAPL'],
+                // create the chart when all data is loaded
+                createChart = function () {
+                    $('#pro_line').highcharts('StockChart', {
+                        rangeSelector: {
+                            selected: 5
+                        },
+                        yAxis: {
+                            labels: {
+                                formatter: function () {
+                                    return (this.value > 0 ? ' + ' : '') + this.value + '%';
+                                }
+                            },
+                            plotLines: [{
+                                value: 0,
+                                width: 2,
+                                color: 'silver'
+                            }]
+                        },
+                        plotOptions: {
+                            series: {
+                                compare: 'percent'
+                            }
+                        },
+                        tooltip: {
+                            pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.change}%)<br/>',
+                            valueDecimals: 2
+                        },
+                        series: seriesOptions
+                    });
+                };
+            $.each(names, function (i, name) {
+                $.getJSON('https://data.jianshukeji.com/jsonp?filename=json/' + name.toLowerCase() + '-c.json&callback=?',    function (data) {
+                    seriesOptions[i] = {
+                        name: name,
+                        data: data,
+                    };
+                    // As we're loading the data asynchronously, we don't know what order it will arrive. So
+                    // we keep a counter and create the chart when all the data is loaded.
+                    seriesCounter += 1;
+                    if (seriesCounter === names.length) {
+                        createChart();
+                    }
+                });
+            });
+
+//            table
+            var productList = [
+                {
+                    "date":"2016-09-20",
+                    "worth":"321.11",
+                    "status":'0',
+                    "growthRateNow":"-1.72%",
+                    "growthRateTotal":"221.11%",
+                },
+                {
+                    "date":"2016-09-20",
+                    "worth":"321.11",
+                    "status":'1',
+                    "growthRateNow":"-1.72%",
+                    "growthRateTotal":"221.11%",
+                },
+                {
+                    "date":"2016-09-20",
+                    "worth":"321.11",
+                    "status":'0',
+                    "growthRateNow":"-1.72%",
+                    "growthRateTotal":"221.11%",
+                },
+                {
+                    "date":"2016-09-20",
+                    "worth":"321.11",
+                    "status":'0',
+                    "growthRateNow":"-1.72%",
+                    "growthRateTotal":"221.11%",
+                },
+                {
+                    "date":"2016-09-20",
+                    "worth":"321.11",
+                    "status":'0',
+                    "growthRateNow":"-1.72%",
+                    "growthRateTotal":"221.11%",
+                },
+                {
+                    "date":"2016-09-20",
+                    "worth":"321.11",
+                    "status":'0',
+                    "growthRateNow":"-1.72%",
+                    "growthRateTotal":"221.11%",
+                },
+                {
+                    "date":"2016-09-20",
+                    "worth":"321.11",
+                    "status":'0',
+                    "growthRateNow":"-1.72%",
+                    "growthRateTotal":"221.11%",
+                },
+                {
+                    "date":"2016-09-20",
+                    "worth":"321.11",
+                    "status":'0',
+                    "growthRateNow":"-1.72%",
+                    "growthRateTotal":"221.11%",
+                },
+                {
+                    "date":"2016-09-20",
+                    "worth":"321.11",
+                    "status":'0',
+                    "growthRateNow":"-1.72%",
+                    "growthRateTotal":"221.11%",
+                },
+                {
+                    "date":"2016-09-20",
+                    "worth":"321.11",
+                    "status":'0',
+                    "growthRateNow":"-1.72%",
+                    "growthRateTotal":"221.11%",
+                }
+            ];
+            var tbodyHTML = '';
+            for(var item in productList){
+                tbodyHTML += '<tr>'+
+                    '<td>'+ productList[item].date +'</td>'+
+                    '<td>'+ productList[item].worth +'<span>'+productList[item].status+'</span>'+'</td>'+
+                    '<td>'+ productList[item].growthRateNow +'</td>'+
+                    '<td>'+ productList[item].growthRateTotal +'</td>'+
+                '</tr>';
+            }
+            $('#products').html(tbodyHTML);
+            $('.subscribe').click(function(){
+                var productName = $(this).parent('td').attr('productname');
+                $('#myModal').find('input[name=productName]').val(productName);
+            });
+            $("div.holder").jPages({
+                containerID : "products",
+                previous : "«",
+                next : "»",
+                perPage : 4,
+                delay : 20
+            });
+        })
     </script>
+
 </body>
 
 </html>
