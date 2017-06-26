@@ -866,6 +866,10 @@ hr {
   background: #fff;
   border:1px solid #ddd;
 }
+.news .news_item:hover{
+  background: #eaeaea;
+
+}
 .news .news_item .item_h img{
   width: 100%;
 }

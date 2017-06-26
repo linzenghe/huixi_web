@@ -114,14 +114,12 @@
                         <div class="choose">
                             <ul class="row">
                                 <li class="col-xs-6 text-right">
-                                    <div class="panelCh current" >
+                                    <div class="panelCh">
                                         <h3>产品持有人</h3>
-                                        <a href="#">
+                                        <a href="registerInfo.html">
                                             <div class="cremark">如您注册产品持有人，需您持有汇熙担任投资顾问或研究顾问的任意一只产品。汇熙将协助管理人为您提供产品净值及内部估值、投资手记与汇熙内参等一站式服务。请您如实填写基本信息并提交持有产品证明产品持有人。</div>
                                             <div class="bottom text-center">
-					            		<span>
-					              		<input type="radio" name="GroupID" value="1">
-					              		</span>
+					            		        <span><input type="radio" name="GroupID" value="1"></span>
                                             </div>
                                         </a>
                                     </div>
@@ -130,12 +128,10 @@
                                 <li class="col-xs-6 text-left">
                                     <div class="panelCh">
                                         <h3>潜在投资人</h3>
-                                        <a href="#">
+                                        <a href="registerInfo2.html">
                                             <div class="cremark">如您注册潜在投资人，需了解汇熙旗下产品全部为阳光私募产品，不承诺保证本金，不承诺保证收益。您需完成在线特定对象确定程序，并应承诺符合合格投资者标准。</div>
                                             <div class="bottom text-center">
-					            	<span>
-					              	<input type="radio" name="GroupID" value="2">
-					              	</span>
+					            	            <span><input type="radio" name="GroupID" value="2"></span>
                                             </div>
                                         </a>
                                     </div>
@@ -203,6 +199,13 @@
     <!-- JAVASCRIPTS -->
     <script src="js/jquery-2.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $(".panelCh").bind("hover",function () {
+                $(this).toggleClass("current")
+            })
+        })
+    </script>
 </body>
 
 </html>
