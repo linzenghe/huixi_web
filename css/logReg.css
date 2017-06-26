@@ -119,3 +119,8 @@
 .login_panel .tipBox .registerTip{color: #999}
 .login_panel .tipBox hr{margin: 10px 0;border-style: dashed}
 .login_panel .tipBox .tip p{font-size: 14px;line-height: 18px;color: #999}
+
+/*登录成功*/
+.register_Suc{padding: 100px 0 180px}
+.register_Suc p{font-size: 16px;line-height: 32px;margin: 16px 0}
+.register_Suc .login-btn{padding: 8px 15px;line-height: 36px;background: #000;color: #fff;font-size: 14px;}
