@@ -2267,7 +2267,7 @@ div[class*="col-"] > .form-group {
 }
 
 
-/*页面左侧导航*/
+/*通用页面左侧导航*/
 .member{
   padding: 100px 0;
 
@@ -2304,3 +2304,26 @@ div[class*="col-"] > .form-group {
   color: #333;
   display: inline-block;
 }
+
+/*常见问题*/
+.com_problem{padding: 100px 0}
+.com_problem p{margin: 0px}
+@media (max-width: 992px) {
+  .com_problem .container{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.problem_list .panel{box-shadow: none;margin-bottom: 16px}
+.problem_list .panel .panel-heading{padding: 0;position: relative;border-bottom: 1px dashed #ddd}
+.problem_list .panel .panel-heading .panel-title{position: relative;line-height: 32px;padding: 0 20px;color: #333}
+.problem_list .panel .panel-heading .panel-title i{position: absolute;top: 10px;left:0;width: 12px;height: 12px;background: url("../images/icon/dot_icon.png") no-repeat 0 0;background-size: 100% 100%}
+.problem_list .panel .panel-heading .flex_ico{width: 18px;height: 12px;position: absolute;top: 14px;right: 12px;background: url("../images/icon/updown_arrow.png") no-repeat 0 0px}
+.problem_list .panel .panel-heading .flex_ico.collapsed{background-position: 0 -17px;}
+.problem_list .panel-heading + .panel-collapse > .panel-body{border: none;padding: 10px 0 16px;font-size: 14px}
+.problem_list .panel-body p{text-indent: 20px;line-height: 26px;font-size:16px;color: #666;margin-bottom: 4px}
+
+
+
+
+
