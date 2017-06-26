@@ -1050,6 +1050,11 @@ footer .weChat p{
   text-align: center;
 }
 /* END FOOTER */
+.importantModal{display: block;opacity: 1;background: rgba(0,0,0,.5)}
+.tipArticle article{font-size: 14px}
+.importantModal .modal-footer{text-align: center}
+.importantModal .modal-footer .btn-close{color: #333;padding: 6px 24px;}
+.importantModal .modal-footer .btn-accept{color: #fff;padding: 6px 24px;background: #000}
 /* END PARTNER */
 @media screen and (max-width: 992px) {
   .introduce,.about_us,.daily,.news,.partner{

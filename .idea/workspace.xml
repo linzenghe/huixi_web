@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de1244d6-5868-454d-bf5e-51bc62941077" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icon/dot_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icon/updown_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service_problem.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.cookie.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,14 +22,14 @@
     <favorites_list name="huixi_web" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.51934826">
+    <splitter split-orientation="horizontal" split-proportion="0.40493968">
       <split-first>
-        <leaf>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1365">
-                  <caret line="218" column="0" lean-forward="true" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
+                <state relative-caret-position="6536">
+                  <caret line="477" column="12" lean-forward="true" selection-start-line="477" selection-start-column="12" selection-end-line="477" selection-end-column="12" />
                   <folding>
                     <element signature="n#style#0;n#hr#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -38,11 +37,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="service_problem.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="registerInfo3.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/registerInfo3.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="496">
+                  <caret line="378" column="8" lean-forward="false" selection-start-line="378" selection-start-column="8" selection-end-line="386" selection-end-column="11" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="service_problem.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/service_problem.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="535">
-                  <caret line="308" column="87" lean-forward="false" selection-start-line="308" selection-start-column="87" selection-end-line="308" selection-end-column="87" />
+                <state relative-caret-position="667">
+                  <caret line="314" column="61" lean-forward="true" selection-start-line="314" selection-start-column="61" selection-end-line="314" selection-end-column="61" />
                   <folding>
                     <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -57,12 +66,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="600">
-                  <caret line="2322" column="92" lean-forward="false" selection-start-line="2322" selection-start-column="92" selection-end-line="2322" selection-end-column="92" />
+                <state relative-caret-position="277">
+                  <caret line="1052" column="15" lean-forward="false" selection-start-line="1052" selection-start-column="1" selection-end-line="1052" selection-end-column="15" />
                   <folding />
                 </state>
               </provider>
@@ -96,6 +105,7 @@
       <find>prev</find>
       <find>list-client-logo</find>
       <find>sign_item</find>
+      <find>tipArticle</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,9 +117,9 @@
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="E:/huixiziben/tid_1_repute-lite/index.html" />
         <option value="$PROJECT_DIR$/index2.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/service_problem.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -120,10 +130,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-220" />
-    <option name="y" value="227" />
-    <option name="width" value="1706" />
-    <option name="height" value="933" />
+    <option name="x" value="510" />
+    <option name="y" value="89" />
+    <option name="width" value="1932" />
+    <option name="height" value="977" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -165,64 +175,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="huixi_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="huixi_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="huixi_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="huixi_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="icon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="huixi_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="huixi_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,16 +193,16 @@
     <property name="SearchEverywhereHistoryKey" value="px&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="P:\huixi_web\images\icon" />
+      <recent name="P:\huixi_web\images\daily" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\huixi_web\js" />
       <recent name="P:\huixi_web\images\icon" />
       <recent name="P:\huixi_web\css" />
       <recent name="P:\huixi_web" />
       <recent name="P:\huixi_web\images" />
-      <recent name="P:\huixi_web\images\logo" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="P:\huixi_web\images\icon" />
-      <recent name="P:\huixi_web\images\daily" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -345,11 +305,12 @@
       <workItem from="1498181730031" duration="26088000" />
       <workItem from="1498442703734" duration="46000" />
       <workItem from="1498442755610" duration="22355000" />
+      <workItem from="1498482716963" duration="8622000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96660000" />
+    <option name="totallyTimeSpent" value="105282000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -361,24 +322,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-220" y="227" width="1706" height="933" extended-state="1" />
+    <frame x="510" y="89" width="1932" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12840237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.091336116" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28730965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28730965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -403,23 +364,41 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4796">
+          <caret line="218" column="0" lean-forward="true" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#hr#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_problem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6776">
+          <caret line="308" column="87" lean-forward="false" selection-start-line="308" selection-start-column="87" selection-end-line="308" selection-end-column="87" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#1;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index2.html" />
-    <entry file="file://D:/之前的项目/123/231/edyd-web/src/main/resources/templates/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6090">
-          <caret line="290" column="93" lean-forward="false" selection-start-line="290" selection-start-column="41" selection-end-line="290" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/huixiziben/tid_1_repute-lite/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10059">
-          <caret line="479" column="8" lean-forward="false" selection-start-line="479" selection-start-column="8" selection-end-line="553" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/之前的项目/123/231/edyd-web/src/main/resources/templates/index.ftl" />
+    <entry file="file://E:/huixiziben/tid_1_repute-lite/index.html" />
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26166">
@@ -436,14 +415,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index2.html" />
-    <entry file="file://E:/huixiziben/tid_1_repute-lite/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6426">
-          <caret line="306" column="28" lean-forward="false" selection-start-line="306" selection-start-column="24" selection-end-line="306" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/huixiziben/tid_1_repute-lite/index.html" />
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15981">
@@ -459,14 +431,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/huixiziben/tid_1_repute-lite/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2478">
-          <caret line="118" column="62" lean-forward="false" selection-start-line="118" selection-start-column="53" selection-end-line="118" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/huixiziben/tid_1_repute-lite/index.html" />
     <entry file="file://$PROJECT_DIR$/images/logo/logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -524,21 +489,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery-1.12.3.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="2" column="14070" lean-forward="false" selection-start-line="2" selection-start-column="14070" selection-end-line="2" selection-end-column="14070" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-1.12.3.min.js" />
     <entry file="file://F:/汇熙/汇熙/汇熙资本 横向.psd" />
-    <entry file="file://$PROJECT_DIR$/css/jquery.bxslider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/css/jquery.bxslider.css" />
     <entry file="file://$PROJECT_DIR$/js/scrollReveal.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -565,38 +518,13 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://D:/之前的项目/123/231/edyd-web/src/main/resources/templates/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="290" column="93" lean-forward="false" selection-start-line="290" selection-start-column="41" selection-end-line="290" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/之前的项目/123/231/edyd-web/src/main/resources/templates/index.ftl" />
     <entry file="file://$PROJECT_DIR$/index2.html" />
-    <entry file="file://E:/huixiziben/tid_1_repute-lite/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="479" column="8" lean-forward="false" selection-start-line="479" selection-start-column="8" selection-end-line="553" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="218" column="0" lean-forward="true" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#hr#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/huixiziben/tid_1_repute-lite/index.html" />
     <entry file="file://$PROJECT_DIR$/css/logReg.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1328">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -604,7 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1503">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -612,7 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -620,9 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1827">
           <caret line="87" column="14" lean-forward="true" selection-start-line="87" selection-start-column="14" selection-end-line="87" selection-end-column="14" />
-          <folding>
-            <marker date="1498442713041" expanded="true" signature="15740:15760" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -630,33 +553,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
           <caret line="29" column="85" lean-forward="true" selection-start-line="29" selection-start-column="85" selection-end-line="29" selection-end-column="85" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/icon/minus_icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="2322" column="92" lean-forward="false" selection-start-line="2322" selection-start-column="92" selection-end-line="2322" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/icon/minus_icon.png" />
     <entry file="file://$PROJECT_DIR$/service_problem.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="308" column="87" lean-forward="false" selection-start-line="308" selection-start-column="87" selection-end-line="308" selection-end-column="87" />
+        <state relative-caret-position="667">
+          <caret line="314" column="61" lean-forward="true" selection-start-line="314" selection-start-column="61" selection-end-line="314" selection-end-column="61" />
           <folding>
             <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#tr#0;n#thead#0;n#table#1;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registerInfo3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="378" column="8" lean-forward="false" selection-start-line="378" selection-start-column="8" selection-end-line="386" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.cookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="1052" column="15" lean-forward="false" selection-start-line="1052" selection-start-column="1" selection-end-line="1052" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6536">
+          <caret line="477" column="12" lean-forward="true" selection-start-line="477" selection-start-column="12" selection-end-line="477" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#hr#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

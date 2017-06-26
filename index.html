@@ -435,17 +435,80 @@
         </footer>
     </div>
     <!-- END WRAPPER -->
+    <!-- MODAL -->
+    <div class="modal importantModal" id="importantModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-center">重要提示：请在浏览汇熙投资网站前仔细阅读下文</h4>
+                </div>
+                <div class="modal-body tipArticle">
+                    <article>
+                        <p>在继续浏览本公司网站前，请您仔细阅读本重要提示，根据您的具体情况在本页面底部选择继续浏览还是放弃。点击“接受”键，视为您已经阅读并愿意遵守本提示内容。</p>
+                        <p>证券投资具有一定风险，本网站所载各种信息和数据等仅供参考，并不构成广告或销售邀约，或任何投资意见和建议。产品的过往业绩并不预示其未来表现，投资者应仔细阅读产品相关法律文件以了解其风险因素，并自行承担投资风险。</p>
+                        <p>本网站所发布的信息、观点以及数据有可能因所基于信息发布日之后的情势或其他因素的变更而不再准确或失效，但本公司不承诺更新不准确或过时的信息、观点以及数据。本网站发布的信息均来源于已公开的资料，本公司对这些信息的准确性及完整性不作任何保证。本公司对来源于第三方的信息及数据的真实性、可靠性不做任何保证。</p>
+                        <p>根据《中华人民共和国证券投资基金法》、《中华人民共和国信托法》、《私募投资基金监督管理暂行办法》、《信托公司集合资金信托计划管理办法》及其他相关法律法规的有关规定，投资者应为风险识别、评估、承受能力较强的合格投资者，投资者应当认真阅读产品法律文件，了解产品的风险收益特征，并根据自身的投资目的、投资期限、投资经验、资产状况等判断产品是否和所投资产品的风险承受能力相匹配。</p>
+                        <p>根据我国《私募投资基金监督管理暂行办法》的规定，私募基金合格投资者的标准如下：</p>
+                        <h5>一、具备相应风险识别能力和风险承担能力，投资于单只私募基金的金额不低于100万元且符合下列相关标准的单位和个人：</h5>
+                        <p>1.净资产不低于1000万元的单位；</p>
+                        <p>2.个人金融资产不低于300万元或者最近三年个人年均收入不低于50万元。（前款所称金融资产包括银行存款、股票、债券、基金份额、资产管理计划、银行理财产品、信托计划、保险产品、期货权益等。)</p>
+                        <h5>二、下列投资者视为合格投资者：</h5>
+                        <p>1.社会保障基金、企业年金等养老基金，慈善基金等社会公益基金；</p>
+                        <p>2.依法设立并在基金业协会备案的投资计划；</p>
+                        <p>3.投资于所管理私募基金的私募基金管理人及其从业人员；</p>
+                        <p>4.中国证监会规定的其他投资者。</p>
+                        <p>如果您或您所代表的机构确认是一名“合格投资者”，具有相应的风险识别能力和风险承受能力，并承诺遵守适用的有关法规，请点击“接受”键，以继续浏览本公司网站。如您或您所代表的机构不同意任何有关条款，请按“拒绝”键，结束浏览本公司网站。</p>
+                        <p>厦门汇熙资产管理有限公司</p>
+                    </article>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-close" onclick="closeWeb()">拒绝</button>
+                    <button type="button" class="btn btn-accept" onclick="accept()">接受</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END MODAL -->
     <!-- JAVASCRIPTS -->
     <script src="js/jquery-2.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scrollReveal.min.js"></script>
+    <script src="js/jquery.nicescroll.js"></script>
+    <script src="js/jquery.cookie.js"></script>
     <script>
 //        初始化动画
-        if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
-            (function(){
-                window.scrollReveal = new scrollReveal({reset: true});
-            })();
-        };
+        $(function () {
+            if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+                (function(){
+                    window.scrollReveal = new scrollReveal({reset: true});
+                })();
+            };
+
+//        初始化弹窗
+            var cookieStatus=$.cookie('rootStatus');
+            if(cookieStatus!=undefined){
+                $(".importantModal").hide();
+            }else{
+                $(".importantModal").show();
+            }
+        });
+
+
+        function closeWeb() {
+            if (confirm("您确定要关闭本页吗？")){
+                window.opener=null;
+                window.open('','_self');
+                window.close();
+            }
+        }
+        function accept() {
+            $("#importantModal").hide();
+            var status=1;
+            $.cookie('rootStatus', status, { expires: 7, path: '/' });
+        }
+
+//        存储cookie
+
     </script>
 </body>
 
