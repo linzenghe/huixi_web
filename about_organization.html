@@ -14,7 +14,7 @@
 </head>
 <body style="background: #eaeaea">
 	<!-- WRAPPER -->
-    <div class="wrapper">
+    <div class="wrapper childPage_wrapper">
     	<!-- NAVBAR -->
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
@@ -91,10 +91,10 @@
         </nav>
         <!-- END NAVBAR -->
 		<!-- BANNER -->
-        <div id="carousel-generic" class="carousel" data-ride="carousel">
+        <div class="carousel">
             <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
+            <div class="carousel-inner">
+                <div class="item" style="display: block">
                     <img src="images/slider/abuoutUsBanner.png" alt="">
                     <div class="carousel-caption">
                         <div class="slider-heading">关于我们</div>
@@ -106,38 +106,36 @@
         </div>
         <!-- END BANNER -->
 		<!-- 组织架构 -->
-		<div class="container">
-            <div class="col-sm-3">
-    			<div class="navLeft">
-    				<ul>
-    					<li>
-    						
-    						<a href="#">公司简介</a>
-    					</li>
-    					<li>						
-    						<a href="#">企业文化</a>						
-    					</li>
-    					<li class="current">
-    						<span></span>
-    						<a href="#">组织架构</a>
-    						<p>organization</p>
-    					</li>
-    					<li>
-    						<a href="#">汇熙团队</a>
-    					</li>
-    					<li>
-    						<a href="#">愿景与使命</a>
-    					</li>
-    				</ul>
-    			</div>
+        <section class="childPage org_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="nav_left">
+                            <ul>
+                                <li><a href="about_introduction.html">公司简介</a><p>Introduction</p></li>
+                                <li><a href="about_culture.html">企业文化</a><P>orporate culture</P></li>
+                                <li class="current"><a href="about_organization.html">组织架构</a><P>Organization</P></li>
+                                <li><a href="about_team.html">汇熙团队</a><P>Our team</P></li>
+                                <li><a href="about_vision.html">愿景与使命</a><P>vision and mission</P></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="content">
+                            <div class="page_title text-center" style="margin-bottom: 40px">
+                                <h3>公司架构</h3>
+                                <p>COMPANY STRUCTURE</p>
+                                <i class="ico"></i>
+                            </div>
+                            <p>汇熙投资目前已建立了齐整的公司组织架构与完善的公司治理模式，构建了投资研究、市场服务、公司运营、合规风控四位一体完整的公司架构，持续规范运作、稳健经营。</p>
+                            <img src="images/orgenazation.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <div class="col-sm-9">
-    			<div class="content">
-    				<p>汇熙投资目前已建立了齐整的公司组织架构与完善的公司治理模式，构建了投资研究、市场服务、公司运营、合规风控四位一体完整的公司架构，持续规范运作、稳健经营。</p>
-          			<img src="images/organImg.png" alt="" />
-    			</div>
-            </div>
-		</div>
+        </section>
+
         <footer>
             <div class="container">
                 <div class="row">

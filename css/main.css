@@ -2378,6 +2378,51 @@ section.childPage{
 .culture_section .item_cul .cul p{font-size: 24px;margin-top: 20px}
 
 /* VISION AND MISION */
+.mission_section .vision_list{
+  margin-right: -20px;
+  margin-left: -20px;
+}
+.mission_section .vision_list .col-sm-6{
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.mission_section .item_vision{
+  margin-bottom: 20px;
+}
+.mission_section .item_vision .vision_h{
+  position: relative;
+}
+.mission_section .item_vision .vision_h img{
+  width: 100%;
+}
+.mission_section .item_vision .vision_h .title{
+  position: absolute;
+  left:0;
+  bottom: 0;
+  width: 100%;
+  background:rgba(0,0,0,0.3);
+  border-top: 2px solid #ddd;
+  color: #fff;
+}
+.mission_section .item_vision .vision_h .title h3{
+  font-size: 30px;
+  color: #fff;
+  line-height: 40px;
+}
+.mission_section .item_vision .vision_h .title span{
+  line-height: 40px;
+  font-size: 18px;
+}
+.mission_section .item_vision .vision_t{
+  border: solid #ddd;
+  border-width: 0 2px 2px;
+  font-size: 18px;
+  padding: 30px 10px;
+  min-height: 200px;
+}
+.mission_section .item_vision:hover .vision_t{
+  background: #fafafa;
+}
 .content ul.vision li{
   position:relative;
   width:46%;
@@ -2396,7 +2441,7 @@ section.childPage{
   line-height:35px;
   width:100%;
   padding:15px 0 8px;
-  border-top:1px solid #eee;
+  border-top:2px solid #ddd;
   background-color:rgba(0,0,0,0.3);
 }
 .content ul.vision li div.title h2{
@@ -2413,6 +2458,7 @@ section.childPage{
   width:100%;
   padding:20px 5% 0;
   height:160px;
+  font-size: 16px;
 }
 .content ul.vision li div.text p{
   text-align:center;

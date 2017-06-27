@@ -14,7 +14,7 @@
 </head>
 <body style="background: #eaeaea">
 	<!-- WRAPPER -->
-    <div class="wrapper">
+    <div class="wrapper childPage_wrapper">
     	<!-- NAVBAR -->
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
@@ -91,10 +91,10 @@
         </nav>
         <!-- END NAVBAR -->
 		<!-- BANNER -->
-        <div id="carousel-generic" class="carousel" data-ride="carousel">
+        <div class="carousel">
             <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
+            <div class="carousel-inner">
+                <div class="item" style="display: block">
                     <img src="images/slider/abuoutUsBanner.png" alt="">
                     <div class="carousel-caption">
                         <div class="slider-heading">关于我们</div>
@@ -105,63 +105,62 @@
             </div>
         </div>
         <!-- END BANNER -->
-		<!-- 公司简介 -->
-		<div class="container">
-            <div class="col-sm-3">
-    			<div class="navLeft">
-    				<ul>
-    					<li>						
-    						<a href="#">公司简介</a>						
-    					</li>
-    					<li>
-    						<a href="#">企业文化</a>
-    					</li>
-    					<li>
-    						<a href="#">组织架构</a>
-    					</li>
-    					<li>
-    						<a href="#">汇熙团队</a>
-    					</li>
-    					<li class="current">
-                            <span></span>
-    						<a href="#">愿景与使命</a>
-                            <p>vision and mission</p>
-    					</li>
-    				</ul>
-    			</div>
+		<!-- 愿景与使命 -->
+        <section class="childPage mission_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="nav_left">
+                            <ul>
+                                <li><a href="about_introduction.html">公司简介</a><p>Introduction</p></li>
+                                <li><a href="about_culture.html">企业文化</a><P>orporate culture</P></li>
+                                <li><a href="about_organization.html">组织架构</a><P>Organization</P></li>
+                                <li><a href="about_team.html">汇熙团队</a><P>Our team</P></li>
+                                <li  class="current"><a href="about_vision.html">愿景与使命</a><P>vision and mission</P></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="content">
+                            <ul class="row vision_list">
+                                <li class="col-sm-6">
+                                    <div class="item_vision">
+                                        <div class="vision_h">
+                                            <img src="images/visionImg.png" alt="" />
+                                            <div class="title text-center">
+                                                <h3>愿景</h3>
+                                                <span>CORPORATE VISION</span>
+                                            </div>
+                                        </div>
+                                        <div class="vision_t text-center">
+                                            <p>让证券投资成为资产配置之必需</p>
+                                            <p>Making stock investment become necessity of the asset allocation.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="col-sm-6">
+                                    <div class="item_vision">
+                                        <div class="vision_h">
+                                            <img src="images/visionImg.png" alt="" />
+                                            <div class="title text-center">
+                                                <h3>使命</h3>
+                                                <span>CORPORATE MISSION</span>
+                                            </div>
+                                        </div>
+                                        <div class="vision_t text-center">
+                                            <p>私募行业高Alpha 强Beta的证券投资引领者</p>
+                                            <p>Becoming the securities investment leader with high Alpha and strongBeta in private-equity sector</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-9">
-    			<div class="content">
-    				<ul class="vision">
-                        <li>
-                            <img src="images/visionImg.png" alt="" />
-                            <div class="title">
-                                <h2>愿景</h2>
-                                <span>CORPORATE VISION</span>
-                            </div>
-                            <div class="text">
-                                <p>让证券投资成为资产配置之必需</p>
-                                <p>Making stock investment become</p>
-                                <p>necessity of the asset allocation.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="images/visionImg.png" alt="" />
-                            <div class="title">
-                                <h2>使命</h2>
-                                <span>CORPORATE MISSION</span>
-                            </div>
-                            <div class="text">
-                                <p>私募行业高Alpha 强Beta的证券投资引领者</p>
-                                <p>Becoming the securities investment leader </p>
-                                <p>with high Alpha and strong </p>
-                                <p>Beta in private-equity sector</p>
-                            </div>
-                        </li>
-                    </ul>
-    			</div>
-            </div>
-		</div>
+        </section>
+
         <footer>
             <div class="container">
                 <div class="row">
