@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de1244d6-5868-454d-bf5e-51bc62941077" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/shuhui.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/touxitixi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service_process.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/culture/culture1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/culture/culture2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/culture/culture3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/culture/culture4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/culture/culture5.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/cultureImg.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_culture.html" afterPath="$PROJECT_DIR$/about_culture.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/cultureItembg.png" afterPath="$PROJECT_DIR$/images/culture/culture0.png" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="service_problem.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service_problem.html">
+      <file leaf-file-name="about_culture.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/about_culture.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="503" column="26" lean-forward="true" selection-start-line="503" selection-start-column="26" selection-end-line="503" selection-end-column="26" />
+            <state relative-caret-position="189">
+              <caret line="131" column="67" lean-forward="true" selection-start-line="131" selection-start-column="67" selection-end-line="131" selection-end-column="67" />
               <folding>
                 <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -37,12 +42,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="service_process.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="service_process.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service_process.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="118" column="42" lean-forward="true" selection-start-line="118" selection-start-column="42" selection-end-line="118" selection-end-column="42" />
-              <folding />
+            <state relative-caret-position="331">
+              <caret line="124" column="34" lean-forward="true" selection-start-line="120" selection-start-column="28" selection-end-line="124" selection-end-column="34" />
+              <folding>
+                <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,8 +57,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="2333" column="0" lean-forward="true" selection-start-line="2333" selection-start-column="0" selection-end-line="2333" selection-end-column="0" />
+            <state relative-caret-position="294">
+              <caret line="2371" column="67" lean-forward="false" selection-start-line="2371" selection-start-column="67" selection-end-line="2371" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -122,10 +129,10 @@
         <option value="$PROJECT_DIR$/registerSuc2.html" />
         <option value="$PROJECT_DIR$/css/childMain.css" />
         <option value="$PROJECT_DIR$/about_introduction.html" />
-        <option value="$PROJECT_DIR$/about_culture.html" />
         <option value="$PROJECT_DIR$/service_problem.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/service_process.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/about_culture.html" />
       </list>
     </option>
   </component>
@@ -136,8 +143,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="320" />
-    <option name="y" value="276" />
+    <option name="x" value="468" />
+    <option name="y" value="130" />
     <option name="width" value="1368" />
     <option name="height" value="890" />
   </component>
@@ -186,6 +193,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="huixi_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="huixi_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="culture" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -200,13 +225,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="P:\huixi_web\images\culture" />
       <recent name="P:\huixi_web\images" />
       <recent name="P:\huixi_web" />
       <recent name="E:\huixi_web" />
       <recent name="E:\huixi_web\js" />
-      <recent name="P:\huixi_web\images\icon" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="P:\huixi_web\images\culture" />
       <recent name="P:\huixi_web\images\icon" />
       <recent name="P:\huixi_web\images\daily" />
     </key>
@@ -313,12 +339,12 @@
       <workItem from="1498442755610" duration="22355000" />
       <workItem from="1498482716963" duration="17975000" />
       <workItem from="1498527639562" duration="5000" />
-      <workItem from="1498527667447" duration="8026000" />
+      <workItem from="1498527667447" duration="12674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122666000" />
+    <option name="totallyTimeSpent" value="127314000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -330,10 +356,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="320" y="276" width="1368" height="890" extended-state="0" />
-    <editor active="true" />
+    <frame x="468" y="130" width="1368" height="890" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19822486" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19822486" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21116751" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -591,33 +616,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about_culture.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about_introduction.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="116" column="24" lean-forward="false" selection-start-line="116" selection-start-column="24" selection-end-line="116" selection-end-column="24" />
           <folding>
             <marker date="1498526176644" expanded="true" signature="7609:9969" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service_problem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="503" column="26" lean-forward="true" selection-start-line="503" selection-start-column="26" selection-end-line="503" selection-end-column="26" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -630,19 +634,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/service_problem.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="2333" column="0" lean-forward="true" selection-start-line="2333" selection-start-column="0" selection-end-line="2333" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="345">
+          <caret line="503" column="26" lean-forward="true" selection-start-line="503" selection-start-column="26" selection-end-line="503" selection-end-column="26" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service_process.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="118" column="42" lean-forward="true" selection-start-line="118" selection-start-column="42" selection-end-line="118" selection-end-column="42" />
+        <state relative-caret-position="331">
+          <caret line="124" column="34" lean-forward="true" selection-start-line="120" selection-start-column="28" selection-end-line="124" selection-end-column="34" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="2371" column="67" lean-forward="false" selection-start-line="2371" selection-start-column="67" selection-end-line="2371" selection-end-column="67" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about_culture.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="131" column="67" lean-forward="true" selection-start-line="131" selection-start-column="67" selection-end-line="131" selection-end-column="67" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
