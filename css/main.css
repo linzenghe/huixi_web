@@ -2423,47 +2423,6 @@ section.childPage{
 .mission_section .item_vision:hover .vision_t{
   background: #fafafa;
 }
-.content ul.vision li{
-  position:relative;
-  width:46%;
-  float:left;
-  margin:0 2%;
-  border:1px solid #eee;
-}
-.content ul.vision li img{
-  width:100%;
-}
-.content ul.vision li div.title{
-  position:absolute;
-  left:0;
-  bottom:160px;
-  text-align:center;
-  line-height:35px;
-  width:100%;
-  padding:15px 0 8px;
-  border-top:2px solid #ddd;
-  background-color:rgba(0,0,0,0.3);
-}
-.content ul.vision li div.title h2{
-  font-size:36px;
-  color:#fff;
-  margin-bottom:15px;
-}
-.content ul.vision li div.title span{
-
-  font-size:18px;
-  color:#fff;
-}
-.content ul.vision li div.text{
-  width:100%;
-  padding:20px 5% 0;
-  height:160px;
-  font-size: 16px;
-}
-.content ul.vision li div.text p{
-  text-align:center;
-  line-height:25px;
-}
 /* OUR TEAM */
 .content .team{
   width:100%;
