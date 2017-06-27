@@ -2420,6 +2420,12 @@ section.childPage{
   padding: 30px 10px;
   min-height: 200px;
 }
+.mission_section .item_vision .vision_t .visible-ch{
+  color: #333;
+}
+.mission_section .item_vision .vision_t .visible-en{
+  color: #666;
+}
 .mission_section .item_vision:hover .vision_t{
   background: #fafafa;
 }
