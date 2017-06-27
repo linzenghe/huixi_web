@@ -2314,11 +2314,11 @@ div[class*="col-"] > .form-group {
   display: inline-block;
 }
 
-/*常见问题*/
-.com_problem{padding: 100px 0}
+/*客户服务*/
+.com_problem,.inv_process{padding: 100px 0}
 .com_problem p{margin: 0px}
 @media (max-width: 992px) {
-  .com_problem .container{
+  .com_problem .container,.inv_process .container{
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -2332,7 +2332,14 @@ div[class*="col-"] > .form-group {
 .problem_list .panel-heading + .panel-collapse > .panel-body{border: none;padding: 10px 0 16px;font-size: 14px}
 .problem_list .panel-body p{text-indent: 20px;line-height: 26px;font-size:16px;color: #666;margin-bottom: 4px}
 
+.process_img img{width: 95%;margin: 50px 0}
 
+.page_title{border-bottom: 1px solid #ddd;position: relative}
+.page_title h3{font-size: 28px;color: #333;line-height: 40px;}
+.page_title p{font-size: 18px;color: #999;line-height: 40px;}
+.page_title .ico{position: absolute;bottom: -16px;margin-left: -16px;width: 32px;height: 32px;background: url("../images/titleIcon.png") no-repeat 0 0}
+
+/*客户服务 end*/
 /*介绍*/
 .childPage_wrapper{padding-top: 60px}
 section.childPage{
