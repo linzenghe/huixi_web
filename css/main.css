@@ -1574,8 +1574,8 @@ div[class*="col-"] > .form-group {
 }
 
 .pager li > a:hover, .pager li > a:focus {
-  background-color: #406da4;
-  border-color: #3c6699;
+  background-color: #000;
+  border-color: #000;
   color: #fff;
 }
 .pager .disabled > a,
@@ -1967,7 +1967,7 @@ div[class*="col-"] > .form-group {
   color: inherit;
 }
 .blog .entry-title a:hover, .blog .entry-title a:focus {
-  color: #406da4;
+  color: #000;
 }
 .blog .entry-header {
   margin-bottom: 20px;
@@ -1989,7 +1989,7 @@ div[class*="col-"] > .form-group {
   font-weight: 600;
 }
 .blog .meta-line a:hover, .blog .meta-line a:focus {
-  color: #406da4;
+  color: #000;
 }
 .blog .featured-video,
 .blog .featured-image {
@@ -2493,42 +2493,28 @@ section.childPage{
   margin-top: 20px;
 }
 /* RVENTRECORD */
-.content ul.eventRecord{
+.news_section .eventRecord{  }
+.news_section .eventRecord li img{
   width:100%;
-  margin-top:30px;
-  overflow:hidden;
 }
-.content ul.eventRecord li{
-  float:left;
-  min-width:220px;
-  width:25%;
-}
-.content ul.eventRecord li img{
-  width:200px;
-  display:block;
-  margin:0 auto;
-}
-.content ul.eventRecord li h2{
+.news_section .eventRecord li h2{
   font-size:16px;
   height:50px;
-  margin-top:20px;
-  width:200px;
-  margin:15px auto 5px;
+  margin:15px 0 5px;
   line-height:25px;
 }
-ul.eventRecord li span{
-  width:200px;
+.news_section .eventRecord li span{
+  width:100%;
   height:4px;
   display:block;
   border-left:30px solid #000;
   margin:0 auto;
 }
-ul.eventRecord li p{
-  font-size:12px;
-  width:200px;
+.news_section .eventRecord li p{
+  font-size:14px;
   height:40px;
   line-height:20px;
-  margin:10px auto 5px;
+  margin:10px 0 5px;
   color:#999;
 }
 /* PRODUCT */
@@ -2625,34 +2611,7 @@ ul.eventRecord li p{
   cursor:pointer;
 }
 /* TRADING */
-.tradingtitle{
-  position:relative;
-  width:100%;
-  text-align:center;
-  margin:70px 0 70px 0;
-}
-.tradingtitle h2{
-  width:100%;
-  font-size:30px;
-  color:#333;
-}
-.tradingtitle span{
-  font-size:25px;
-  color:#999;
-  line-height:80px;
-  display:block;
-  width:100%;
-  border-bottom:1px solid #ddd;
-}
-.tradingtitle i{
-  position:absolute;
-  left:50%;
-  bottom:-16px;
-  margin-left:-16px;
-  width:32px;
-  height:32px;
-  background:url(../images/titleIcon.png) no-repeat;
-}
+
 .entry-title a{
   font-size:24px;
   color:#333;
@@ -2692,13 +2651,17 @@ ul.eventRecord li p{
   float:right;
   line-height:25px;
   width:70%;
-  font-size:12px;
-  color:#666;
+  font-size:14px;
+  color:#333;
+}
+.list-block li .tag{
+  font-size: 14px;
+  color: #999;
 }
 .list-block li p{
   float:right;
   width:70%;
-  font-size:12px;
+  font-size:14px;
   color:#666;
   line-height:30px;
 }
@@ -2711,14 +2674,14 @@ ul.eventRecord li p{
 }
 
 .excerpt p{
-  font-size:12px;
+  font-size:14px;
   color:#999;
-  line-height:25px;
+  line-height:28px;
 }
 
 .read-more a{
   float:right;
-  font-size:12px;
+  font-size:14px;
   color:#999;
 }
 

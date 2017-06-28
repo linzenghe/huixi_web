@@ -14,7 +14,7 @@
 </head>
 <body style="background: #eaeaea">
     <!-- WRAPPER -->
-    <div class="wrapper">
+    <div class="wrapper childPage_wrapper">
         <!-- NAVBAR -->
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
@@ -91,145 +91,131 @@
         </nav>
         <!-- END NAVBAR -->
         <!-- BANNER -->
-        <div id="carousel-generic" class="carousel" data-ride="carousel">
+        <div class="carousel">
             <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
+            <div class="carousel-inner">
+                <div class="item" style="display: block">
                     <img src="images/slider/tradingStrategyBanner.png" alt="">
                     <div class="carousel-caption">
                         <div class="slider-heading">汇熙动态</div>
                         <span class="line"></span>
-                        <p class="slider-body">Huixi dynamic</p>
+                        <p class="slider-body">HUIXI DYNAMIC</p>
                     </div>
                 </div>                
             </div>
         </div>
         <!-- END BANNER -->
-        <!--  -->
-        <div class="container">
-            <div class="col-sm-3">
-                <div class="navLeft">
-                    <ul>
-                        <li>
-                            <a href="#">公司新闻</a>                       
-                        </li>
-                        <li class="current">
-                            <span></span>
-                            <a href="#">媒体报道</a>
-                            <p>Media coverage</p>
-                        </li>
-                        <li>
-                            <a href="#">活动纪实</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-9">
-                <div class="content">
-                    <div class="title">
-                        <h2>媒体报道</h2>
-                        <span>Media coverage</span>
-                        <i></i>
+        <!-- 媒体报道 -->
+        <section class="childPage media_section">
+            <div class="container">
+                <div class="col-sm-3">
+                    <div class="nav_left">
+                        <ul>
+                            <li><a href="news_company.html">公司新闻</a><p>Company news</p></li>
+                            <li class="current"><a href="news_media.html">媒体报道</a><P>Media coverage</P></li>
+                            <li><a href="news_event.html">活动纪实</a><P>Event record</P></li>
+                        </ul>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <!-- BLOG ENTRIES -->
-                            <div class="blog medium-thumbnail margin-bottom-30px">
-                                <!-- blog post -->
-                                <article class="entry-post">
-                                    <header class="entry-header">
-                                        <h2 class="entry-title">
-                                            <a href="blog-single.html">汇熙·2017私人投资闭门路演圆满结束</a>
-                                        </h2>
-                                        <div class="meta-line clearfix">
-                                            <div class="meta-author-category pull-left">
-                                                <span class="post-author">来自 <a href="#">张三</a></span>
-                                                <span class="post-category">分类: <a href="#">新闻</a></span>
-                                            </div>
-                                            <div class="meta-tag-comment pull-right">
-                                            
-                                                <span class="post-comment"><i class="fa fa-commenting"></i> <a href="#">3 评论</a></span>
-                                            </div>
+                </div>
+                <div class="col-sm-9">
+                    <div class="content">
+                        <!-- BLOG ENTRIES -->
+                        <div class="blog medium-thumbnail margin-bottom-30px">
+                            <!-- blog post -->
+                            <article class="entry-post">
+                                <header class="entry-header">
+                                    <h2 class="entry-title">
+                                        <a href="blog-single.html">汇熙·2017私人投资闭门路演圆满结束</a>
+                                    </h2>
+                                    <div class="meta-line clearfix">
+                                        <div class="meta-author-category pull-left">
+                                            <span class="post-author">来自 <a href="#">张三</a></span>
+                                            <span class="post-category">分类: <a href="#">新闻</a></span>
                                         </div>
-                                    </header>
-                                    <div class="entry-content clearfix">
-                                        <div class="row">
-                                            <div class="col-sm-5">
-                                                <figure class="featured-image">
-                                                    <a href="blog-single.html">
-                                                        <div class="post-date-info clearfix"><span class="post-month">DEC</span><span class="post-date">11</span><span class="post-year">2014</span></div>
-                                                        <img src="images/buildings-med.jpg" class="img-responsive" alt="featured-image" />
-                                                    </a>
-                                                </figure>
-                                            </div>
-                                            <div class="col-sm-7">
-                                                <div class="excerpt">
-                                                    <p>这是我们汇熙投资的路演首秀，整个团队都给予高度的重视，严肃认真、谨慎细致地组织、筹备、开展着属于我们的第一次公开的正式活动。我们从无到有，事无巨细，都亲力亲为，因为我们热忱并迫切地希望服务好每一位来宾，让到场的各位嘉宾朋友们都能感受到我们年轻团队的热情、朝气活力以及满满的诚意...</p>
-                                                    <p class="read-more">
-                                                        <a href="#" class="btn">More>></a>
-                                                    </p>
-                                                </div>
+                                        <div class="meta-tag-comment pull-right">
+
+                                            <span class="post-comment"><i class="fa fa-commenting"></i> <a href="#">3 评论</a></span>
+                                        </div>
+                                    </div>
+                                </header>
+                                <div class="entry-content clearfix">
+                                    <div class="row">
+                                        <div class="col-sm-5">
+                                            <figure class="featured-image">
+                                                <a href="blog-single.html">
+                                                    <div class="post-date-info clearfix"><span class="post-month">DEC</span><span class="post-date">11</span><span class="post-year">2014</span></div>
+                                                    <img src="images/buildings-med.jpg" class="img-responsive" alt="featured-image" />
+                                                </a>
+                                            </figure>
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <div class="excerpt">
+                                                <p>这是我们汇熙投资的路演首秀，整个团队都给予高度的重视，严肃认真、谨慎细致地组织、筹备、开展着属于我们的第一次公开的正式活动。我们从无到有，事无巨细，都亲力亲为，因为我们热忱并迫切地希望服务好每一位来宾，让到场的各位嘉宾朋友们都能感受到我们年轻团队的热情、朝气活力以及满满的诚意...</p>
+                                                <p class="read-more">
+                                                    <a href="#" class="btn">More>></a>
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
-                                </article>
-                                <!-- end blog post -->
-                                <hr />
-                                <!-- blog post -->
-                                <article class="entry-post">
-                                    <header class="entry-header">
-                                        <h2 class="entry-title">
-                                            <a href="blog-single.html">汇熙·2017私人投资闭门路演圆满结束</a>
-                                        </h2>
-                                        <div class="meta-line clearfix">
-                                            <div class="meta-author-category pull-left">
-                                                <span class="post-author">来自 <a href="#">张三</a></span>
-                                                <span class="post-category">分类: <a href="#">新闻</a></span>
-                                            </div>
-                                            <div class="meta-tag-comment pull-right">
-                                            
-                                                <span class="post-comment"><i class="fa fa-commenting"></i> <a href="#">3 评论</a></span>
-                                            </div>
+                                </div>
+                            </article>
+                            <!-- end blog post -->
+                            <hr />
+                            <!-- blog post -->
+                            <article class="entry-post">
+                                <header class="entry-header">
+                                    <h2 class="entry-title">
+                                        <a href="blog-single.html">汇熙·2017私人投资闭门路演圆满结束</a>
+                                    </h2>
+                                    <div class="meta-line clearfix">
+                                        <div class="meta-author-category pull-left">
+                                            <span class="post-author">来自 <a href="#">张三</a></span>
+                                            <span class="post-category">分类: <a href="#">新闻</a></span>
                                         </div>
-                                    </header>
-                                    <div class="entry-content clearfix">
-                                        <div class="row">
-                                            <div class="col-sm-5">
-                                                <figure class="featured-image">
-                                                    <a href="blog-single.html">
-                                                        <div class="post-date-info clearfix"><span class="post-month">DEC</span><span class="post-date">11</span><span class="post-year">2014</span></div>
-                                                        <img src="images/buildings-med.jpg" class="img-responsive" alt="featured-image" />
-                                                    </a>
-                                                </figure>
-                                            </div>
-                                            <div class="col-sm-7">
-                                                <div class="excerpt">
-                                                    <p>这是我们汇熙投资的路演首秀，整个团队都给予高度的重视，严肃认真、谨慎细致地组织、筹备、开展着属于我们的第一次公开的正式活动。我们从无到有，事无巨细，都亲力亲为，因为我们热忱并迫切地希望服务好每一位来宾，让到场的各位嘉宾朋友们都能感受到我们年轻团队的热情、朝气活力以及满满的诚意...</p>
-                                                    <p class="read-more">
-                                                        <a href="#" class="btn">More>></a>
-                                                    </p>
-                                                </div>
+                                        <div class="meta-tag-comment pull-right">
+
+                                            <span class="post-comment"><i class="fa fa-commenting"></i> <a href="#">3 评论</a></span>
+                                        </div>
+                                    </div>
+                                </header>
+                                <div class="entry-content clearfix">
+                                    <div class="row">
+                                        <div class="col-sm-5">
+                                            <figure class="featured-image">
+                                                <a href="blog-single.html">
+                                                    <div class="post-date-info clearfix"><span class="post-month">DEC</span><span class="post-date">11</span><span class="post-year">2014</span></div>
+                                                    <img src="images/buildings-med.jpg" class="img-responsive" alt="featured-image" />
+                                                </a>
+                                            </figure>
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <div class="excerpt">
+                                                <p>这是我们汇熙投资的路演首秀，整个团队都给予高度的重视，严肃认真、谨慎细致地组织、筹备、开展着属于我们的第一次公开的正式活动。我们从无到有，事无巨细，都亲力亲为，因为我们热忱并迫切地希望服务好每一位来宾，让到场的各位嘉宾朋友们都能感受到我们年轻团队的热情、朝气活力以及满满的诚意...</p>
+                                                <p class="read-more">
+                                                    <a href="#" class="btn">More>></a>
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
-                                </article>
-                                <!-- end blog post -->
-                                <hr />
-                                <!-- blog post -->
-                                
-                                <!-- end blog post -->
-                            </div>
-                            <!-- END BLOG ENTRIES -->
-                            <ul class="pager">
-                                <li><a href="#">上一页</a></li>
-                                <li><a href="#">下一页</a></li>
-                            </ul>
+                                </div>
+                            </article>
+                            <!-- end blog post -->
+                            <hr />
+                            <!-- blog post -->
+
+                            <!-- end blog post -->
                         </div>
-                        
+                        <!-- END BLOG ENTRIES -->
+                        <ul class="pager">
+                            <li><a href="#">上一页</a></li>
+                            <li><a href="#">下一页</a></li>
+                        </ul>
+
                     </div>
                 </div>
             </div>
-        </div>
+        </>
+
         <footer>
             <div class="container">
                 <div class="row">

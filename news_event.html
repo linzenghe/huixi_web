@@ -14,7 +14,7 @@
 </head>
 <body style="background: #eaeaea">
     <!-- WRAPPER -->
-    <div class="wrapper">
+    <div class="wrapper childPage_wrapper">
         <!-- NAVBAR -->
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
@@ -91,70 +91,57 @@
         </nav>
         <!-- END NAVBAR -->
         <!-- BANNER -->
-        <div id="carousel-generic" class="carousel" data-ride="carousel">
+        <div class="carousel">
             <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
+            <div class="carousel-inner">
+                <div class="item" style="display: block">
                     <img src="images/slider/tradingStrategyBanner.png" alt="">
                     <div class="carousel-caption">
                         <div class="slider-heading">汇熙动态</div>
                         <span class="line"></span>
-                        <p class="slider-body">Huixi dynamic</p>
+                        <p class="slider-body">HUIXI DYNAMIC</p>
                     </div>
                 </div>                
             </div>
         </div>
         <!-- END BANNER -->
-        <!--  -->
-        <div class="container">
-            <div class="col-sm-3">
-                <div class="navLeft">
-                    <ul>
-                        <li>
-                            <a href="#">公司新闻</a>                       
-                        </li>
-                        <li>                        
-                            <a href="#">媒体报道</a>
-                        </li>
-                        <li class="current">
-                            <span></span>
-                            <a href="#">活动纪实</a>
-                            <p>Event record</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-9">
-                <div class="content">
-                    <div class="title">
-                        <h2>活动纪实</h2>
-                        <span>Event record</span>
-                        <i></i>
+        <!-- 活动纪实 -->
+        <section class="childPage news_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="nav_left">
+                            <ul>
+                                <li><a href="news_company.html">公司新闻</a><p>Company news</p></li>
+                                <li><a href="news_media.html">媒体报道</a><P>Media coverage</P></li>
+                                <li class="current"><a href="news_event.html">活动纪实</a><P>Event record</P></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <ul class="eventRecord">
-                                <li>
-                                    <img src="images/recordImg.png" alt="" />
+                    <div class="col-sm-9">
+                        <div class="content">
+                            <ul class="row eventRecord">
+                                <li class="col-md-3 col-sm-6">
+                                    <img src="images/event/event1.png" alt="" />
                                     <h2>[私人定制] 2017搞定全景路线</h2>
                                     <span></span>
-                                    <p>在临近年末之际，今年最后一波。</p>
+                                    <p>国际论坛、高端商旅、体育赛事、品质生活</p>
                                 </li>
-                                <li>
-                                    <img src="images/recordImg.png" alt="" />
-                                    <h2>[私人定制] 2017搞定全景路线</h2>
+                                <li class="col-md-3 col-sm-6">
+                                    <img src="images/event/event2.png" alt="" />
+                                    <h2>Hello，你有一份调研未填写！</h2>
                                     <span></span>
-                                    <p>在临近年末之际，今年最后一波。</p>
+                                    <p>会员服务从酝酿到上线已经一年多了，您了解我们的服务吗？</p>
                                 </li>
-                                <li>
-                                    <img src="images/recordImg.png" alt="" />
-                                    <h2>[私人定制] 2017搞定全景路线</h2>
+                                <li class="col-md-3 col-sm-6">
+                                    <img src="images/event/event3.png" alt="" />
+                                    <h2>新年红包派不停，刮到你手软</h2>
                                     <span></span>
-                                    <p>在临近年末之际，今年最后一波。</p>
+                                    <p>新年收红包，礼品送不停。</p>
                                 </li>
-                                <li>
-                                    <img src="images/recordImg.png" alt="" />
-                                    <h2>[私人定制] 2017搞定全景路线</h2>
+                                <li class="col-md-3 col-sm-6">
+                                    <img src="images/event/event4.png" alt="" />
+                                    <h2>年会来袭！！！</h2>
                                     <span></span>
                                     <p>在临近年末之际，今年最后一波。</p>
                                 </li>
@@ -164,12 +151,13 @@
                                 <li><a href="#">上一页</a></li>
                                 <li><a href="#">下一页</a></li>
                             </ul>
+
                         </div>
-                        
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
         <footer>
             <div class="container">
                 <div class="row">

@@ -14,7 +14,7 @@
 </head>
 <body style="background: #eaeaea">
 	<!-- WRAPPER -->
-    <div class="wrapper">
+    <div class="wrapper childPage_wrapper">
     	<!-- NAVBAR -->
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
@@ -91,48 +91,35 @@
         </nav>
         <!-- END NAVBAR -->
 		<!-- BANNER -->
-        <div id="carousel-generic" class="carousel" data-ride="carousel">
+        <div class="carousel">
             <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
+            <div class="carousel-inner">
+                <div class="item" style="display: block">
                     <img src="images/slider/tradingStrategyBanner.png" alt="">
                     <div class="carousel-caption">
                         <div class="slider-heading">汇熙动态</div>
                         <span class="line"></span>
-                        <p class="slider-body">Huixi dynamic</p>
+                        <p class="slider-body">HUIXI DYNAMIC</p>
                     </div>
                 </div>                
             </div>
         </div>
         <!-- END BANNER -->
 		<!-- 公司新闻 -->
-		<div class="container">
-            <div class="col-sm-3">
-                <div class="navLeft">
-                    <ul>
-                        <li class="current">
-                            <span></span>
-                            <a href="#">公司新闻</a>
-                            <p>Company news</p>
-                        </li>
-                        <li>
-                            <a href="#">媒体报道</a>
-                        </li>
-                        <li>
-                            <a href="#">活动纪实</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-9">
-                <div class="content">
-                    <div class="title">
-                        <h2>公司新闻</h2>
-                        <span>Company news</span>
-                        <i></i>
+        <section class="childPage news_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="nav_left">
+                            <ul>
+                                <li class="current"><a href="news_company.html">公司新闻</a><p>Company news</p></li>
+                                <li><a href="news_media.html">媒体报道</a><P>Media coverage</P></li>
+                                <li><a href="news_event.html">活动纪实</a><P>Event record</P></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
+                    <div class="col-sm-9">
+                        <div class="content">
                             <!-- BLOG ENTRIES -->
                             <div class="blog medium-thumbnail margin-bottom-30px">
                                 <!-- blog post -->
@@ -147,7 +134,7 @@
                                                 <span class="post-category">分类: <a href="#">新闻</a></span>
                                             </div>
                                             <div class="meta-tag-comment pull-right">
-                                            
+
                                                 <span class="post-comment"><i class="fa fa-commenting"></i> <a href="#">3 评论</a></span>
                                             </div>
                                         </div>
@@ -187,7 +174,7 @@
                                                 <span class="post-category">分类: <a href="#">新闻</a></span>
                                             </div>
                                             <div class="meta-tag-comment pull-right">
-                                            
+
                                                 <span class="post-comment"><i class="fa fa-commenting"></i> <a href="#">3 评论</a></span>
                                             </div>
                                         </div>
@@ -216,7 +203,7 @@
                                 <!-- end blog post -->
                                 <hr />
                                 <!-- blog post -->
-                                
+
                                 <!-- end blog post -->
                             </div>
                             <!-- END BLOG ENTRIES -->
@@ -224,12 +211,15 @@
                                 <li><a href="#">上一页</a></li>
                                 <li><a href="#">下一页</a></li>
                             </ul>
+
+
                         </div>
-                        
                     </div>
                 </div>
+
             </div>
-		</div>
+        </section>
+
         <footer>
             <div class="container">
                 <div class="row">
