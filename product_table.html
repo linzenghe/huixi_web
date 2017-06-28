@@ -10,11 +10,11 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="css/main.css" rel="stylesheet" type="text/css">
-    <link href="css/childMain.css" rel="stylesheet" type="text/css">
+    <link href="css/jPages.css" rel="stylesheet" type="text/css">
 </head>
 <body style="background: #eaeaea">
 	<!-- WRAPPER -->
-    <div class="wrapper">
+    <div class="wrapper childPage_wrapper">
     	<!-- NAVBAR -->
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
@@ -91,10 +91,10 @@
         </nav>
         <!-- END NAVBAR -->
 		<!-- BANNER -->
-        <div id="carousel-generic" class="carousel" data-ride="carousel">
+        <div class="carousel">
             <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
+            <div class="carousel-inner">
+                <div class="item" style="display: block">
                     <img src="images/slider/tradingStrategyBanner.png" alt="">
                     <div class="carousel-caption">
                         <div class="slider-heading">汇熙产品</div>
@@ -106,31 +106,35 @@
         </div>
         <!-- END BANNER -->
 		<!-- Huixi product -->
-		<div class="container">
-            <div class="product">
-                <h2>汇熙产品</h2>
-                <span>Huixi product</span>
-                <i></i>
+        <section class="childPage product_section">
+            <div class="container">
+                <div class="page_title text-center" style="margin-bottom: 20px">
+                    <h3>汇熙产品</h3>
+                    <p>Huixi product</p>
+                    <i class="ico"></i>
+                </div>
+                <!-- PAGE CONTENT -->
+                <div class="pro_table">
+                    <p>汇熙投资入选几乎所有商业银行"私募白名单"，与工、农、中、建、交、招商、光大、民生、浦发、平安、兴业、广发、邮储等银行总行开展合作，同时还与银行资产管理、资管公司、高校基金会、海外机构等机构投资者展开合作，目前旗下产品超过50只。<br />根据中国证监会、中国基金业协会监管要求，通过互联网媒介在线向投资者展示私募基金信息之前，应当设置特定程序。如需了解产品详情，请<a href="login.html">注册登陆</a>。</p>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>产品名称</th>
+                                <th>成立日期</th>
+                                <th>投资经理</th>
+                                <th>产品类型</th>
+                                <th>最低认购金额</th>
+                                <th>开放日</th>
+                                <th class="text-right">在线预约</th>
+                            </tr>
+                        </thead>
+                        <tbody id="products"></tbody>
+                    </table>
+                    <div class="holder text-center"></div>
+                </div>
+                <!-- END PAGE CONTENT -->
             </div>
-            <!-- PAGE CONTENT -->
-            <div class="table">
-                <p>汇熙投资入选几乎所有商业银行"私募白名单"，与工、农、中、建、交、招商、光大、民生、浦发、平安、兴业、广发、邮储等银行总行开展合作，同时还与银行资产管理、资管公司、高校基金会、海外机构等机构投资者展开合作，目前旗下产品超过50只。<br />根据中国证监会、中国基金业协会监管要求，通过互联网媒介在线向投资者展示私募基金信息之前，应当设置特定程序。如需了解产品详情，请<a href="#">注册登陆</a>。</p>
-                <table class="product-list">
-                    <thead>
-                        <th>产品名称</th>
-                        <th>成立日期</th>
-                        <th>投资经理</th>
-                        <th>产品类型</th>
-                        <th>最低认购金额</th>
-                        <th>开放日</th>
-                        <th>在线预约</th>
-                    </thead>
-                    <tbody id="products"></tbody>
-                </table>
-                <div class="holder"></div>
-            </div>
-            <!-- END PAGE CONTENT -->
-		</div>
+        </section>
         <footer>
             <div class="container">
                 <div class="row">
@@ -183,46 +187,39 @@
     <!-- POPUP -->
     <!-- 模态框（Modal） -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
+        <div class="modal-dialog orderPop">
+            <div class="modal-content ">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                        &times;
-                    </button>
-                    <h4 class="modal-title" id="myModalLabel">
-                        产品预约
-                    </h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">产品预约</h4>
                 </div>
                 <div class="modal-body">
-                    <form>
-                            <div class="item input-group">
-                                <span class="input-group-addon">预约产品</span>
-                                <input type="text" class="form-control" readonly name="productName">
-                            </div>
-                            <div class="item input-group">
-                                <span class="input-group-addon">预约金额</span>
-                                <input type="text" class="form-control" />
-                            </div>
-                            <div class="item input-group">
-                                <span class="input-group-addon" style="padding-right:17px;">联 系 人</span>
-                                <input type="text" class="form-control" />
-                            </div>
-                            <div class="item input-group">
-                                <span class="input-group-addon">手机号码</span>
-                                <input type="text" class="form-control" />
-                            </div>
-                            <div class="item input-group">
-                                <span class="input-group-addon">电子邮箱</span>
-                                <input type="text" class="form-control" />
-                            </div>                           
-                        </form>
+                    <form class="order_form">
+                        <div class="item input-group">
+                            <span class="input-group-addon">预约产品</span>
+                            <input type="text" class="form-control" readonly name="productName">
+                        </div>
+                        <div class="item input-group">
+                            <span class="input-group-addon">预约金额</span>
+                            <input type="text" class="form-control" placeholder="请输入预约金额"/>
+                        </div>
+                        <div class="item input-group">
+                            <span class="input-group-addon" style="padding-right:17px;">联 系 人</span>
+                            <input type="text" class="form-control" placeholder="请输入联系人"/>
+                        </div>
+                        <div class="item input-group">
+                            <span class="input-group-addon">手机号码</span>
+                            <input type="text" class="form-control" placeholder="请输入手机号码"/>
+                        </div>
+                        <div class="item input-group">
+                            <span class="input-group-addon">电子邮箱</span>
+                            <input type="text" class="form-control" placeholder="请输入电子邮箱"/>
+                        </div>
+                    </form>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭
-                    </button>
-                    <button type="button" class="btn btn-primary">
-                        确定预约
-                    </button>
+                <div class="modal-footer text-center">
+                    <button type="button" class="btn" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn orderBtn">预约</button>
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal -->
@@ -327,7 +324,7 @@
                                 '<td>'+ productList[item].productType +'</td>'+
                                 '<td>'+ productList[item].minAmount +'</td>'+
                                 '<td>'+ productList[item].openDate +'</td>'+
-                                '<td productname="'+ productList[item].productName +'"><span class="subscribe" data-toggle="modal" data-target="#myModal">预约</span></td>'
+                                '<td productname="'+ productList[item].productName +'" class="text-right"><span class="subscribe" data-toggle="modal" data-target="#myModal">预约</span></td>'
                              '</tr>';
             }
             $('#products').html(tbodyHTML);

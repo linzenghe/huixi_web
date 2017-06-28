@@ -2493,7 +2493,6 @@ section.childPage{
   margin-top: 20px;
 }
 /* RVENTRECORD */
-.news_section .eventRecord{  }
 .news_section .eventRecord li img{
   width:100%;
 }
@@ -2518,35 +2517,7 @@ section.childPage{
   color:#999;
 }
 /* PRODUCT */
-.product{
-  position:relative;
-  width:100%;
-  text-align:center;
-  margin:70px 0 40px 0;
-}
-.product h2{
-  width:100%;
-  font-size:30px;
-  color:#333;
-}
-.product span{
-  font-size:25px;
-  color:#999;
-  line-height:80px;
-  display:block;
-  width:100%;
-  border-bottom:1px solid #ddd;
-}
-.product i{
-  position:absolute;
-  left:50%;
-  bottom:-16px;
-  margin-left:-16px;
-  width:32px;
-  height:32px;
-  background:url(../images/titleIcon.png) no-repeat;
-}
-.table p{
+.product_section .pro_table>p{
   width:80%;
   margin:0 auto;
   text-align:center;
@@ -2554,64 +2525,32 @@ section.childPage{
   color:#999;
   line-height:30px;
 }
-.product-list{
-  margin:30px 0;
-  text-align:center;
-  width:100%;
-  line-height:45px;
+.product_section table{
+  margin: 30px 0;
+  border: solid #ddd;
+  border-width: 1px 0;
 }
-.product-list th{
-  font-size:14px;
-  text-align:center;
-  background-color:#fafafa;
-  border-top:2px solid #ddd;
-  border-bottom:1px solid #ddd;
+.product_section table thead tr{
+  background: #fafafa;
 }
-.product-list td{
-  border-bottom:1px solid #ddd;
+.product_section table thead tr th{
+  padding: 10px;
 }
+.product_section table tbody tr td{
+  padding: 10px;
+}
+
 /* 分页 */
-.holder{
-  text-align:center;
-  margin-bottom:70px;
-}
-.holder a,.holder span{
-  font-size:12px;
-  padding:3px 8px;
-  border:1px solid #ddd;
-}
-.holder a{
-  cursor:pointer;
-}
-.jp-current{
-  background-color:#ddd;
-}
-.jp-previous{
-  border-top-left-radius:3px;
-  border-bottom-left-radius:3px;
-  padding:1px 8px 5px!important;
-  vertical-align:text-top;
-}
-.jp-next{
-  border-top-right-radius:3px;
-  border-bottom-right-radius:3px;
-  padding:1px 8px 5px!important;
-  vertical-align:text-top;
-}
-.jp-disabled{
-  cursor:not-allowed!important;
-}
 .subscribe{
   color:#fff;
   background-color:#000;
-  padding:5px 8px;
+  padding:6px 8px;
   border-radius:2px;
   -moz-border-radius:2px;
   -webkit-border-radius:2px;
   cursor:pointer;
 }
 /* TRADING */
-
 .entry-title a{
   font-size:24px;
   color:#333;
@@ -2685,3 +2624,7 @@ section.childPage{
   color:#999;
 }
 
+.orderPop{max-width: 350px}
+.orderPop .order_form .item{margin-bottom: 16px;font-size: 16px}
+.orderPop .modal-footer{text-align: center}
+.orderPop .modal-footer .orderBtn{background: #000;color: #fff}
