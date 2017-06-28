@@ -14,7 +14,7 @@
 </head>
 <body style="background: #eaeaea">
     <!-- WRAPPER -->
-    <div class="wrapper">
+    <div class="wrapper childPage_wrapper">
         <!-- NAVBAR -->
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
@@ -91,74 +91,66 @@
         </nav>
         <!-- END NAVBAR -->
         <!-- BANNER -->
-        <div id="carousel-generic" class="carousel" data-ride="carousel">
+        <div class="carousel">
             <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
+            <div class="carousel-inner">
+                <div class="item" style="display: block">
                     <img src="images/slider/abuoutUsBanner.png" alt="">
                     <div class="carousel-caption">
                         <div class="slider-heading">投资体系</div>
                         <span class="line"></span>
-                        <p class="slider-body">Investment System</p>
+                        <p class="slider-body">INVESTMENT SYSTEM</p>
                     </div>
-                </div>                
+                </div>
             </div>
         </div>
         <!-- END BANNER -->
-        <!-- 公司简介 -->
-        <div class="container">
-            <div class="col-sm-3">
-                <div class="navLeft">
-                    <ul>
-                        <li>                        
-                            <a href="#">投资理念及模式</a>
-                        </li>
-                        <li>
-                            <a href="#">投资流程</a>
-                        </li>
-                        <li class="current">
-                            <span></span>
-                            <a href="#">产业逻辑</a>
-                            <p>Industrial logic</p>
-                        </li>
-                        <li>
-                            <a href="#">风险控制</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-9">
-                <div class="content">
-                     <div class="title">
-                        <h2>产业逻辑</h2>
-                        <span>Industrial logic</span>
-                        <i></i>
+        <!-- 产业逻辑 -->
+        <section class="childPage invest_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="nav_left">
+                            <ul>
+                                <li><a href="investment.html">投资理念及模式</a><p>Philosophy and model</p></li>
+                                <li><a href="investment_process.html">投资流程</a><P>Investment process</P></li>
+                                <li class="current"><a href="investment_industrial.html">产业逻辑</a><P>Industrial logic</P></li>
+                                <li><a href="investment_riskControl.html">风险控制</a><P>Risk control</P></li>
+                            </ul>
+                        </div>
                     </div>
-                    <ul class="investment">
-                        <li>
-                            <img src="images/investmentImg1.png" alt="" />
-                            <div class="space"></div>
-                            <div class="text">
-                                <h2>产业逻辑</h2>
-                                <span>— industrial logic</span>
-                                <p>深耕国内外市场，行业研究覆盖各主要经济领域及重点上市公司，研究员通过对重点行业和上市公司信息的持续跟踪、收集、整理与分析，结合实地调研，综合评估上市公司投资价值，为公司的投资决策提供基本面支持。</p>
-                                <p>In domestic and foreign markets, industry research covering all major economic areas and key listed companies, by researchers in key industries and listed company information, keep track of collection, collation and analysis, combined with field research, comprehensive evaluation of investment value of listed companies, to provide basic support for the company's investment decision.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="text">
-                                <h2>量化系统</h2>
-                                <span>— quantitative system</span>
-                                <p>汇熙量化系统，由汇熙主理人丁炜楠基于前沿金融理论独立研发。在系统内被监测内的个股，系统能够根据设定的数量条件筛选相关投资标的，确认安全边际，从而实现有效规避风险，挖掘和把握投资机会。</p>
-                                <p>Huixi the quantitative system, by the Department of Wei Nan Xi manages population based on independent research and development of cutting-edge financial theory. In the system within the monitoring of stocks, the system can be based on the set number of conditions to filter the relevant investment targets, to confirm the margin of security, so as to effectively avoid risks, mining and grasp the investment opportunities.</p>
-                            </div>
-                            <div class="space"></div>
-                            <img src="images/investmentImg2.png" alt="" />
-                        </li>
-                    </ul>
+                    <div class="col-sm-9">
+                        <div class="content">
+                            <ul class="investment">
+                                <li class="invest_item clearfix">
+                                    <div class="col-xs-4 invest_img">
+                                        <img src="images/investmentImg1.png" alt="" />
+                                    </div>
+                                    <div class="col-xs-8 invest_text">
+                                        <h2>产业逻辑</h2>
+                                        <p class="title_en">— industrial logic</p>
+                                        <p>深耕国内外市场，行业研究覆盖各主要经济领域及重点上市公司，研究员通过对重点行业和上市公司信息的持续跟踪、收集、整理与分析，结合实地调研，综合评估上市公司投资价值，为公司的投资决策提供基本面支持。</p>
+                                        <p>In domestic and foreign markets, industry research covering all major economic areas and key listed companies, by researchers in key industries and listed company information, keep track of collection, collation and analysis, combined with field research, comprehensive evaluation of investment value of listed companies, to provide basic support for the company's investment decision.</p>
+                                    </div>
+                                </li>
+                                <hr>
+                                <li class="invest_item clearfix">
+                                    <div class="col-xs-8 invest_text">
+                                        <h2>量化系统</h2>
+                                        <p class="title_en">— industrial logic</p>
+                                        <p>深耕国内外市场，行业研究覆盖各主要经济领域及重点上市公司，研究员通过对重点行业和上市公司信息的持续跟踪、收集、整理与分析，结合实地调研，综合评估上市公司投资价值，为公司的投资决策提供基本面支持。</p>
+                                        <p>Huixi the quantitative system, by the Department of Wei Nan Xi manages population based on independent research and development of cutting-edge financial theory. In the system within the monitoring of stocks, the system can be based on the set number of conditions to filter the relevant investment targets, to confirm the margin of security, so as to effectively avoid risks, mining and grasp the investment opportunities.</p>
+                                    </div>
+                                    <div class="col-xs-4 invest_img">
+                                        <img src="images/investmentImg1.png" alt="" />
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
         <footer>
             <div class="container">
                 <div class="row">

@@ -2475,41 +2475,22 @@ section.childPage{
   color: #666;
 }
 /* INVESTMENT */
-.content ul.investment li{
-  width:100%;
-  margin-bottom:50px;
-  overflow:hidden;
+.invest_section .investment .invest_item .invest_img img{
+  width: 95%;
 }
-.content ul.investment li .space{
-  width:2%;
-  height:1px;
-  float:left;
+.invest_section .investment .invest_item .invest_text h2{
+  color: #333;
 }
-.content ul.investment li img{
-  position:relative;
-  float:left;
-  width:28%;
+.invest_section .investment .invest_item .invest_text .title_en{
+  font-size: 24px;
+  color: #333;
+  margin-top: 20px;
 }
-.content ul.investment li .text{
-  width:70%;
-  float:left;
-}
-.content ul.investment li .text h2{
-  font-size:26px;
-  color:#333;
-  margin-bottom:10px;
-}
-.content ul.investment li .text span{
-  font-size:22px;
-  color:#333;
-  line-height:30px;
-  margin-bottom:20px;
-  display:block;
-}
-.content ul.investment li .text p{
-  font-size:14px;
-  color:#999;
-  line-height:30px;
+.invest_section .investment .invest_item .invest_text p{
+  font-size: 18px;
+  color: #666;
+  line-height: 28px;
+  margin-top: 20px;
 }
 /* RVENTRECORD */
 .content ul.eventRecord{
