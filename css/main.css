@@ -2298,21 +2298,39 @@ div[class*="col-"] > .form-group {
 .nav_left li p{ color:#999; font-size:18px; font-weight:300;display: none}
 
 
-.tab-content{border: solid #ddd;border-width:0 1px 1px}
-.tab-pane{padding: 20px}
-.pro_t {
+.member .tab-content{border: solid #ddd;border-width:0 1px 1px}
+.member .tab-pane{padding: 20px}
+.member .pro_t {
   border-bottom: 1px solid #c8cecf;
   line-height: 50px;
   overflow: hidden;
   margin: 0 0 28px 0;
 }
-.pro_t span {
+.member .pro_t span {
   border-bottom: 3px solid #333;
   font-size: 22px;
   padding: 0 10px 0 0;
   color: #333;
   display: inline-block;
 }
+.member .line_table table{
+  border: solid #ddd;
+  border-width: 1px 0;
+}
+.member .line_table table thead tr{
+  background: #fafafa;
+}
+.member .pl1 table thead tr{background: #fafafa}
+
+/*用户信息*/
+.userForm .item,.passForm .item{  margin-bottom: 16px;  width: 100%;  position: relative;  }
+.userForm .input-group-addon,.passForm .input-group-addon{  padding: 11px 12px;  }
+.userForm .form-control,.passForm .form-control{  padding: 18px 12px;  }
+.userForm .item .input-group-btn,.passForm .item .input-group-btn {  width: 100px;  font-size: 13px;  }
+.userForm .item .input-group-btn select {  width: 100%;  padding: 8.5px 10px;  border-radius: 0;  border-color: #ccc;  border-right-color: transparent;  }
+.userForm .add{position:absolute;top:0;right:0;font-size: 23px;background: #fff;text-align: center;padding: 0;line-height: 36px;width: 40px;border: 1px solid #cdcdcd;color: #cdcdcd;cursor:pointer;}
+.userForm .submit .btn,.passForm .submit .btn{padding: 6px 20px;margin-right: 8px}
+.userForm .submit .submitBtn,.passForm .submit .submitBtn{background: #000;color: #fff}
 
 /*客户服务*/
 .com_problem,.inv_process{padding: 100px 0}
