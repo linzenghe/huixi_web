@@ -10,7 +10,6 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="css/main.css" rel="stylesheet" type="text/css">
-    <link href="css/childMain.css" rel="stylesheet" type="text/css">
 </head>
 <body style="background: #eaeaea">
 	<!-- WRAPPER -->
@@ -31,7 +30,7 @@
                 <div id="main-nav" class="navbar-collapse collapse navbar-mega-menu">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown ">
-                            <a href="#">首页</a>
+                            <a href="index.html">首页</a>
                         </li>
                         <li class="dropdown ">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">关于汇熙 <i class="fa fa-angle-down"></i></a>
@@ -91,11 +90,11 @@
         </nav>
         <!-- END NAVBAR -->
 		<!-- BANNER -->
-        <div class="carousel">
+        <div class="carousel childPage_banner">
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="item" style="display: block">
-                    <img src="images/slider/abuoutUsBanner.png" alt="">
+                    <img src="images/slider/investmentBanner.png" alt="">
                     <div class="carousel-caption">
                         <div class="slider-heading">投资体系</div>
                         <span class="line"></span>
@@ -123,10 +122,10 @@
                         <div class="content">
                             <ul class="investment">
                                 <li class="invest_item clearfix">
-                                    <div class="col-xs-4 invest_img">
+                                    <div class="col-sm-4 col-xs-12 invest_img">
                                         <img src="images/investmentImg1.png" alt="" />
                                     </div>
-                                    <div class="col-xs-8 invest_text">
+                                    <div class="col-sm-8 col-xs-12 invest_text">
                                         <h2>投资理念</h2>
                                         <p class="title_en">— Investment philosophy</p>
                                         <p>基于量化风控的前提上，以产业逻辑、事件驱动、预期差异三者共进，追逐超额收益。</p>
@@ -135,13 +134,13 @@
                                 </li>
                                 <hr>
                                 <li class="invest_item clearfix">
-                                    <div class="col-xs-8 invest_text">
+                                    <div class="col-sm-8 col-xs-12 invest_text">
                                         <h2>投资模式</h2>
                                         <p class="title_en">— Investment model </p>
                                         <p>以“产业逻辑+汇熙量化系统”为投资模式，产业逻辑择股，量化系统择时，精准把握市场交易关键点，在繁杂的市场信息中提炼高确定性的投资机会。</p>
                                         <p class="text_en">To "industrial logic + sinks and quantify the system" as an investment model, industrial logic selection, quantify the timing of the system, accurately grasp the key points of market transactions, in the complex market information refining highly deterministic investment opportunities.</p>
                                     </div>
-                                    <div class="col-xs-4 invest_img">
+                                    <div class="col-sm-4 col-xs-12 invest_img">
                                         <img src="images/investmentImg1.png" alt="" />
                                     </div>
                                 </li>
@@ -202,7 +201,7 @@
                     </div>
                     <div class="col-sm-3 clearfix">
                         <!-- END COLUMN 3 -->
-                        <div class="weChat">
+                        <div class="weChat pull-right">
                             <img src="images/ewm.png">
                             <p>扫一扫关注汇熙公众号<br>了解更多资讯</p>
                         </div>
@@ -216,10 +215,7 @@
 	<!-- JAVASCRIPTS -->
     <script src="js/jquery-2.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/scrollReveal.min.js"></script>
-    <script>
-        window.scrollReveal = new scrollReveal();
-    </script>
+    <script src="js/common.js"></script>
 
 </body>
 </html>

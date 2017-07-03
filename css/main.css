@@ -481,7 +481,9 @@ hr {
   background: #000;
   opacity: 0.3;
 }
-
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+  width: 100%;
+}
 .carousel-control:focus {
   opacity: 0.3;
 }
@@ -1342,6 +1344,7 @@ footer .weChat p{
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  .weChat{float: left!important;}
   .copyRight{
     font-size: 12px;
     line-height: 40px;
@@ -1349,7 +1352,12 @@ footer .weChat p{
 }
 
 @media screen and (max-width: 600px) {
-
+  .section_title .intro_en .before{
+    width: 50px;
+  }
+  .section_title .intro_en .after{
+    width: 50px;
+  }
   .section_title .intro_logo{
     width: 60px;
   }
@@ -1372,7 +1380,7 @@ footer .weChat p{
     width: 80px;
   }
   .introduce .section_title .intro_en .before{
-    margin-left: -180px;
+    margin-left: -150px;
 
   }
   .introduce .section_title .intro_en .after{
@@ -1380,28 +1388,28 @@ footer .weChat p{
 
   }
   .about_us .section_title .intro_en .before{
-    margin-left: -128px;
+    margin-left: -98px;
   }
   .about_us .section_title .intro_en .after{
     margin-left: 48px;
   }
   .daily .section_title .intro_en .before{
-    margin-left: -145px;
+    margin-left: -115px;
   }
   .daily .section_title .intro_en .after{
     margin-left: 65px;
   }
   .news .section_title .intro_en .before{
-    margin-left: -142px;
+    margin-left: -102px;
   }
   .news .section_title .intro_en .after{
-    margin-left: 62px;
+    margin-left: 50px;
   }
   .partner .section_title .intro_en .before{
-    margin-left: -170px;
+    margin-left: -150px;
   }
   .partner .section_title .intro_en .after{
-    margin-left: 90px;
+    margin-left: 100px;
   }
   .introduce .intro_2 .intro_ch{
     margin-top: 18px;
@@ -2441,15 +2449,20 @@ div[class*="col-"] > .form-group {
 /*客户服务 end*/
 /*介绍*/
 .childPage_wrapper{padding-top: 80px}
+
+.childPage_banner .carousel-caption .slider-heading{
+  font-size: 60px;
+}
+.childPage_banner .carousel-caption .line{
+  height: 3px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.childPage_banner .carousel-caption .slider-body{
+  font-size: 32px;
+}
 section.childPage{
   padding: 100px 0;
-}
-@media (max-width: 992px) {
-  section.childPage{
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  .childPage_wrapper{padding-top: 50px}
 }
 .childPage .content{
   width:100%;
@@ -2467,6 +2480,54 @@ section.childPage{
   text-indent:1.5em;
 }
 
+@media (max-width: 1070px) {
+  .childPage_wrapper{padding-top: 50px;padding-bottom: 50px}
+}
+@media (max-width: 992px) {
+  section.childPage{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .childPage_wrapper{padding-top: 50px}
+  .childPage_banner .carousel-caption .slider-heading{
+    font-size: 42px;
+  }
+  .childPage_banner .carousel-caption .line{
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  .childPage_banner .carousel-caption{top: 15%}
+  .childPage_banner .carousel-caption .slider-body{
+    font-size: 24px;
+  }
+  section.childPage{padding-top: 60px;padding-bottom: 60px}
+}
+@media (max-width: 768px) {
+  .childPage_banner .carousel-caption .slider-heading{
+    font-size: 32px;
+  }
+  .childPage_banner .carousel-caption .line{
+    margin-bottom: 0px;
+  }
+  .childPage_banner .carousel-caption{top: 15%}
+  .childPage_banner .carousel-caption .slider-body{
+    font-size: 20px;
+  }
+  .nav_left li{line-height: 50px}
+}
+
+@media (max-width: 600px) {
+  .childPage_banner .carousel-caption .slider-heading{
+    font-size: 28px;
+  }
+  .childPage_banner .carousel-caption .line{
+    margin-bottom: 0px;
+  }
+  .childPage_banner .carousel-caption{top: 15%}
+  .childPage_banner .carousel-caption .slider-body{
+    font-size: 18px;
+  }
+}
 /* CULTURE */
 .cul_list{ margin-right: -10px; margin-left: -10px;margin-top: 20px}
 .cul_list .col-sm-4{ padding-right: 10px; padding-left: 10px;}
@@ -2763,3 +2824,111 @@ section.childPage{
 .orderPop .order_form .item{margin-bottom: 16px;font-size: 16px}
 .orderPop .modal-footer{text-align: center}
 .orderPop .modal-footer .orderBtn{background: #000;color: #fff}
+@media (max-width: 1200px) {
+  .team_section .group_1 .group_img img {
+    top: 80px;
+    height: 230px;
+  }
+  .team_section .group_2 .group_img img {
+    top: 80px;
+    height: 230px;
+  }
+  .team_section .group_1{
+    min-height: 340px;
+  }
+  .team_section .group_2{
+    min-height: 320px;
+  }
+  .team_section .group_1 .group_text{
+    margin-top: 40px;
+  }
+  .team_section .group_2 .group_text{
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 1070px) {
+  .childPage_wrapper{padding-top: 50px;padding-bottom: 50px}
+  .culture_section .item_cul .cul h3{
+    font-size: 18px;
+  }
+  .culture_section .item_cul .cul{
+    height: 60px;
+  }
+  .culture_section .item_cul .cul p{
+    font-size: 14px;
+  }
+}
+@media (max-width: 992px) {
+  section.childPage{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .childPage_wrapper{padding-top: 50px}
+  .childPage_banner .carousel-caption .slider-heading{
+    font-size: 42px;
+  }
+  .childPage_banner .carousel-caption .line{
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  .childPage_banner .carousel-caption{top: 15%}
+  .childPage_banner .carousel-caption .slider-body{
+    font-size: 24px;
+  }
+  section.childPage{padding-top: 60px;padding-bottom: 60px}
+  .team_section .group_1{border-bottom: 1px solid #ddd;margin-bottom: 0}
+  .team_section .group_1,.team_section .group_2{
+    background: none;
+  }
+  .team_section .group_2 .group_text{float: right}
+  .team_section .group_2 .group_img img{left: 0}
+}
+@media (max-width: 768px) {
+  .childPage_banner .carousel-caption .slider-heading{
+    font-size: 32px;
+  }
+  .childPage_banner .carousel-caption .line{
+    margin-bottom: 0px;
+  }
+  .childPage_banner .carousel-caption{top: 15%}
+  .childPage_banner .carousel-caption .slider-body{
+    font-size: 20px;
+  }
+  .nav_left li{line-height: 50px}
+
+  .culture_section .item_cul .cul h3{
+    font-size: 28px;
+  }
+  .culture_section .item_cul .cul{
+    height: 80px;
+  }
+  .culture_section .item_cul .cul p{
+    font-size: 18px;
+  }
+  .team_section .group_2{margin-top: 40px}
+  .team_section .group_1 .group_img, .team_section .group_2 .group_img{
+    position: static;
+  }
+  .team_section .group_1 .group_img img, .team_section .group_2 .group_img img{
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+  .team_section .group_1 .group_text,.team_section .group_2 .group_text{margin-top: 0}
+  .investment .invest_item .invest_text{margin-top: 40px}
+  .investment .invest_item:last-child .invest_text{float: right}
+}
+
+@media (max-width: 600px) {
+  .childPage_banner .carousel-caption .slider-heading{
+    font-size: 28px;
+  }
+  .childPage_banner .carousel-caption .line{
+    margin-bottom: 0px;
+  }
+  .childPage_banner .carousel-caption{top: 15%}
+  .childPage_banner .carousel-caption .slider-body{
+    font-size: 18px;
+  }
+}
