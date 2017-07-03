@@ -1,4 +1,4 @@
-.reg_wrapper,.login_wrapper{padding-top: 60px}
+.reg_wrapper,.login_wrapper{padding-top: 80px}
 @media screen and (max-width: 992px) {
     .reg_wrapper,.login_wrapper{padding-top: 50px}
 }

@@ -717,7 +717,31 @@ hr {
   margin-top: 16px;
   font-size: 16px;
 }
-
+.introduce .intro_sign{
+  position: relative;
+}
+.introduce .intro_sign:before{
+  content: "";
+  width: 10px;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  margin-left: -190px;
+  border: solid #000;
+  border-width: 2px 0 2px 2px;
+}
+.introduce .intro_sign:after{
+  content: "";
+  width: 10px;
+  height: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  margin-left: 180px;
+  border:solid #000;
+  border-width: 2px 2px 2px 0;
+}
 /* END INTRODUCE */
 /* ABOUT US */
 .about_us{
@@ -950,7 +974,7 @@ hr {
   padding-top:100px;
 }
 .sign .sign_left .sign_img{
-  width: 60%;
+  width: 50%;
   margin-left: 100px;
 }
 .sign .sign_left .sign_img img{
