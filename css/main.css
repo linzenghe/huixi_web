@@ -2733,9 +2733,16 @@ section.childPage{
 }
 .product_section table thead tr th{
   padding: 10px;
+  word-break:keep-all;
+  white-space:nowrap;
 }
 .product_section table tbody tr td{
   padding: 10px;
+  word-break:keep-all;
+  white-space:nowrap;
+}
+.product_section .scrollBox{
+  overflow-x: auto;: ;
 }
 
 /* 分页 */
@@ -2823,7 +2830,7 @@ section.childPage{
   color:#999;
 }
 
-.orderPop{max-width: 350px}
+.orderPop{max-width: 350px;margin: 10% auto}
 .orderPop .order_form .item{margin-bottom: 16px;font-size: 16px}
 .orderPop .modal-footer{text-align: center}
 .orderPop .modal-footer .orderBtn{background: #000;color: #fff}
@@ -2847,6 +2854,9 @@ section.childPage{
   }
   .team_section .group_2 .group_text{
     margin-top: 40px;
+  }
+  .product_section .pro_table>p{
+    width: 100%;
   }
 }
 
@@ -2920,6 +2930,15 @@ section.childPage{
   }
   .team_section .group_1 .group_text,.team_section .group_2 .group_text{margin-top: 0}
   .investment .invest_item .invest_text{margin-top: 20px}
+  
+  .product_section table thead tr th{font-size: 12px}
+  .product_section table tbody tr td{font-size: 12px}
+  .problem_list .panel .panel-heading .panel-title{
+    font-size: 14px;
+  }
+  .problem_list .panel-body p{
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 600px) {

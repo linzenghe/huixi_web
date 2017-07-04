@@ -12,7 +12,7 @@
 }
 
 .holder a:hover {
-	background-color: #000;
+	background-color: #eaeaea;
 	color: #fff;
 }
 
@@ -32,5 +32,9 @@
 	cursor: default; 
 	background: none;
 }
-
+.holder a.jp-current{
+	background: #ddd;
+	color: #fff;
+	border-color: #ddd;
+}
 .holder span { margin: 0 5px; }
