@@ -1344,7 +1344,10 @@ footer .weChat p{
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .weChat{float: left!important;}
+  footer .weChat{
+    float: left!important;
+    padding-top: 20px;
+  }
   .copyRight{
     font-size: 12px;
     line-height: 40px;
@@ -2481,7 +2484,7 @@ section.childPage{
 }
 
 @media (max-width: 1070px) {
-  .childPage_wrapper{padding-top: 50px;padding-bottom: 50px}
+  .childPage_wrapper{padding-top: 50px;}
 }
 @media (max-width: 992px) {
   section.childPage{
@@ -2848,7 +2851,7 @@ section.childPage{
 }
 
 @media (max-width: 1070px) {
-  .childPage_wrapper{padding-top: 50px;padding-bottom: 50px}
+  .childPage_wrapper{padding-top: 50px}
   .culture_section .item_cul .cul h3{
     font-size: 18px;
   }
@@ -2916,8 +2919,7 @@ section.childPage{
     height: auto;
   }
   .team_section .group_1 .group_text,.team_section .group_2 .group_text{margin-top: 0}
-  .investment .invest_item .invest_text{margin-top: 40px}
-  .investment .invest_item:last-child .invest_text{float: right}
+  .investment .invest_item .invest_text{margin-top: 20px}
 }
 
 @media (max-width: 600px) {
