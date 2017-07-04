@@ -141,7 +141,7 @@
                                     <div class="item input-group">
                                         <span class="input-group-addon" ><i class="fa fa-cubes fa-fw"></i></span>
 
-                                        <input type="text" class="form-control" readonly style="width: 90%;">
+                                        <input type="text" class="form-control addProductInput" readonly style="width: 90%;">
                                         <a id="add" title="添加产品" class="add" name="btn-addp">+</a>
                                     </div>
 
@@ -151,11 +151,11 @@
                                         <span class="input-group-addon" >发送</span>
                                     </div>
                                     <div class="item clearfix">
-                                        <div class="input-group pull-left" style="width: 35%;">
+                                        <div class="input-group pull-left verPhone" style="width: 35%;">
                                             <span class="input-group-addon" id="basic-addon1"><i class="fa fa-pencil fa-fw"></i></span>
                                             <input type="text" class="form-control" placeholder="请输入验证码">
                                         </div>
-                                        <div class=" pull-left" style="width: 30%; margin-left: 16px;">
+                                        <div class=" pull-left verImg" style="width: 30%; margin-left: 16px;">
                                             <input type="text" class="form-control" placeholder="请输入图形验证码">
                                         </div>
                                         <div class="vcCode" style="width: 30%;">
@@ -169,18 +169,19 @@
                                     <div class="picture"> <span class="up"><img  id="d1"></span>
                                         <p class="upp">
                                             <input type="button" class="up1" name="o-image" value="预览">
-                                            <a class="up2" id="">上传</a> </p>
+                                            <a class="up2" id="">上传</a>
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="ccleft2 col-sm-7">
                                     <div>
                                         <input type="checkbox" name="AutoLogin" checked="" value="true" id="yz">
                                         <a href="" class="agreement" target="_blank">本人已详阅会员服务协议并承诺遵守</a>
-                                        <p></p>
-                                        <p>
+                                        <div class="clearfix" style="margin-top: 8px">
                                             <a href="#" class="prev_walk">上一步</a>
                                             <input type="button" name="btn-add" value="下一步" class="next_walk" id="xz" onclick="Register()">
-                                        </p>
+                                        </div>
+
                                     </div>
                                 </div>
                             </form>

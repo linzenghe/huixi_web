@@ -1580,19 +1580,11 @@ footer .weChat p{
 
 /* tabs */
 .nav-tabs > li > a {
-  -moz-border-radius-topleft: 2px;
-  -webkit-border-top-left-radius: 2px;
-  border-top-left-radius: 2px;
-  -moz-border-radius-topright: 2px;
-  -webkit-border-top-right-radius: 2px;
-  border-top-right-radius: 2px;
+  border-radius: 0;
   font-size: 16px;
 }
-@media screen and (max-width: 480px) {
-  .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    background-color: #406da4;
-    color: #fff;
-  }
+.nav-tabs > li:first-child>a{
+  border-left: transparent!important;
 }
 
 .nav .open > a, .nav .open a:hover, .nav .open a:focus {
@@ -1605,7 +1597,6 @@ footer .weChat p{
 .custom-tabs-line ul {
   display: inline-block;
   vertical-align: middle;
-  *vertical-align: auto;
   *zoom: 1;
   *display: inline;
 }
@@ -1820,7 +1811,6 @@ div[class*="col-"] > .form-group {
   font-weight: 600;
 }
 .newsletter-form .alert.active {
-  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
 }
 .newsletter-form .alert.alert-danger {
@@ -1896,7 +1886,6 @@ div[class*="col-"] > .form-group {
   .number-info.horizontal p {
     display: inline-block;
     vertical-align: middle;
-    *vertical-align: auto;
     *zoom: 1;
     *display: inline;
     padding-left: 0;
@@ -2226,8 +2215,6 @@ div[class*="col-"] > .form-group {
 .social-sharing .section-heading {
   display: inline-block;
   vertical-align: middle;
-  *vertical-align: auto;
-  *zoom: 1;
   *display: inline;
   font-size: 18px !important;
   margin-bottom: 0;
@@ -2293,7 +2280,6 @@ div[class*="col-"] > .form-group {
 .comments .comment-author {
   display: inline-block;
   vertical-align: middle;
-  *vertical-align: auto;
   *zoom: 1;
   *display: inline;
   margin-right: 10px;
@@ -2411,9 +2397,22 @@ div[class*="col-"] > .form-group {
   background: #fafafa;
 }
 .member .pl1 table thead tr{background: #fafafa}
-.member .product_nav> li.active > a{border-top: 1px solid #000}
+.member .product_nav{border:1px solid #ddd;background: #eaeaea}
+.member .product_nav> li.active > a{border-top: 2px solid #000}
 .member .product_nav .dropdown-menu li{font-size: 16px}
 .member .product_nav> li > a{padding: 10px 30px}
+.member .product_nav .dropdown-menu > .active > a,.member .product_nav .dropdown-menu > .active > a:hover,.member .product_nav .dropdown-menu > .active > a:focus{
+  background: rgba(0, 0, 0, .15);
+  color: #333;
+}
+.member .orderBox{margin: 40px 0 20px}
+.member .orderBox .orderBtn{background: #000;color: #fff;padding: 6px 24px}
+
+.member .myproduct h3{ background: url(../images/i3.png) 0 center no-repeat; padding:0 0 0 20px;font-size: 16px;font-weight: normal; color:#6d6d6d; margin:20px auto 10px; }
+.member .norms li{float:left;min-width: 22%;margin: 0 10px 14px 0;}
+.member .norms li span{float:left;border:1px solid #c8cecf;padding: 6px 10px;min-width: 64%;color: #666;}
+.member .norms li .del{/* display:none; */margin: 0 0 0 10px;background: #fff;width: 15px;line-height: 10px;height: 15px;border-radius: 50%;border:1px solid #000;color:#000;cursor:pointer;}
+.member .norms li .add{ display:none; float:left;font-size: 28px;line-height: 24px;background: #fff;padding: 4px 10px;min-width: 76%;border:1px solid #000;color:#000;cursor:pointer;}
   /*用户信息*/
 .userForm .item,.passForm .item{  margin-bottom: 16px;  width: 100%;  position: relative;  }
 .userForm .input-group-addon,.passForm .input-group-addon{  padding: 11px 12px;  }
@@ -2731,18 +2730,20 @@ section.childPage{
 .product_section table thead tr{
   background: #fafafa;
 }
-.product_section table thead tr th{
+.scrollBox table{margin-bottom: 0}
+.scrollBox table thead tr th{
   padding: 10px;
   word-break:keep-all;
   white-space:nowrap;
 }
-.product_section table tbody tr td{
+.scrollBox table tbody tr td{
   padding: 10px;
   word-break:keep-all;
   white-space:nowrap;
 }
-.product_section .scrollBox{
-  overflow-x: auto;: ;
+.scrollBox{
+  overflow-x: auto;
+  margin-bottom: 20px;
 }
 
 /* 分页 */
@@ -2951,5 +2952,9 @@ section.childPage{
   .childPage_banner .carousel-caption{top: 15%}
   .childPage_banner .carousel-caption .slider-body{
     font-size: 18px;
+  }
+
+  .member .tab-pane{
+    padding: 8px;
   }
 }

@@ -90,7 +90,7 @@
         </nav>
         <!-- END NAVBAR -->
         <!-- register -->
-        <section class="member clearfix">
+        <section class="childPage member">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-3">
@@ -105,10 +105,10 @@
                         <ul id="myTab" class="nav nav-tabs product_nav">
                             <li class="dropdown active">
                                 <a href="#" id="myTabDrop1" class="dropdown-toggle"
-                                   data-toggle="dropdown"><span>产品一</span><b class="caret"></b></a>
+                                   data-toggle="dropdown"><span>汇熙一期</span><b class="caret"></b></a>
                                 <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
-                                    <li><a href="#one" tabindex="-1" data-toggle="tab">产品一</a></li>
-                                    <li><a href="#two" tabindex="-1" data-toggle="tab">产品二</a></li>
+                                    <li><a href="#one" tabindex="-1" data-toggle="tab">汇熙一期</a></li>
+                                    <li><a href="#two" tabindex="-1" data-toggle="tab">汇熙二期</a></li>
                                 </ul>
                             </li>
                             <li class=""><a href="#home" data-toggle="tab">我的产品</a></li>
@@ -122,8 +122,9 @@
                                             <div class="pro_t"><span>汇熙一期</span></div>
                                             <div class="ppc">
                                                 <div class="pl1">
-                                                    <table class="table table-bordered">
-                                                        <thead>
+                                                    <div class="scrollBox">
+                                                        <table class="table table-bordered">
+                                                            <thead>
                                                             <tr>
                                                                 <th></th>
                                                                 <th>最新估值（6.23)</th>
@@ -131,8 +132,8 @@
                                                                 <th>今年以来</th>
                                                                 <th>累计增长</th>
                                                             </tr>
-                                                        </thead>
-                                                        <tbody>
+                                                            </thead>
+                                                            <tbody>
                                                             <tr>
                                                                 <td>汇熙1期</td>
                                                                 <td>347.78</td>
@@ -147,13 +148,15 @@
                                                                 <td>7.66%</td>
                                                                 <td>247.78%</td>
                                                             </tr>
-                                                        </tbody>
-                                                        <tfoot>
+                                                            </tbody>
+                                                            <tfoot>
                                                             <tr>
                                                                 <td colspan="5">注：仅供汇熙1期客户和星石投资合作伙伴内部参阅，请勿外传</td>
                                                             </tr>
-                                                        </tfoot>
-                                                    </table>
+                                                            </tfoot>
+                                                        </table>
+                                                    </div>
+
                                                 </div>
                                                 <div class="line_chart">
                                                     <div class="pro_t"><span>净值走势图</span></div>
@@ -161,21 +164,27 @@
                                                 </div>
                                                 <div class="line_table">
                                                     <div class="pro_t"><span>产品净值</span></div>
-                                                    <table class="table">
-                                                        <thead>
-                                                            <tr>
-                                                                <th>日期</th>
-                                                                <th>净值</th>
-                                                                <th>当期增长率</th>
-                                                                <th>累计增长率</th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody id="products"></tbody>
-                                                    </table>
+                                                    <div class="scrollBox">
+                                                        <table class="table">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>日期</th>
+                                                                    <th class="text-center">净值</th>
+                                                                    <th class="text-center">当期增长率</th>
+                                                                    <th class="text-right">累计增长率</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody id="products"></tbody>
+                                                        </table>
+                                                    </div>
                                                     <div class="holder text-center"></div>
                                                 </div>
                                             </div>
+                                            <div class="orderBox text-center">
+                                                <button class="btn orderBtn" onclick="order()">预约</button>
+                                            </div>
                                         </div>
+
                                         <!--产品内容 end-->
                                     </div>
                                 </div>
@@ -186,6 +195,17 @@
                             <div class="tab-pane fade" id="home" style="min-height: 400px">
                                 <p>尊敬的客户：<br>
                                     您好！根据监管要求，私募单一产品业绩只能为产品持有人与合作伙伴提供。如您非产品持有人或合作伙伴，仅能查看产品净值情况。如您需要详细了解产品运作与投资思路，请添加我的产品并上传持有证明。感谢您的支持！</p>
+                                <div class="myproduct">
+                                    <h3>全部产品</h3>
+                                    <ul id="norms-box" class="norms clearfix">
+                                          <li><a  href="#"><span>汇熙1期</span></a></li>
+
+                                          <li><a  href="#"><span>汇熙2期</span></a></li>
+
+                                          <li><a  href="#"><span>汇熙3期</span></a></li>
+                                        <li id="jump"><a href="#"><input name="norms-add" type="button" value="+" class="add" title="+" style="display:inline-block;"><em>&nbsp;&nbsp;</em></a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -242,6 +262,46 @@
             </div>
             <div class="copyRight text-center">Copyright© 2017 huixitouzi.ALL rights reserved.</div>
         </footer>
+    </div>
+
+    <!--预约-->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog orderPop">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">产品预约</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="order_form">
+                        <div class="item input-group">
+                            <span class="input-group-addon">预约产品</span>
+                            <input type="text" class="form-control" readonly name="productName">
+                        </div>
+                        <div class="item input-group">
+                            <span class="input-group-addon">预约金额</span>
+                            <input type="text" class="form-control" placeholder="请输入预约金额"/>
+                        </div>
+                        <div class="item input-group">
+                            <span class="input-group-addon" style="padding-right:17px;">联 系 人</span>
+                            <input type="text" class="form-control" placeholder="请输入联系人"/>
+                        </div>
+                        <div class="item input-group">
+                            <span class="input-group-addon">手机号码</span>
+                            <input type="text" class="form-control" placeholder="请输入手机号码"/>
+                        </div>
+                        <div class="item input-group">
+                            <span class="input-group-addon">电子邮箱</span>
+                            <input type="text" class="form-control" placeholder="请输入电子邮箱"/>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer text-center">
+                    <button type="button" class="btn" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn orderBtn">预约</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
     </div>
     <!-- END WRAPPER -->
     <!-- JAVASCRIPTS -->
@@ -386,9 +446,9 @@
             for(var item in productList){
                 tbodyHTML += '<tr>'+
                     '<td>'+ productList[item].date +'</td>'+
-                    '<td>'+ productList[item].worth +'<span>'+productList[item].status+'</span>'+'</td>'+
-                    '<td>'+ productList[item].growthRateNow +'</td>'+
-                    '<td>'+ productList[item].growthRateTotal +'</td>'+
+                    '<td class="text-center">'+ productList[item].worth +'<span>'+productList[item].status+'</span>'+'</td>'+
+                    '<td class="text-center">'+ productList[item].growthRateNow +'</td>'+
+                    '<td class="text-right">'+ productList[item].growthRateTotal +'</td>'+
                 '</tr>';
             }
             $('#products').html(tbodyHTML);
@@ -403,7 +463,12 @@
                 perPage : 4,
                 delay : 20
             });
+
         })
+        //            预约
+        function order() {
+            $("#myModal").modal("show");
+        }
     </script>
 
 </body>
