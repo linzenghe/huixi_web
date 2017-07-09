@@ -633,7 +633,7 @@ hr {
 }
 .introduce .section_title .intro_title {
   color: #333;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 60px;
 }
 .section_title .intro_title {
@@ -699,7 +699,35 @@ hr {
 .introduce .intro_2 .intro_ch{
   margin-top: 32px;
   font-size: 20px;
+  font-weight: bold;
   color: #333;
+  position: relative;
+}
+
+.introduce .intro_2>.intro_ch:before{
+  content: "";
+  width: 11px;
+  height: 11px;
+  background: url("../images/title_left.png") no-repeat 0 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -136px;
+}
+.introduce .intro_2>.intro_ch:after{
+  content: "";
+  width: 11px;
+  height: 11px;
+  background: url("../images/title_right.png") no-repeat 0 0;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: 126px;
+}
+.introduce .intro_2 .intro_ch_small{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 16px 0 32px;
 }
 .introduce .intro_2 .intro_en{
   margin-top: 12px;
@@ -710,7 +738,17 @@ hr {
   display: inline-block;
   width: 50%;
   height: 2px;
-  background: #000;
+  background: #666;
+  position: relative;
+}
+.introduce .intro_2 .line span{
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  width: 100px;
+  height: 5px;
+  background: #666;
+  margin-left: -50px;
 }
 .introduce .intro_3 .intro_item{
   margin-top: 24px;
@@ -722,28 +760,7 @@ hr {
 .introduce .intro_sign{
   position: relative;
 }
-.introduce .intro_sign:before{
-  content: "";
-  width: 10px;
-  height: 100%;
-  position: absolute;
-  top: 0px;
-  left: 50%;
-  margin-left: -190px;
-  border: solid #000;
-  border-width: 2px 0 2px 2px;
-}
-.introduce .intro_sign:after{
-  content: "";
-  width: 10px;
-  height: 100%;
-  position: absolute;
-  bottom: 0px;
-  left: 50%;
-  margin-left: 180px;
-  border:solid #000;
-  border-width: 2px 2px 2px 0;
-}
+
 /* END INTRODUCE */
 /* ABOUT US */
 .about_us{
@@ -1196,6 +1213,10 @@ footer .weChat p{
     margin-top: 24px;
     font-size: 20px;
   }
+  .introduce .intro_2 .intro_ch_small{
+    margin: 12px 0 24px;
+    font-size: 16px;
+  }
   .introduce .intro_2 .intro_en{
     margin-top: 8px;
     font-size: 14px;
@@ -1294,16 +1315,17 @@ footer .weChat p{
     margin-top: 24px;
     font-size: 16px;
   }
+  .introduce .intro_2>.intro_ch:before{
+    margin-left: -116px;
+  }
+  .introduce .intro_2>.intro_ch:after{
+    margin-left: 106px;
+  }
   .introduce .intro_2 .intro_en{
     margin-top: 8px;
     font-size: 14px;
   }
-  .introduce .intro_sign:before{
-    margin-left: -140px;
-  }
-  .introduce .intro_sign:after{
-    margin-left: 130px;
-  }
+
   .about_us{
     max-height: 600px;
   }
