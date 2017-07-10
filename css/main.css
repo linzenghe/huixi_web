@@ -757,10 +757,10 @@ hr {
   position: absolute;
   left: 50%;
   top: 0px;
-  width: 100px;
+  width: 120px;
   height: 5px;
   background: #666;
-  margin-left: -50px;
+  margin-left: -60px;
 }
 .introduce .intro_3 .intro_item{
   margin-top: 24px;
@@ -1044,6 +1044,19 @@ hr {
   
   font-size: 16px;
   color: #666;
+}
+.sign2 .sign_right{
+  border-left: none;
+  background: #000;
+}
+.sign2 .sign_right .sign_item .sign_ch{
+  color: #fff;
+}
+.sign2 .sign_right .sign_item .sign_en{
+  color: #fff;
+}
+.sign2 .sign_item .sign_ch:before{
+  display: none;
 }
 /* END SIGN */
 
