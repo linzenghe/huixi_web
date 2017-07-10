@@ -8,7 +8,13 @@ body {
   font-size: 14px;
   color: #333;
 }
-
+@font-face {
+  font-family: 'dengxianlight';
+  src: url('../fonts/dengl-webfont.woff2') format('woff2'),
+  url('../fonts/dengl-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 h1, h2, h3, h4, h5, h6 {
   margin: 0px;
   color: #656565;
@@ -544,6 +550,8 @@ hr {
   font-size: 30px;
   letter-spacing: 4px;
   margin-top: 16px;
+  font-weight: bold;
+  font-family: dengxianlight;
 }
 
 
@@ -653,6 +661,8 @@ hr {
   color: #999;
   line-height: 36px;
   position: relative;
+  font-weight: bold;
+  font-family: dengxianlight;
 }
 .section_title .intro_en .before {
   width: 100px;
@@ -725,14 +735,16 @@ hr {
   margin-left: 126px;
 }
 .introduce .intro_2 .intro_ch_small{
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   margin: 16px 0 32px;
 }
 .introduce .intro_2 .intro_en{
   margin-top: 12px;
-  font-size: 16px;
-  color: #333;
+  font-size: 18px;
+  color: #666;
+  font-weight: bold;
+  font-family: dengxianlight;
 }
 .introduce .intro_2 .line{
   display: inline-block;
@@ -787,6 +799,8 @@ hr {
   margin-top: 40px;
   font-size:18px;
   line-height: 40px;
+  font-family: dengxianlight;
+  font-weight: bold;
 }
 .about_1 .line{
   display: inline-block;
@@ -902,6 +916,8 @@ hr {
 .portfolio-item a{
   color: #fff;
   font-size: 16px;
+  font-family: dengxianlight;
+  font-weight: bold;
 }
 .portfolio-item a:hover, .portfolio-item a:focus{
   color: #999;
@@ -977,6 +993,8 @@ hr {
   position: absolute;
   bottom: 20px;
   right: 20px;
+  font-family: dengxianlight;
+  font-weight: bold;
 }
 .news .news_item .item_b .news_more:hover{
   color: #666;
@@ -1107,6 +1125,7 @@ footer .contact_list .email i{
 }
 footer .contact_list .email a{
   color: #fff;
+  font-family: dengxianlight;
 }
 footer .contact_list .email a:hover{
   color: #999;
@@ -1134,6 +1153,8 @@ footer .footer-nav a:hover{
 .copyRight{
   background: #323232;
   line-height: 50px;
+  font-family: dengxianlight;
+  letter-spacing: 0.5px;
 }
 footer .weChat{
 }
@@ -1156,7 +1177,7 @@ footer .weChat p{
 .importantModal .tipArticle ul{margin-bottom: 20px;}
 .importantModal .tipArticle ul li{line-height: 20px}
 .importantModal .modal-footer{text-align: center;border-top: none;padding:20px 0 56px; }
-.importantModal .modal-footer .btn{margin: 0 20px;border-radius: 17px;padding:6px 30px }
+.importantModal .modal-footer .btn{margin: 0 20px;border-radius: 2px;padding:6px 30px }
 .importantModal .modal-footer .btn-close{color: #333}
 .importantModal .modal-footer .btn-accept{color: #fff;background: #000}
 
