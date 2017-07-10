@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e363e8a-f6e3-4d62-bde2-92177f427852" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_culture.html" afterPath="$PROJECT_DIR$/about_culture.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/vip_ico.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_organization.html" afterPath="$PROJECT_DIR$/about_organization.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_team.html" afterPath="$PROJECT_DIR$/about_team.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/investment.html" afterPath="$PROJECT_DIR$/investment.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,21 +22,61 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="761" column="19" lean-forward="true" selection-start-line="761" selection-start-column="19" selection-end-line="761" selection-end-column="19" />
+            <state relative-caret-position="466">
+              <caret line="2840" column="13" lean-forward="false" selection-start-line="2840" selection-start-column="13" selection-end-line="2840" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about_culture.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="investment.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/investment.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="128" column="50" lean-forward="true" selection-start-line="128" selection-start-column="50" selection-end-line="128" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about_organization.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about_organization.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="123" column="32" lean-forward="false" selection-start-line="123" selection-start-column="28" selection-end-line="127" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about_culture.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about_culture.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="121" column="37" lean-forward="true" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="37" />
+            <state relative-caret-position="365">
+              <caret line="127" column="37" lean-forward="true" selection-start-line="123" selection-start-column="28" selection-end-line="127" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about_team.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about_team.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="652">
+              <caret line="157" column="74" lean-forward="true" selection-start-line="157" selection-start-column="74" selection-end-line="157" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="service_process.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service_process.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="122" column="59" lean-forward="true" selection-start-line="122" selection-start-column="59" selection-end-line="122" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -42,11 +85,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="379" column="37" lean-forward="false" selection-start-line="379" selection-start-column="37" selection-end-line="379" selection-end-column="37" />
-              <folding>
-                <marker date="1499682514872" expanded="false" signature="21062:21094" ph="..." />
-              </folding>
+            <state relative-caret-position="1144">
+              <caret line="402" column="37" lean-forward="false" selection-start-line="402" selection-start-column="37" selection-end-line="402" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -55,36 +96,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>intro_ch_small</find>
-      <find>intro_2</find>
-      <find>.introduce .intro_sign:before</find>
-      <find>.copyRight</find>
-      <find>&lt;footer&gt;            &lt;div class=&quot;container&quot;&gt;                &lt;div class=&quot;row&quot;&gt;                    &lt;div class=&quot;col-sm-10 footer-nav&quot;&gt;                        &lt;div class=&quot;item col-sm-2&quot;&gt;                            &lt;h5&gt;关于汇熙&lt;/h5&gt;                            &lt;hr&gt;                            &lt;ul class=&quot;clearfix&quot;&gt;                                &lt;li&gt;&lt;a href=&quot;about_introduction.html&quot;&gt;公司简介&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;about_culture.html&quot;&gt;企业文化&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;about_organization.html&quot;&gt;组织架构&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;about_team.html&quot;&gt;汇熙团队&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;about_vision.html&quot;&gt;愿景与使命&lt;/a&gt;&lt;/li&gt;                            &lt;/ul&gt;                        &lt;/div&gt;                        &lt;div class=&quot;item col-sm-2&quot;&gt;                            &lt;h5&gt;投资体系&lt;/h5&gt;                            &lt;hr&gt;                            &lt;ul class=&quot;clearfix&quot;&gt;                                &lt;li&gt;&lt;a href=&quot;investment.html&quot;&gt;投资理念及模式&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;investment_process.html&quot;&gt;投资流程&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;investment_industrial.html&quot;&gt;产业逻辑&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;investment_riskControl.html&quot;&gt;风险控制&lt;/a&gt;&lt;/li&gt;                            &lt;/ul&gt;                        &lt;/div&gt;                        &lt;div class=&quot;item col-sm-2&quot;&gt;                            &lt;h5&gt;每日策略&lt;/h5&gt;                            &lt;hr&gt;                            &lt;ul class=&quot;clearfix&quot;&gt;                                &lt;li&gt;&lt;a href=&quot;daily_strategies.html&quot;&gt;每日交易策略&lt;/a&gt;&lt;/li&gt;                            &lt;/ul&gt;                        &lt;/div&gt;                        &lt;div class=&quot;item col-sm-2&quot;&gt;                            &lt;h5&gt;熙息相通&lt;/h5&gt;                            &lt;hr&gt;                            &lt;ul class=&quot;clearfix&quot;&gt;                                &lt;li&gt;&lt;a href=&quot;news_company.html&quot;&gt;公司新闻&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;news_media.html&quot;&gt;媒体报道&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;news_event.html&quot;&gt;活动纪实&lt;/a&gt;&lt;/li&gt;                            &lt;/ul&gt;                        &lt;/div&gt;                        &lt;div class=&quot;item col-sm-2&quot;&gt;                            &lt;h5&gt;关于汇熙&lt;/h5&gt;                            &lt;hr&gt;                            &lt;ul class=&quot;clearfix&quot;&gt;                                &lt;li&gt;&lt;a href=&quot;product_table.html&quot;&gt;汇熙产品&lt;/a&gt;&lt;/li&gt;                            &lt;/ul&gt;                        &lt;/div&gt;                        &lt;div class=&quot;item col-sm-2&quot;&gt;                            &lt;h5&gt;客户服务&lt;/h5&gt;                            &lt;hr&gt;                            &lt;ul class=&quot;clearfix&quot;&gt;                                &lt;li&gt;&lt;a href=&quot;service_problem.html&quot;&gt;常见问题&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;investment_process.html&quot;&gt;投资流程&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;下载中心&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;login.html&quot;&gt;客户登录&lt;/a&gt;&lt;/li&gt;                            &lt;/ul&gt;                        &lt;/div&gt;                    &lt;/div&gt;                    &lt;div class=&quot;col-sm-2 clearfix&quot;&gt;                        &lt;div class=&quot;weChat pull-right&quot;&gt;                            &lt;img src=&quot;images/ewm.png&quot;&gt;                            &lt;p&gt;扫一扫关注汇熙公众号&lt;br&gt;了解更多资讯&lt;/p&gt;                        &lt;/div&gt;                    &lt;/div&gt;                &lt;/div&gt;                &lt;div class=&quot;clearfix&quot;&gt;                    &lt;hr&gt;                    &lt;ul class=&quot;contact_list  clearfix&quot;&gt;                        &lt;li class=&quot;address col-sm-4&quot;&gt;&lt;i&gt;&lt;/i&gt;福建省厦门市思明区环岛东路1811号&lt;br&gt;中航紫金广场B塔2304&lt;/li&gt;                        &lt;li class=&quot;phone col-sm-4&quot;&gt;&lt;i&gt;&lt;/i&gt;电话：0592-5565118&lt;/li&gt;                        &lt;li class=&quot;email col-sm-4&quot;&gt;&lt;i&gt;&lt;/i&gt;邮箱：&lt;a href=&quot;mailto:service@huixitouzi.com&quot;&gt;service@huixitouzi.com&lt;/a&gt;&lt;/li&gt;                    &lt;/ul&gt;                &lt;/div&gt;            &lt;/div&gt;            &lt;div class=&quot;copyRight text-center&quot;&gt;Copyright© 2017 huixitouzi.ALL rights reserved.&lt;/div&gt;        &lt;/footer&gt;</find>
-      <find>&lt;footer&gt;           2&quot;&gt;                            &lt;h5&gt;关于汇熙&lt;/h5&gt;                            &lt;hr&gt;                            &lt;ul class=&quot;clearfix&quot;&gt;                                &lt;li&gt;&lt;a href=&quot;about_introduction.html&quot;&gt;公司简介&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;about_culture.html&quot;&gt;企业文化&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;about_organization.html&quot;&gt;组织架构&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;about_team.html&quot;&gt;汇熙团队&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;about_vision.html&quot;&gt;愿景与使命&lt;/a&gt;&lt;/li&gt;                            &lt;/ul&gt;                        &lt;/div&gt;                        &lt;div class=&quot;item col-sm-2&quot;&gt;                            &lt;h5&gt;投资体系&lt;/h5&gt;                            &lt;hr&gt;                            &lt;ul class=&quot;clearfix&quot;&gt;                                &lt;li&gt;&lt;a href=&quot;investment.html&quot;&gt;投资理念及模式&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;investment_process.html&quot;&gt;投资流程&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;investment_industrial.html&quot;&gt;产业逻辑&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;investment_riskControl.html&quot;&gt;风险控制&lt;/a&gt;&lt;/li&gt;                            &lt;/ul&gt;                        &lt;/div&gt;                        &lt;div class=&quot;item col-sm-2&quot;&gt;                            &lt;h5&gt;每日策略&lt;/h5&gt;                            &lt;hr&gt;                            &lt;ul class=&quot;clearfix&quot;&gt;                                &lt;li&gt;&lt;a href=&quot;daily_strategies.html&quot;&gt;每日交易策略&lt;/a&gt;&lt;/li&gt;                            &lt;/ul&gt;                        &lt;/div&gt;                        &lt;div class=&quot;item col-sm-2&quot;&gt;                            &lt;h5&gt;熙息相通&lt;/h5&gt;                            &lt;hr&gt;                            &lt;ul class=&quot;clearfix&quot;&gt;                                &lt;li&gt;&lt;a href=&quot;news_company.html&quot;&gt;公司新闻&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;news_media.html&quot;&gt;媒体报道&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;news_event.html&quot;&gt;活动纪实&lt;/a&gt;&lt;/li&gt;                            &lt;/ul&gt;                        &lt;/div&gt;                        &lt;div class=&quot;item col-sm-2&quot;&gt;                            &lt;h5&gt;关于汇熙&lt;/h5&gt;                            &lt;hr&gt;                            &lt;ul class=&quot;clearfix&quot;&gt;                                &lt;li&gt;&lt;a href=&quot;product_table.html&quot;&gt;汇熙产品&lt;/a&gt;&lt;/li&gt;                            &lt;/ul&gt;                        &lt;/div&gt;                        &lt;div class=&quot;item col-sm-2&quot;&gt;                            &lt;h5&gt;客户服务&lt;/h5&gt;                            &lt;hr&gt;                            &lt;ul class=&quot;clearfix&quot;&gt;                                &lt;li&gt;&lt;a href=&quot;service_problem.html&quot;&gt;常见问题&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;investment_process.html&quot;&gt;投资流程&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;下载中心&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;login.html&quot;&gt;客户登录&lt;/a&gt;&lt;/li&gt;                            &lt;/ul&gt;                        &lt;/div&gt;                    &lt;/div&gt;                    &lt;div class=&quot;col-sm-2 clearfix&quot;&gt;                        &lt;div class=&quot;weChat pull-right&quot;&gt;                            &lt;img src=&quot;images/ewm.png&quot;&gt;                            &lt;p&gt;扫一扫关注汇熙公众号&lt;br&gt;了解更多资讯&lt;/p&gt;                        &lt;/div&gt;                    &lt;/div&gt;                &lt;/div&gt;                &lt;div class=&quot;clearfix&quot;&gt;                    &lt;hr&gt;                    &lt;ul class=&quot;contact_list  clearfix&quot;&gt;                        &lt;li class=&quot;address col-sm-4&quot;&gt;&lt;i&gt;&lt;/i&gt;福建省厦门市思明区环岛东路1811号&lt;br&gt;中航紫金广场B塔2304&lt;/li&gt;                        &lt;li class=&quot;phone col-sm-4&quot;&gt;&lt;i&gt;&lt;/i&gt;电话：0592-5565118&lt;/li&gt;                        &lt;li class=&quot;email col-sm-4&quot;&gt;&lt;i&gt;&lt;/i&gt;邮箱：&lt;a href=&quot;mailto:service@huixitouzi.com&quot;&gt;service@huixitouzi.com&lt;/a&gt;&lt;/li&gt;                    &lt;/ul&gt;                &lt;/div&gt;            &lt;/div&gt;            &lt;div class=&quot;copyRight text-center&quot;&gt;Copyright© 2017 huixitouzi.ALL rights reserved.&lt;/div&gt;        &lt;/footer&gt;</find>
-      <find>&lt;footer&gt;                                          &lt;li&gt;&lt;a href=&quot;about_introduction.html&quot;&gt;公司简介&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;about_culture.html&quot;&gt;企业文化&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;about_organization.html&quot;&gt;组织架构&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;about_team.html&quot;&gt;汇熙团队&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;about_vision.html&quot;&gt;愿景与使命&lt;/a&gt;&lt;/li&gt;                            &lt;/ul&gt;                        &lt;/div&gt;                        &lt;div class=&quot;item col-sm-2&quot;&gt;                            &lt;h5&gt;投资体系&lt;/h5&gt;                            &lt;hr&gt;                            &lt;ul class=&quot;clearfix&quot;&gt;                                &lt;li&gt;&lt;a href=&quot;investment.html&quot;&gt;投资理念及模式&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;investment_process.html&quot;&gt;投资流程&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;investment_industrial.html&quot;&gt;产业逻辑&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;investment_riskControl.html&quot;&gt;风险控制&lt;/a&gt;&lt;/li&gt;                            &lt;/ul&gt;                        &lt;/div&gt;                        &lt;div class=&quot;item col-sm-2&quot;&gt;                            &lt;h5&gt;每日策略&lt;/h5&gt;                            &lt;hr&gt;                            &lt;ul class=&quot;clearfix&quot;&gt;                                &lt;li&gt;&lt;a href=&quot;daily_strategies.html&quot;&gt;每日交易策略&lt;/a&gt;&lt;/li&gt;                            &lt;/ul&gt;                        &lt;/div&gt;                        &lt;div class=&quot;item col-sm-2&quot;&gt;                            &lt;h5&gt;熙息相通&lt;/h5&gt;                            &lt;hr&gt;                            &lt;ul class=&quot;clearfix&quot;&gt;                                &lt;li&gt;&lt;a href=&quot;news_company.html&quot;&gt;公司新闻&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;news_media.html&quot;&gt;媒体报道&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;news_event.html&quot;&gt;活动纪实&lt;/a&gt;&lt;/li&gt;                            &lt;/ul&gt;                        &lt;/div&gt;                        &lt;div class=&quot;item col-sm-2&quot;&gt;                            &lt;h5&gt;关于汇熙&lt;/h5&gt;                            &lt;hr&gt;                            &lt;ul class=&quot;clearfix&quot;&gt;                                &lt;li&gt;&lt;a href=&quot;product_table.html&quot;&gt;汇熙产品&lt;/a&gt;&lt;/li&gt;                            &lt;/ul&gt;                        &lt;/div&gt;                        &lt;div class=&quot;item col-sm-2&quot;&gt;                            &lt;h5&gt;客户服务&lt;/h5&gt;                            &lt;hr&gt;                            &lt;ul class=&quot;clearfix&quot;&gt;                                &lt;li&gt;&lt;a href=&quot;service_problem.html&quot;&gt;常见问题&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;investment_process.html&quot;&gt;投资流程&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;下载中心&lt;/a&gt;&lt;/li&gt;                                &lt;li&gt;&lt;a href=&quot;login.html&quot;&gt;客户登录&lt;/a&gt;&lt;/li&gt;                            &lt;/ul&gt;                        &lt;/div&gt;                    &lt;/div&gt;                    &lt;div class=&quot;col-sm-2 clearfix&quot;&gt;                        &lt;div class=&quot;weChat pull-right&quot;&gt;                            &lt;img src=&quot;images/ewm.png&quot;&gt;                            &lt;p&gt;扫一扫关注汇熙公众号&lt;br&gt;了解更多资讯&lt;/p&gt;                        &lt;/div&gt;                    &lt;/div&gt;                &lt;/div&gt;                &lt;div class=&quot;clearfix&quot;&gt;                    &lt;hr&gt;                    &lt;ul class=&quot;contact_list  clearfix&quot;&gt;                        &lt;li class=&quot;address col-sm-4&quot;&gt;&lt;i&gt;&lt;/i&gt;福建省厦门市思明区环岛东路1811号&lt;br&gt;中航紫金广场B塔2304&lt;/li&gt;                        &lt;li class=&quot;phone col-sm-4&quot;&gt;&lt;i&gt;&lt;/i&gt;电话：0592-5565118&lt;/li&gt;                        &lt;li class=&quot;email col-sm-4&quot;&gt;&lt;i&gt;&lt;/i&gt;邮箱：&lt;a href=&quot;mailto:service@huixitouzi.com&quot;&gt;service@huixitouzi.com&lt;/a&gt;&lt;/li&gt;                    &lt;/ul&gt;                &lt;/div&gt;            &lt;/div&gt;            &lt;div class=&quot;copyRight text-center&quot;&gt;Copyright© 2017 huixitouzi.ALL rights reserved.&lt;/div&gt;        &lt;/footer&gt;</find>
-      <find>btn-close</find>
-      <find>&lt;footer&gt;            &lt;div class=&quot;container&quot;&gt;                &lt;div class=&quot;row&quot;&gt;                    &lt;div class=&quot;col-sm-5&quot;&gt;                        &lt;!-- COLUMN 1 --&gt;                        &lt;h3 class=&quot;sr-only&quot;&gt;联系方式&lt;/h3&gt;                        &lt;img src=&quot;images/logo/logo_w.png&quot; class=&quot;logo&quot; alt=&quot;&quot;&gt;                        &lt;address&gt;                            &lt;ul class=&quot;contact_list&quot;&gt;                                &lt;li class=&quot;address&quot;&gt;&lt;i&gt;&lt;/i&gt;福建省厦门市思明区环岛东路1811号&lt;br&gt;中航紫金广场B塔2304&lt;/li&gt;                                &lt;li class=&quot;phone&quot;&gt;&lt;i&gt;&lt;/i&gt;电话：0592-5565118&lt;/li&gt;                                &lt;li class=&quot;email&quot;&gt;&lt;i&gt;&lt;/i&gt;邮箱：&lt;a href=&quot;mailto:service@huixitouzi.com&quot;&gt;service@huixitouzi.com&lt;/a&gt;&lt;/li&gt;                            &lt;/ul&gt;                        &lt;/address&gt;                        &lt;!-- END COLUMN 1 --&gt;                    &lt;/div&gt;                    &lt;div class=&quot;col-sm-4&quot;&gt;                        &lt;!-- COLUMN 2 --&gt;                        &lt;div class=&quot;row footer_nav_list&quot;&gt;                            &lt;div class=&quot;col-xs-6&quot; &gt;                                &lt;ul class=&quot;list-unstyled footer-nav &quot;&gt;                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;关于汇熙&lt;/a&gt;&lt;/li&gt;                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;汇熙动态&lt;/a&gt;&lt;/li&gt;                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;投资体系&lt;/a&gt;&lt;/li&gt;                                &lt;/ul&gt;                            &lt;/div&gt;                            &lt;div class=&quot;col-xs-6&quot;&gt;                                &lt;ul class=&quot;list-unstyled footer-nav &quot;&gt;                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;汇熙产品&lt;/a&gt;&lt;/li&gt;                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;每日策略&lt;/a&gt;&lt;/li&gt;                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;客户服务 &lt;/a&gt;&lt;/li&gt;                                &lt;/ul&gt;                            &lt;/div&gt;                        &lt;/div&gt;                        &lt;!-- END COLUMN 2 --&gt;                    &lt;/div&gt;                    &lt;div class=&quot;col-sm-3 clearfix&quot;&gt;                        &lt;!-- END COLUMN 3 --&gt;                        &lt;div class=&quot;weChat&quot;&gt;                            &lt;img src=&quot;images/ewm.png&quot;&gt;                            &lt;p&gt;扫一扫关注汇熙公众号&lt;br&gt;了解更多资讯&lt;/p&gt;                        &lt;/div&gt;                    &lt;/div&gt;                &lt;/div&gt;            &lt;/div&gt;            &lt;div class=&quot;copyRight text-center&quot;&gt;Copyright© 2017 huixitouzi.ALL rights reserved.&lt;/div&gt;        &lt;/footer&gt;</find>
-      <find>&lt;footer&gt;</find>
-      <find>hui'xi</find>
-      <find>hui'x</find>
-      <find>h'hu</find>
-      <find>h'h</find>
-      <find>h</find>
-      <find>hu</find>
-      <find>hui</find>
-      <find>汇</find>
-      <find>汇xi</find>
-      <find>汇熙</find>
-      <find>汇熙dong</find>
-      <find>汇熙dongt</find>
-      <find>.childPage_banner .carousel-caption .slider-body</find>
-      <find>什么是私募基金</find>
-      <find>.page_title p</find>
-      <find>panel-title</find>
-      <find>风控体系</find>
-      <find>汇熙动态</find>
-      <find>sign</find>
       <find>.introduce .intro_2 .line span</find>
+      <find>childPage_wrapper</find>
+      <find>container</find>
+      <find>group_img</find>
+      <find>c</find>
+      <find>chan</find>
+      <find>chan'p</find>
+      <find>产品y</find>
+      <find>产品yu</find>
+      <find>产品yun</find>
+      <find>产品yun'yi</find>
+      <find>产品yun'yin</find>
+      <find>产品yun'ying</find>
+      <find>产品运营</find>
+      <find>产品</find>
+      <find>产品和运营</find>
+      <find>page_title</find>
+      <find>gongs</find>
+      <find>gong</find>
+      <find>gon</find>
+      <find>go</find>
+      <find>g</find>
+      <find>gong's</find>
+      <find>gong'si</find>
+      <find>公司</find>
+      <find>公司jia</find>
+      <find>公司jia'g</find>
+      <find>公司jia'gou</find>
+      <find>公司架构</find>
+      <find>.invest_section .investment .invest_item .invest_text p</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -104,17 +145,14 @@
         <option value="$PROJECT_DIR$/service_process.html" />
         <option value="$PROJECT_DIR$/about_vision.html" />
         <option value="$PROJECT_DIR$/investment_process.html" />
-        <option value="$PROJECT_DIR$/investment.html" />
         <option value="$PROJECT_DIR$/daily_strategies.html" />
         <option value="$PROJECT_DIR$/about_introduction.html" />
         <option value="$PROJECT_DIR$/accountMange.html" />
-        <option value="$PROJECT_DIR$/about_organization.html" />
         <option value="$PROJECT_DIR$/registerSuc.html" />
         <option value="$PROJECT_DIR$/registerInfo.html" />
         <option value="$PROJECT_DIR$/registerSuc2.html" />
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/product_list.html" />
-        <option value="$PROJECT_DIR$/about_team.html" />
         <option value="$PROJECT_DIR$/news_media.html" />
         <option value="$PROJECT_DIR$/news_company.html" />
         <option value="$PROJECT_DIR$/news_event.html" />
@@ -122,8 +160,11 @@
         <option value="$PROJECT_DIR$/investment_riskControl.html" />
         <option value="$PROJECT_DIR$/product_table.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/about_team.html" />
         <option value="$PROJECT_DIR$/about_culture.html" />
+        <option value="$PROJECT_DIR$/about_organization.html" />
+        <option value="$PROJECT_DIR$/investment.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -134,10 +175,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-356" />
-    <option name="y" value="263" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1874" />
-    <option name="height" value="1082" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -210,6 +251,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\huixi_web\images" />
       <recent name="P:\huixi_web\fonts" />
     </key>
   </component>
@@ -264,6 +306,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -306,14 +354,15 @@
       <workItem from="1499666913179" duration="12000" />
       <workItem from="1499666952879" duration="3193000" />
       <workItem from="1499672180179" duration="8142000" />
+      <workItem from="1499688210818" duration="3714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30681000" />
+    <option name="totallyTimeSpent" value="34395000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-356" y="263" width="1874" height="1082" extended-state="0" />
+    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13616793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -345,6 +394,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16742">
+          <caret line="761" column="1" lean-forward="true" selection-start-line="761" selection-start-column="1" selection-end-line="761" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8338">
+          <caret line="379" column="37" lean-forward="false" selection-start-line="379" selection-start-column="37" selection-end-line="379" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about_culture.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2662">
+          <caret line="121" column="37" lean-forward="true" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -441,14 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service_process.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="842">
-          <caret line="223" column="17" lean-forward="false" selection-start-line="223" selection-start-column="17" selection-end-line="223" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about_vision.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="653">
@@ -473,26 +538,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/investment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="229" column="17" lean-forward="true" selection-start-line="153" selection-start-column="8" selection-end-line="229" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accountMange.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="172" column="16" lean-forward="false" selection-start-line="172" selection-start-column="8" selection-end-line="172" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about_organization.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="842">
-          <caret line="213" column="17" lean-forward="false" selection-start-line="213" selection-start-column="17" selection-end-line="213" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -525,7 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1031">
           <caret line="204" column="17" lean-forward="false" selection-start-line="204" selection-start-column="17" selection-end-line="204" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -541,16 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="872">
           <caret line="292" column="17" lean-forward="false" selection-start-line="292" selection-start-column="17" selection-end-line="292" selection-end-column="17" />
-          <folding>
-            <marker date="1499678196209" expanded="true" signature="21289:21309" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about_team.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="206" column="30" lean-forward="true" selection-start-line="206" selection-start-column="30" selection-end-line="206" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -591,7 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="121" column="45" lean-forward="true" selection-start-line="121" selection-start-column="45" selection-end-line="121" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -605,26 +642,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="379" column="37" lean-forward="false" selection-start-line="379" selection-start-column="37" selection-end-line="379" selection-end-column="37" />
-          <folding>
-            <marker date="1499682514872" expanded="false" signature="21062:21094" ph="..." />
-          </folding>
+        <state relative-caret-position="1144">
+          <caret line="402" column="37" lean-forward="false" selection-start-line="402" selection-start-column="37" selection-end-line="402" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/service_process.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="761" column="19" lean-forward="true" selection-start-line="761" selection-start-column="19" selection-end-line="761" selection-end-column="19" />
+        <state relative-caret-position="363">
+          <caret line="122" column="59" lean-forward="true" selection-start-line="122" selection-start-column="59" selection-end-line="122" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about_team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="157" column="74" lean-forward="true" selection-start-line="157" selection-start-column="74" selection-end-line="157" selection-end-column="74" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about_culture.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="121" column="37" lean-forward="true" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="37" />
+        <state relative-caret-position="365">
+          <caret line="127" column="37" lean-forward="true" selection-start-line="123" selection-start-column="28" selection-end-line="127" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about_organization.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="123" column="32" lean-forward="false" selection-start-line="123" selection-start-column="28" selection-end-line="127" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/investment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="128" column="50" lean-forward="true" selection-start-line="128" selection-start-column="50" selection-end-line="128" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="2840" column="13" lean-forward="false" selection-start-line="2840" selection-start-column="13" selection-end-line="2840" selection-end-column="13" />
           <folding />
         </state>
       </provider>

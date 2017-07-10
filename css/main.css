@@ -61,7 +61,7 @@ hr {
 }
 @media (min-width: 1300px){
   .container {
-    width: 1250px;
+    width: 1170px;
   }
 }
 @media (min-width: 1460px){
@@ -2643,7 +2643,7 @@ section.childPage{
 /* CULTURE */
 .cul_list{ margin-right: -10px; margin-left: -10px;margin-top: 20px}
 .cul_list .col-sm-4{ padding-right: 10px; padding-left: 10px;}
-.culture_section .item_cul{position: relative;margin-top: 20px;overflow: hidden}
+.culture_section .item_cul{position: relative;overflow: hidden}
 .culture_section .item_cul img{width: 100%}
 .culture_section .item_cul .cul{position: absolute;bottom: 0px;left: 0;width: 100%;height: 80px;background: rgba(0,0,0,.3);color: #fff;padding: 20px}
 .culture_section .item_cul .cul h3{color: #fff;font-size: 24px;}
@@ -2696,15 +2696,16 @@ section.childPage{
 .mission_section .item_vision .vision_t{
   border: solid #ddd;
   border-width: 0 2px 2px;
-  font-size: 18px;
   padding: 30px 10px;
   min-height: 200px;
 }
 .mission_section .item_vision .vision_t .visible-ch{
   color: #333;
+  font-size: 18px;
 }
 .mission_section .item_vision .vision_t .visible-en{
   color: #666;
+  font-size: 16px;
 }
 .mission_section .item_vision:hover .vision_t{
   background: #fafafa;
@@ -2721,7 +2722,7 @@ section.childPage{
   background-size: auto 100%;
   min-height: 360px;
 }
-.team_section .group_1 .group_img,.team_section .group_2 .group_img {
+/*.team_section .group_1 .group_img,.team_section .group_2 .group_img {
   position: relative;
   height: 100%;
 }
@@ -2736,7 +2737,46 @@ section.childPage{
   top: 20px;
   right: 0px;
   height: 300px;
+}*/
+.team_section .group_1 .group_img{
+  margin-top: 30px;
+  margin-left: -100px;
 }
+.team_section .group_2 .group_img{
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.team_section .group_img .team_h{
+  position: relative;
+}
+.team_section .group_img .team_h img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border:2px solid #eaeaea;
+}
+.team_section .group_img .team_h .vip_ico{
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  margin-right: -70px;
+  width: 30px;
+  height: 30px;
+  background: url("../images/vip_ico.png") no-repeat 0 0;
+  background-size: 100% 100%;
+
+}
+.team_section .group_img h4{
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 16px;
+}
+.team_section .group_img p{
+  font-size: 16px;
+  color: #999;
+  margin-top: 16px;
+}
+
 .team_section .group_1 .group_text{
   margin-top: 50px;
   padding-left: 30px;
@@ -2780,24 +2820,25 @@ section.childPage{
 }
 .invest_section .investment .invest_item .invest_text h2{
   color: #333;
-  font-size: 24px;
+  font-size: 22px;
 }
 .invest_section .investment .invest_item .invest_text .title_en{
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
-  color: #333;
+  color: #666;
   margin-top: 16px;
   text-transform:uppercase;
   font-family: Arial;
 }
 .invest_section .investment .invest_item .invest_text p{
   font-size: 16px;
-  color: #666;
+
   line-height: 28px;
   margin-top: 16px;
 }
 .invest_section .investment .invest_item .invest_text .text_en{
   font-family: Arial;
+  color: #999;
 }
 /* RVENTRECORD */
 .news_section .eventRecord li img{
@@ -2946,14 +2987,14 @@ section.childPage{
 .orderPop .modal-footer{text-align: center}
 .orderPop .modal-footer .orderBtn{background: #000;color: #fff}
 @media (max-width: 1200px) {
-  .team_section .group_1 .group_img img {
+  /*.team_section .group_1 .group_img img {
     top: 80px;
     height: 230px;
-  }
-  .team_section .group_2 .group_img img {
+  }*/
+  /*.team_section .group_2 .group_img img {
     top: 80px;
     height: 230px;
-  }
+  }*/
   .team_section .group_1{
     min-height: 340px;
   }
@@ -2961,10 +3002,10 @@ section.childPage{
     min-height: 320px;
   }
   .team_section .group_1 .group_text{
-    margin-top: 40px;
+    margin-top: 20px;
   }
   .team_section .group_2 .group_text{
-    margin-top: 40px;
+    margin-top: 20px;
   }
   .product_section .pro_table>p{
     width: 100%;
@@ -3006,7 +3047,9 @@ section.childPage{
     background: none;
   }
   .team_section .group_2 .group_text{float: right}
-  .team_section .group_2 .group_img img{left: 0}
+  .team_section .group_2 .group_img{
+    margin: 40px 0 0 -100px;
+  }
 }
 @media (max-width: 768px) {
   .childPage_banner .carousel-caption .slider-heading{
@@ -3032,11 +3075,12 @@ section.childPage{
   }
   .team_section .group_2{margin-top: 40px}
   .team_section .group_1 .group_img, .team_section .group_2 .group_img{
-    position: static;
+    margin: 0;
+
   }
   .team_section .group_1 .group_img img, .team_section .group_2 .group_img img{
     position: static;
-    width: 100%;
+    width: 200px;
     height: auto;
   }
   .team_section .group_1 .group_text,.team_section .group_2 .group_text{margin-top: 0}
