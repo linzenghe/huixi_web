@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e363e8a-f6e3-4d62-bde2-92177f427852" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/vip_ico.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_organization.html" afterPath="$PROJECT_DIR$/about_organization.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_team.html" afterPath="$PROJECT_DIR$/about_team.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_culture.html" afterPath="$PROJECT_DIR$/about_culture.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/investment.html" afterPath="$PROJECT_DIR$/investment.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,8 +22,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="2840" column="13" lean-forward="false" selection-start-line="2840" selection-start-column="13" selection-end-line="2840" selection-end-column="13" />
+            <state relative-caret-position="290">
+              <caret line="2555" column="57" lean-forward="false" selection-start-line="2555" selection-start-column="57" selection-end-line="2555" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -35,8 +32,8 @@
       <file leaf-file-name="investment.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/investment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="128" column="50" lean-forward="true" selection-start-line="128" selection-start-column="50" selection-end-line="128" selection-end-column="50" />
+            <state relative-caret-position="78">
+              <caret line="122" column="51" lean-forward="true" selection-start-line="122" selection-start-column="51" selection-end-line="122" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -55,8 +52,8 @@
       <file leaf-file-name="about_culture.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about_culture.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="127" column="37" lean-forward="true" selection-start-line="123" selection-start-column="28" selection-end-line="127" selection-end-column="37" />
+            <state relative-caret-position="475">
+              <caret line="135" column="47" lean-forward="false" selection-start-line="135" selection-start-column="47" selection-end-line="135" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -96,7 +93,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.introduce .intro_2 .line span</find>
       <find>childPage_wrapper</find>
       <find>container</find>
       <find>group_img</find>
@@ -112,7 +108,6 @@
       <find>产品运营</find>
       <find>产品</find>
       <find>产品和运营</find>
-      <find>page_title</find>
       <find>gongs</find>
       <find>gong</find>
       <find>gon</find>
@@ -126,6 +121,8 @@
       <find>公司jia'gou</find>
       <find>公司架构</find>
       <find>.invest_section .investment .invest_item .invest_text p</find>
+      <find>.sign .sign_left</find>
+      <find>page_title</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -161,9 +158,9 @@
         <option value="$PROJECT_DIR$/product_table.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/about_team.html" />
-        <option value="$PROJECT_DIR$/about_culture.html" />
         <option value="$PROJECT_DIR$/about_organization.html" />
         <option value="$PROJECT_DIR$/investment.html" />
+        <option value="$PROJECT_DIR$/about_culture.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
@@ -175,10 +172,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1874" />
-    <option name="height" value="1096" />
+    <option name="x" value="86" />
+    <option name="y" value="14" />
+    <option name="width" value="1872" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -354,18 +351,18 @@
       <workItem from="1499666913179" duration="12000" />
       <workItem from="1499666952879" duration="3193000" />
       <workItem from="1499672180179" duration="8142000" />
-      <workItem from="1499688210818" duration="3714000" />
+      <workItem from="1499688210818" duration="5531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34395000" />
+    <option name="totallyTimeSpent" value="36212000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="86" y="14" width="1872" height="1084" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13616793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13631466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925585" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -664,14 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about_culture.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="127" column="37" lean-forward="true" selection-start-line="123" selection-start-column="28" selection-end-line="127" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about_organization.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -682,16 +671,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/investment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="128" column="50" lean-forward="true" selection-start-line="128" selection-start-column="50" selection-end-line="128" selection-end-column="50" />
+        <state relative-caret-position="78">
+          <caret line="122" column="51" lean-forward="true" selection-start-line="122" selection-start-column="51" selection-end-line="122" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about_culture.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="135" column="47" lean-forward="false" selection-start-line="135" selection-start-column="47" selection-end-line="135" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="2840" column="13" lean-forward="false" selection-start-line="2840" selection-start-column="13" selection-end-line="2840" selection-end-column="13" />
+        <state relative-caret-position="290">
+          <caret line="2555" column="57" lean-forward="false" selection-start-line="2555" selection-start-column="57" selection-end-line="2555" selection-end-column="57" />
           <folding />
         </state>
       </provider>

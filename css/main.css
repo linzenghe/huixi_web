@@ -1008,7 +1008,7 @@ hr {
   }
 }
 .sign .sign_left{
-  padding-top:100px;
+  padding-top:50px;
 }
 .sign .sign_left .sign_img{
   width: 50%;
@@ -2463,7 +2463,7 @@ div[class*="col-"] > .form-group {
 .nav_left p{margin: 0}
 .nav_left .current{ border-left:3px solid #333; margin-left:-2px; line-height:40px;}
 .nav_left .current a{color:#333;}
-.nav_left .current p{color:#333;display: block;text-transform:Uppercase}
+.nav_left .current p{color:#666;display: block;text-transform:Uppercase}
 .nav_left li{line-height:60px; font-size:22px; padding-left:8%;}
 .nav_left li a{color:#999;font-size: 18px}
 .nav_left li a:hover{color:#666;}
@@ -2552,8 +2552,8 @@ div[class*="col-"] > .form-group {
 .process_img img{width: 95%;margin: 50px 0}
 
 .page_title{border-bottom: 1px solid #ddd;position: relative;margin-bottom: 40px}
-.page_title h3{font-size: 28px;color: #333;line-height: 40px;margin-bottom: 10px}
-.page_title p{font-size: 20px;color: #999;line-height: 40px;margin-bottom: 20px;font-family: Arial;text-transform:Uppercase}
+.page_title h3{font-size: 24px;color: #333;line-height: 26px;margin-bottom: 10px}
+.page_title p{font-size: 18px;color: #999;line-height: 24px;margin-bottom: 20px;font-family: Arial;text-transform:Uppercase}
 .page_title .ico{position: absolute;bottom: -16px;margin-left: -16px;width: 32px;height: 32px;background: url("../images/titleIcon.png") no-repeat 0 0}
 
 /*客户服务 end*/
@@ -2816,7 +2816,7 @@ section.childPage{
 }
 /* INVESTMENT */
 .invest_section .investment .invest_item .invest_img img{
-  width: 95%;
+  width: 100%;
 }
 .invest_section .investment .invest_item .invest_text h2{
   color: #333;
@@ -2832,13 +2832,13 @@ section.childPage{
 }
 .invest_section .investment .invest_item .invest_text p{
   font-size: 16px;
-
   line-height: 28px;
   margin-top: 16px;
 }
 .invest_section .investment .invest_item .invest_text .text_en{
   font-family: Arial;
   color: #999;
+  font-size: 15px;
 }
 /* RVENTRECORD */
 .news_section .eventRecord li img{
