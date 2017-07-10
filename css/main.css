@@ -2815,7 +2815,7 @@ section.childPage{
   top: 14px;
 }
 /* INVESTMENT */
-.invest_section .investment .invest_item .invest_img img{
+/*.invest_section .investment .invest_item .invest_img img{
   width: 100%;
 }
 .invest_section .investment .invest_item .invest_text h2{
@@ -2839,8 +2839,105 @@ section.childPage{
   font-family: dengxianlight;
   color: #999;
   font-size: 16px;
+}*/
+.invest_section .investment .invest_item{
+  border: 1px solid #ddd;
+  position: relative;
+  padding: 20px;
+  margin-bottom: 250px;
+  height: 500px;
 }
-/* RVENTRECORD */
+.invest_section .investment .invest_item .title_en{
+  font-size: 24px;
+  line-height: 40px;
+  font-family: dengxianlight;
+  padding-left: 15px;
+  margin-bottom: 20px;
+  text-transform:uppercase;
+}
+.invest_section .investment .invest_item .title_ch{
+  background: #000;
+  position: absolute;
+  bottom: -30px;
+  right: 35px;
+  padding: 16px 40px;
+  font-size: 20px;
+  color: #fff;
+}
+.invest_section .investment .invest_item .invest_img{
+  position: relative;
+}
+.invest_section .investment .invest_item .invest_img img{
+  width: 100%;
+}
+.invest_section .investment .invest_item .invest_text{
+  padding: 50px 0px;
+}
+.invest_section .investment .invest_item .invest_text .text_ch{
+  font-size: 16px;
+  line-height: 28px;
+}
+.invest_section .investment .invest_item .invest_text .text_en{
+  font-size: 14px;
+  color: #999;
+  margin-top: 24px;
+}
+.invest_section .investment .invest_item .invest_text .line{
+  width: 20px;
+  height: 4px;
+  background: #000;
+  display: inline-block;
+}
+.invest_section .investment .invest_item.style_r .invest_img{
+  margin-top: -150px;
+}
+.invest_section .investment .invest_item.style_r .title_ch{
+  left: 35px;
+  top:-30px;
+  bottom: auto;
+  right: auto;
+}
+.riskControl .risk_item .risk_img{
+  padding: 0;
+}
+.riskControl .risk_item .risk_img img{
+  width: 100%;
+}
+.riskControl .risk_item .risk_text{
+  padding-top: 30px;
+}
+.riskControl .risk_item .risk_title{
+  margin-bottom: 20px;
+}
+.riskControl .risk_item .risk_title .title_ch{
+  font-size: 22px;
+  color: #333;
+  line-height: 32px;
+}
+.riskControl .risk_item .risk_title .title_en{
+  font-size: 16px;
+  color: #999;
+  margin-top: 8px;
+  text-transform:uppercase;
+  font-family: dengxianlight;
+}
+.riskControl .risk_item .risk_p .text_ch{
+  font-size: 16px;
+  line-height: 28px;
+}
+.riskControl .risk_item .risk_p .text_en{
+  font-size: 14px;
+  font-family: dengxianlight;
+  margin-top: 32px;
+  color: #999;
+}
+.riskControl .risk_item .risk_p .block{
+  border: 2px solid #666;
+  width: 150px;
+  padding: 10px;
+  margin: 20px auto;
+}
+  /* RVENTRECORD */
 .news_section .eventRecord li img{
   width:100%;
 }
@@ -2986,15 +3083,43 @@ section.childPage{
 .orderPop .order_form .item{margin-bottom: 16px;font-size: 16px}
 .orderPop .modal-footer{text-align: center}
 .orderPop .modal-footer .orderBtn{background: #000;color: #fff}
+@media (max-width: 1460px) {
+  .invest_section .investment .invest_item .title_en{
+    margin-bottom: 10px;
+  }
+  .invest_section .investment .invest_item .invest_text .text_ch{
+    font-size: 14px;
+  }
+  .invest_section .investment .invest_item .invest_text .text_en{
+    font-size: 12px;
+  }
+  .invest_section .investment .invest_item .invest_text{
+    padding: 20px 0;
+  }
+  .invest_section .investment .invest_item{
+    height: 420px;
+    margin-bottom: 180px;
+  }
+  .invest_section .investment .invest_item.style_r .invest_img{
+    margin-top: -100px;
+  }
+  .riskControl .risk_item .risk_text{
+    padding-top: 0;
+  }
+  .riskControl .risk_item .risk_title{
+    margin-bottom: 8px;
+  }
+  .riskControl .risk_item .risk_p .text_ch{
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .riskControl .risk_item .risk_p .text_en{
+    font-size: 12px;
+    margin-top: 12px;
+  }
+
+}
 @media (max-width: 1200px) {
-  /*.team_section .group_1 .group_img img {
-    top: 80px;
-    height: 230px;
-  }*/
-  /*.team_section .group_2 .group_img img {
-    top: 80px;
-    height: 230px;
-  }*/
   .team_section .group_1{
     min-height: 340px;
   }
@@ -3009,6 +3134,13 @@ section.childPage{
   }
   .product_section .pro_table>p{
     width: 100%;
+  }
+  .invest_section .investment .invest_item{
+    height: auto;
+    margin-bottom: 80px;
+  }
+  .invest_section .investment .invest_item.style_r .invest_img{
+    margin-top: 0;
   }
 }
 
@@ -3050,6 +3182,12 @@ section.childPage{
   .team_section .group_2 .group_img{
     margin: 40px 0 0 -100px;
   }
+  .riskControl .risk_item .risk_title .title_ch{
+    margin-top: 24px;
+  }
+  .riskControl .risk_item{
+    margin-bottom: 32px;
+  }
 }
 @media (max-width: 768px) {
   .childPage_banner .carousel-caption .slider-heading{
@@ -3076,7 +3214,6 @@ section.childPage{
   .team_section .group_2{margin-top: 40px}
   .team_section .group_1 .group_img, .team_section .group_2 .group_img{
     margin: 0;
-
   }
   .team_section .group_1 .group_img img, .team_section .group_2 .group_img img{
     position: static;
@@ -3093,6 +3230,16 @@ section.childPage{
   }
   .problem_list .panel-body p{
     font-size: 14px;
+  }
+  .invest_section .investment .invest_item.style_r .invest_img{
+    margin-top: 20px;
+  }
+  .invest_section .investment .invest_item .title_ch{
+    bottom: -30px;
+    right: 35px;
+    padding: 12px 30px;
+    font-size: 18px;
+    color: #fff;
   }
 }
 
