@@ -2450,7 +2450,7 @@ div[class*="col-"] > .form-group {
 .nav_left p{margin: 0}
 .nav_left .current{ border-left:3px solid #333; margin-left:-2px; line-height:40px;}
 .nav_left .current a{color:#333;}
-.nav_left .current p{color:#333;display: block}
+.nav_left .current p{color:#333;display: block;text-transform:Uppercase}
 .nav_left li{line-height:60px; font-size:22px; padding-left:8%;}
 .nav_left li a{color:#999;font-size: 18px}
 .nav_left li a:hover{color:#666;}
@@ -2529,6 +2529,7 @@ div[class*="col-"] > .form-group {
 .problem_list .panel{box-shadow: none;margin-bottom: 16px}
 .problem_list .panel .panel-heading{padding: 0;position: relative;border-bottom: 1px dashed #ddd}
 .problem_list .panel .panel-heading .panel-title{position: relative;line-height: 32px;padding: 0 20px;color: #333}
+.problem_list .panel .panel-heading .panel-title span{cursor: pointer}
 .problem_list .panel .panel-heading .panel-title i{position: absolute;top: 10px;left:0;width: 12px;height: 12px;background: url("../images/icon/dot_icon.png") no-repeat 0 0;background-size: 100% 100%}
 .problem_list .panel .panel-heading .flex_ico{width: 18px;height: 12px;position: absolute;top: 14px;right: 12px;background: url("../images/icon/updown_arrow.png") no-repeat 0 0px}
 .problem_list .panel .panel-heading .flex_ico.collapsed{background-position: 0 -17px;}
@@ -2539,7 +2540,7 @@ div[class*="col-"] > .form-group {
 
 .page_title{border-bottom: 1px solid #ddd;position: relative;margin-bottom: 40px}
 .page_title h3{font-size: 28px;color: #333;line-height: 40px;margin-bottom: 10px}
-.page_title p{font-size: 20px;color: #999;line-height: 40px;margin-bottom: 20px;font-family: Arial}
+.page_title p{font-size: 20px;color: #999;line-height: 40px;margin-bottom: 20px;font-family: Arial;text-transform:Uppercase}
 .page_title .ico{position: absolute;bottom: -16px;margin-left: -16px;width: 32px;height: 32px;background: url("../images/titleIcon.png") no-repeat 0 0}
 
 /*客户服务 end*/
@@ -2556,6 +2557,8 @@ div[class*="col-"] > .form-group {
 }
 .childPage_banner .carousel-caption .slider-body{
   font-size: 32px;
+  text-transform:Uppercase;
+  font-family: dengxianlight;
 }
 section.childPage{
   padding: 100px 0;

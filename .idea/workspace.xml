@@ -2,36 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e363e8a-f6e3-4d62-bde2-92177f427852" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/dengl-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/dengl-webfont.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/sign_bg.png" afterPath="$PROJECT_DIR$/images/sign_bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_culture.html" afterPath="$PROJECT_DIR$/about_culture.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_introduction.html" afterPath="$PROJECT_DIR$/about_introduction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_organization.html" afterPath="$PROJECT_DIR$/about_organization.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_team.html" afterPath="$PROJECT_DIR$/about_team.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_vision.html" afterPath="$PROJECT_DIR$/about_vision.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accountMange.html" afterPath="$PROJECT_DIR$/accountMange.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/login_bg.png" afterPath="$PROJECT_DIR$/images/login_bg.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/daily_strategies.html" afterPath="$PROJECT_DIR$/daily_strategies.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/investment.html" afterPath="$PROJECT_DIR$/investment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/investment_industrial.html" afterPath="$PROJECT_DIR$/investment_industrial.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/investment_process.html" afterPath="$PROJECT_DIR$/investment_process.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/investment_riskControl.html" afterPath="$PROJECT_DIR$/investment_riskControl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.html" afterPath="$PROJECT_DIR$/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news_company.html" afterPath="$PROJECT_DIR$/news_company.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news_event.html" afterPath="$PROJECT_DIR$/news_event.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news_media.html" afterPath="$PROJECT_DIR$/news_media.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product_list.html" afterPath="$PROJECT_DIR$/product_list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product_table.html" afterPath="$PROJECT_DIR$/product_table.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.html" afterPath="$PROJECT_DIR$/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registerInfo.html" afterPath="$PROJECT_DIR$/registerInfo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registerInfo2.html" afterPath="$PROJECT_DIR$/registerInfo2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registerInfo3.html" afterPath="$PROJECT_DIR$/registerInfo3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registerSuc.html" afterPath="$PROJECT_DIR$/registerSuc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registerSuc2.html" afterPath="$PROJECT_DIR$/registerSuc2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service_problem.html" afterPath="$PROJECT_DIR$/service_problem.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service_process.html" afterPath="$PROJECT_DIR$/service_process.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,123 +23,10 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="registerSuc.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/registerSuc.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="842">
-              <caret line="200" column="17" lean-forward="false" selection-start-line="200" selection-start-column="17" selection-end-line="200" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news_event.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/news_event.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="842">
-              <caret line="235" column="17" lean-forward="false" selection-start-line="235" selection-start-column="17" selection-end-line="235" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registerInfo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/registerInfo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="842">
-              <caret line="271" column="17" lean-forward="false" selection-start-line="271" selection-start-column="17" selection-end-line="271" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about_culture.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about_culture.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="842">
-              <caret line="266" column="17" lean-forward="false" selection-start-line="266" selection-start-column="17" selection-end-line="266" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registerSuc2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/registerSuc2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1031">
-              <caret line="204" column="17" lean-forward="false" selection-start-line="204" selection-start-column="17" selection-end-line="204" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="217" column="17" lean-forward="false" selection-start-line="217" selection-start-column="17" selection-end-line="217" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product_table.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product_table.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="842">
-              <caret line="215" column="17" lean-forward="false" selection-start-line="215" selection-start-column="17" selection-end-line="215" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product_list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="872">
-              <caret line="292" column="17" lean-forward="false" selection-start-line="292" selection-start-column="17" selection-end-line="292" selection-end-column="17" />
-              <folding>
-                <marker date="1499678196209" expanded="true" signature="21289:21309" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news_media.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/news_media.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="872">
-              <caret line="293" column="17" lean-forward="false" selection-start-line="293" selection-start-column="17" selection-end-line="293" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about_team.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/about_team.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="872">
-              <caret line="235" column="17" lean-forward="false" selection-start-line="235" selection-start-column="17" selection-end-line="235" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.importantModal</find>
-      <find>deng</find>
-      <find>den</find>
-      <find>d</find>
-      <find>deng'l</find>
-      <find>登录</find>
-      <find>登</find>
-      <find>登l</find>
-      <find>登lu</find>
-      <find>登陆</find>
       <find>footer</find>
       <find>weChat</find>
       <find>intro_ch_small</find>
@@ -174,6 +39,24 @@
       <find>btn-close</find>
       <find>&lt;footer&gt;            &lt;div class=&quot;container&quot;&gt;                &lt;div class=&quot;row&quot;&gt;                    &lt;div class=&quot;col-sm-5&quot;&gt;                        &lt;!-- COLUMN 1 --&gt;                        &lt;h3 class=&quot;sr-only&quot;&gt;联系方式&lt;/h3&gt;                        &lt;img src=&quot;images/logo/logo_w.png&quot; class=&quot;logo&quot; alt=&quot;&quot;&gt;                        &lt;address&gt;                            &lt;ul class=&quot;contact_list&quot;&gt;                                &lt;li class=&quot;address&quot;&gt;&lt;i&gt;&lt;/i&gt;福建省厦门市思明区环岛东路1811号&lt;br&gt;中航紫金广场B塔2304&lt;/li&gt;                                &lt;li class=&quot;phone&quot;&gt;&lt;i&gt;&lt;/i&gt;电话：0592-5565118&lt;/li&gt;                                &lt;li class=&quot;email&quot;&gt;&lt;i&gt;&lt;/i&gt;邮箱：&lt;a href=&quot;mailto:service@huixitouzi.com&quot;&gt;service@huixitouzi.com&lt;/a&gt;&lt;/li&gt;                            &lt;/ul&gt;                        &lt;/address&gt;                        &lt;!-- END COLUMN 1 --&gt;                    &lt;/div&gt;                    &lt;div class=&quot;col-sm-4&quot;&gt;                        &lt;!-- COLUMN 2 --&gt;                        &lt;div class=&quot;row footer_nav_list&quot;&gt;                            &lt;div class=&quot;col-xs-6&quot; &gt;                                &lt;ul class=&quot;list-unstyled footer-nav &quot;&gt;                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;关于汇熙&lt;/a&gt;&lt;/li&gt;                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;汇熙动态&lt;/a&gt;&lt;/li&gt;                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;投资体系&lt;/a&gt;&lt;/li&gt;                                &lt;/ul&gt;                            &lt;/div&gt;                            &lt;div class=&quot;col-xs-6&quot;&gt;                                &lt;ul class=&quot;list-unstyled footer-nav &quot;&gt;                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;汇熙产品&lt;/a&gt;&lt;/li&gt;                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;每日策略&lt;/a&gt;&lt;/li&gt;                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;客户服务 &lt;/a&gt;&lt;/li&gt;                                &lt;/ul&gt;                            &lt;/div&gt;                        &lt;/div&gt;                        &lt;!-- END COLUMN 2 --&gt;                    &lt;/div&gt;                    &lt;div class=&quot;col-sm-3 clearfix&quot;&gt;                        &lt;!-- END COLUMN 3 --&gt;                        &lt;div class=&quot;weChat&quot;&gt;                            &lt;img src=&quot;images/ewm.png&quot;&gt;                            &lt;p&gt;扫一扫关注汇熙公众号&lt;br&gt;了解更多资讯&lt;/p&gt;                        &lt;/div&gt;                    &lt;/div&gt;                &lt;/div&gt;            &lt;/div&gt;            &lt;div class=&quot;copyRight text-center&quot;&gt;Copyright© 2017 huixitouzi.ALL rights reserved.&lt;/div&gt;        &lt;/footer&gt;</find>
       <find>&lt;footer&gt;</find>
+      <find>hui'xi</find>
+      <find>hui'x</find>
+      <find>h'hu</find>
+      <find>h'h</find>
+      <find>h</find>
+      <find>hu</find>
+      <find>hui</find>
+      <find>汇</find>
+      <find>汇xi</find>
+      <find>汇熙</find>
+      <find>汇熙dong</find>
+      <find>汇熙dongt</find>
+      <find>.childPage_banner .carousel-caption .slider-body</find>
+      <find>什么是私募基金</find>
+      <find>.page_title p</find>
+      <find>panel-title</find>
+      <find>风控体系</find>
+      <find>汇熙动态</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -187,16 +70,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/register.html" />
-        <option value="$PROJECT_DIR$/service_problem.html" />
         <option value="$PROJECT_DIR$/registerInfo2.html" />
         <option value="$PROJECT_DIR$/investment_industrial.html" />
         <option value="$PROJECT_DIR$/registerInfo3.html" />
         <option value="$PROJECT_DIR$/service_process.html" />
         <option value="$PROJECT_DIR$/about_vision.html" />
-        <option value="$PROJECT_DIR$/investment_riskControl.html" />
-        <option value="$PROJECT_DIR$/news_company.html" />
         <option value="$PROJECT_DIR$/investment_process.html" />
         <option value="$PROJECT_DIR$/investment.html" />
         <option value="$PROJECT_DIR$/daily_strategies.html" />
@@ -204,15 +83,19 @@
         <option value="$PROJECT_DIR$/accountMange.html" />
         <option value="$PROJECT_DIR$/about_organization.html" />
         <option value="$PROJECT_DIR$/registerSuc.html" />
-        <option value="$PROJECT_DIR$/news_event.html" />
         <option value="$PROJECT_DIR$/registerInfo.html" />
         <option value="$PROJECT_DIR$/about_culture.html" />
         <option value="$PROJECT_DIR$/registerSuc2.html" />
         <option value="$PROJECT_DIR$/login.html" />
-        <option value="$PROJECT_DIR$/product_table.html" />
         <option value="$PROJECT_DIR$/product_list.html" />
-        <option value="$PROJECT_DIR$/news_media.html" />
         <option value="$PROJECT_DIR$/about_team.html" />
+        <option value="$PROJECT_DIR$/news_media.html" />
+        <option value="$PROJECT_DIR$/news_company.html" />
+        <option value="$PROJECT_DIR$/news_event.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/service_problem.html" />
+        <option value="$PROJECT_DIR$/investment_riskControl.html" />
+        <option value="$PROJECT_DIR$/product_table.html" />
       </list>
     </option>
   </component>
@@ -223,10 +106,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-41" />
-    <option name="y" value="17" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1874" />
-    <option name="height" value="1081" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -314,6 +197,68 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -332,18 +277,17 @@
       <workItem from="1499607227583" duration="5863000" />
       <workItem from="1499666913179" duration="12000" />
       <workItem from="1499666952879" duration="3193000" />
-      <workItem from="1499672180179" duration="3389000" />
+      <workItem from="1499672180179" duration="6419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25928000" />
+    <option name="totallyTimeSpent" value="28958000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-41" y="17" width="1874" height="1081" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15877287" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13616793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925585" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -436,26 +380,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="1179" column="66" lean-forward="false" selection-start-line="1179" selection-start-column="66" selection-end-line="1179" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="842">
           <caret line="226" column="17" lean-forward="false" selection-start-line="226" selection-start-column="17" selection-end-line="226" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service_problem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="842">
-          <caret line="536" column="17" lean-forward="false" selection-start-line="536" selection-start-column="17" selection-end-line="536" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -496,22 +424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="653">
           <caret line="243" column="17" lean-forward="false" selection-start-line="243" selection-start-column="17" selection-end-line="243" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/investment_riskControl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="842">
-          <caret line="228" column="17" lean-forward="false" selection-start-line="228" selection-start-column="17" selection-end-line="228" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news_company.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="220" column="0" lean-forward="true" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -580,14 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news_event.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="842">
-          <caret line="235" column="17" lean-forward="false" selection-start-line="235" selection-start-column="17" selection-end-line="235" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/registerInfo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="842">
@@ -620,14 +524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product_table.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="842">
-          <caret line="215" column="17" lean-forward="false" selection-start-line="215" selection-start-column="17" selection-end-line="215" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/product_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="872">
@@ -638,18 +534,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news_media.html">
+    <entry file="file://$PROJECT_DIR$/about_team.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="872">
-          <caret line="293" column="17" lean-forward="false" selection-start-line="293" selection-start-column="17" selection-end-line="293" selection-end-column="17" />
+        <state relative-caret-position="515">
+          <caret line="206" column="30" lean-forward="true" selection-start-line="206" selection-start-column="30" selection-end-line="206" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about_team.html">
+    <entry file="file://$PROJECT_DIR$/news_media.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="872">
-          <caret line="235" column="17" lean-forward="false" selection-start-line="235" selection-start-column="17" selection-end-line="235" selection-end-column="17" />
+        <state relative-caret-position="252">
+          <caret line="96" column="67" lean-forward="true" selection-start-line="96" selection-start-column="67" selection-end-line="96" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news_company.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="98" column="56" lean-forward="false" selection-start-line="98" selection-start-column="52" selection-end-line="98" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="2530" column="114" lean-forward="true" selection-start-line="2530" selection-start-column="114" selection-end-line="2530" selection-end-column="114" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news_event.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="100" column="57" lean-forward="false" selection-start-line="100" selection-start-column="57" selection-end-line="100" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_problem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="426" column="129" lean-forward="false" selection-start-line="426" selection-start-column="129" selection-end-line="426" selection-end-column="129" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/investment_riskControl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="121" column="45" lean-forward="true" selection-start-line="121" selection-start-column="45" selection-end-line="121" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="737">
+          <caret line="117" column="201" lean-forward="false" selection-start-line="117" selection-start-column="201" selection-end-line="117" selection-end-column="201" />
           <folding />
         </state>
       </provider>
