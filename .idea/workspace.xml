@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e363e8a-f6e3-4d62-bde2-92177f427852" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/buildings.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-single.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/inv_process.png" afterPath="$PROJECT_DIR$/images/inv_process.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_culture.html" afterPath="$PROJECT_DIR$/about_culture.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/daily_strategies.html" afterPath="$PROJECT_DIR$/daily_strategies.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +23,41 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="2555" column="106" lean-forward="false" selection-start-line="2555" selection-start-column="106" selection-end-line="2555" selection-end-column="106" />
+            <state relative-caret-position="530">
+              <caret line="1124" column="9" lean-forward="false" selection-start-line="1124" selection-start-column="9" selection-end-line="1124" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="daily_strategies.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/daily_strategies.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="134" column="42" lean-forward="true" selection-start-line="125" selection-start-column="36" selection-end-line="134" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog-single.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-single.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1012">
+              <caret line="145" column="17" lean-forward="true" selection-start-line="145" selection-start-column="17" selection-end-line="145" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog-single.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/tid_1_repute-lite/blog-single.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="278" column="30" lean-forward="true" selection-start-line="109" selection-start-column="24" selection-end-line="278" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -47,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about_culture.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="about_culture.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/about_culture.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="135" column="47" lean-forward="false" selection-start-line="135" selection-start-column="47" selection-end-line="135" selection-end-column="47" />
+            <state relative-caret-position="783">
+              <caret line="185" column="56" lean-forward="false" selection-start-line="185" selection-start-column="56" selection-end-line="185" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -91,10 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>childPage_wrapper</find>
-      <find>container</find>
-      <find>group_img</find>
-      <find>c</find>
       <find>chan</find>
       <find>chan'p</find>
       <find>产品y</find>
@@ -121,6 +153,10 @@
       <find>.invest_section .investment .invest_item .invest_text p</find>
       <find>.sign .sign_left</find>
       <find>page_title</find>
+      <find>每日交易策略</find>
+      <find>single</find>
+      <find>footer .contact_list li</find>
+      <find>Share This Story:</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -140,7 +176,6 @@
         <option value="$PROJECT_DIR$/service_process.html" />
         <option value="$PROJECT_DIR$/about_vision.html" />
         <option value="$PROJECT_DIR$/investment_process.html" />
-        <option value="$PROJECT_DIR$/daily_strategies.html" />
         <option value="$PROJECT_DIR$/about_introduction.html" />
         <option value="$PROJECT_DIR$/accountMange.html" />
         <option value="$PROJECT_DIR$/registerSuc.html" />
@@ -158,8 +193,11 @@
         <option value="$PROJECT_DIR$/about_team.html" />
         <option value="$PROJECT_DIR$/about_organization.html" />
         <option value="$PROJECT_DIR$/investment.html" />
-        <option value="$PROJECT_DIR$/about_culture.html" />
+        <option value="$PROJECT_DIR$/daily_strategies.html" />
+        <option value="$PROJECT_DIR$/blog_single.html" />
+        <option value="$PROJECT_DIR$/blog-single.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/about_culture.html" />
       </list>
     </option>
   </component>
@@ -219,6 +257,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\huixi_web\images" />
+      <recent name="E:\huixi_web" />
       <recent name="P:\huixi_web\fonts" />
     </key>
   </component>
@@ -321,12 +360,12 @@
       <workItem from="1499666913179" duration="12000" />
       <workItem from="1499666952879" duration="3193000" />
       <workItem from="1499672180179" duration="8142000" />
-      <workItem from="1499688210818" duration="6953000" />
+      <workItem from="1499688210818" duration="10917000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37634000" />
+    <option name="totallyTimeSpent" value="41598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
@@ -497,14 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/daily_strategies.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="245" column="8" lean-forward="false" selection-start-line="245" selection-start-column="8" selection-end-line="245" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accountMange.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -541,6 +572,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1031">
           <caret line="204" column="17" lean-forward="false" selection-start-line="204" selection-start-column="17" selection-end-line="204" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -596,6 +628,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="121" column="45" lean-forward="true" selection-start-line="121" selection-start-column="45" selection-end-line="121" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -647,18 +680,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about_culture.html">
+    <entry file="file://$PROJECT_DIR$/blog-single.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="135" column="47" lean-forward="false" selection-start-line="135" selection-start-column="47" selection-end-line="135" selection-end-column="47" />
+        <state relative-caret-position="4070">
+          <caret line="437" column="48" lean-forward="true" selection-start-line="437" selection-start-column="48" selection-end-line="437" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/tid_1_repute-lite/blog-single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="278" column="30" lean-forward="true" selection-start-line="109" selection-start-column="24" selection-end-line="278" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daily_strategies.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="134" column="42" lean-forward="true" selection-start-line="125" selection-start-column="36" selection-end-line="134" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="2555" column="106" lean-forward="false" selection-start-line="2555" selection-start-column="106" selection-end-line="2555" selection-end-column="106" />
+        <state relative-caret-position="530">
+          <caret line="1124" column="9" lean-forward="false" selection-start-line="1124" selection-start-column="9" selection-end-line="1124" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="145" column="17" lean-forward="true" selection-start-line="145" selection-start-column="17" selection-end-line="145" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about_culture.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="185" column="56" lean-forward="false" selection-start-line="185" selection-start-column="56" selection-end-line="185" selection-end-column="56" />
           <folding />
         </state>
       </provider>

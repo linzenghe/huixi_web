@@ -1115,14 +1115,14 @@ footer .contact_list li{
   position: relative;
   line-height: 32px;
   font-size: 14px;
-  padding-left: 40px;
+  padding-left: 24px;
 }
 footer .contact_list li i{
   position: absolute;
   width: 20px;
   height: 20px;
   top: 5px;
-  left: 15px;
+  left: 0px;
 }
 footer .contact_list .address i{
   background: url("../images/icon/home.png") no-repeat 0 0 ;
