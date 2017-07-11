@@ -1007,56 +1007,37 @@ hr {
     padding-left: 15px;
   }
 }
+.sign{
+  background: url("../images/signcontain_bg.png") no-repeat 0 0;
+  background-size: 100% 100%;
+}
 .sign .sign_left{
   padding-top:50px;
 }
 .sign .sign_left .sign_img{
-  width: 50%;
-  margin-left: 100px;
+  width: 60%;
+  margin-left: 0px;
 }
 .sign .sign_left .sign_img img{
   width: 100%;
 }
 .sign .sign_right{
-  border-left:2px solid #ddd;
   position: relative;
   height: 100%;
 }
 .sign .sign_item{
-  margin: 100px 0;
+  margin: 90px 0;
   padding-left: 16px;
 }
 .sign .sign_item .sign_ch{
   font-size: 20px;
-  color: #333;
+  color: #fff;
   position: relative;
 }
-.sign .sign_item .sign_ch:before{
-  content: "";
-  position: absolute;
-  width:16px ;
-  height: 16px;
-  background: #000;
-  left: -40px;
-  top: 7px;
-}
 .sign .sign_item .sign_en{
-  
   font-size: 16px;
-  color: #666;
-}
-.sign2 .sign_right{
-  border-left: none;
-  background: #000;
-}
-.sign2 .sign_right .sign_item .sign_ch{
-  color: #fff;
-}
-.sign2 .sign_right .sign_item .sign_en{
-  color: #fff;
-}
-.sign2 .sign_item .sign_ch:before{
-  display: none;
+  color: #fafafa;
+  font-family: dengxianlight;
 }
 /* END SIGN */
 
@@ -1195,6 +1176,11 @@ footer .weChat p{
 .importantModal .modal-footer .btn-accept{color: #fff;background: #000}
 
 /* END PARTNER */
+@media screen and (max-width: 1200px){
+  .sign .sign_left .sign_img{
+    width: 75%;
+  }
+}
 @media screen and (max-width: 992px) {
   .introduce,.about_us,.daily,.news,.partner{
     padding: 60px 0;
@@ -1288,10 +1274,20 @@ footer .weChat p{
     font-size: 14px;
   }
   .sign .sign_item{
-    margin: 20% 0;
+    margin: 60px 0;
+  }
+  .sign .sign_item .sign_ch{
+    font-size: 16px;
+  }
+  .sign .sign_item .sign_en{
+    font-size: 14px;
   }
   .sign .sign_left .sign_img{
-    margin-left: 50px;
+    margin-left: 0px;
+    width: 80%;
+  }
+  .sign .sign_left{
+    padding-top: 0px;
   }
   .importantModal .modal-dialog{
     margin-left: -300px;
@@ -1396,16 +1392,18 @@ footer .weChat p{
   .sign .sign_right{
     padding-left: 0;
   }
-  
+  .sign .sign_item{
+    margin: 40px 0;
+  }
   .sign .sign_item .sign_ch{
     font-size: 16px;
   }
-  .sign .sign_item .sign_ch:before{
+/*  .sign .sign_item .sign_ch:before{
     width: 12px;
     height: 12px;
     left: -23px;
     top: 6px;
-  }
+  }*/
   .sign .sign_item .sign_en{
     font-size: 14px;
   }
@@ -1576,7 +1574,10 @@ footer .weChat p{
   }
   .sign .sign_left .sign_img{
     margin-left: 0;
-    width: 90%;
+    width: 100%;
+  }
+  .sign .sign_item{
+    margin: 16px 0;
   }
   .sign .sign_item .sign_ch{
     font-size: 14px;
@@ -2881,6 +2882,7 @@ section.childPage{
   font-size: 14px;
   color: #999;
   margin-top: 24px;
+  font-family: dengxianlight;
 }
 .invest_section .investment .invest_item .invest_text .line{
   width: 20px;
@@ -3103,9 +3105,8 @@ section.childPage{
   .invest_section .investment .invest_item.style_r .invest_img{
     margin-top: -100px;
   }
-  .riskControl .risk_item .risk_text{
-    padding-top: 0;
-  }
+  
+  
   .riskControl .risk_item .risk_title{
     margin-bottom: 8px;
   }
@@ -3141,6 +3142,9 @@ section.childPage{
   }
   .invest_section .investment .invest_item.style_r .invest_img{
     margin-top: 0;
+  }
+  .riskControl .risk_item .risk_text{
+    padding-top: 10px;
   }
 }
 
@@ -3188,6 +3192,13 @@ section.childPage{
   .riskControl .risk_item{
     margin-bottom: 32px;
   }
+  .riskControl .risk_item .risk_text{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .riskControl .risk_item .risk_img{
+    float: none!important;
+  }
 }
 @media (max-width: 768px) {
   .childPage_banner .carousel-caption .slider-heading{
@@ -3201,7 +3212,6 @@ section.childPage{
     font-size: 20px;
   }
   .nav_left li{line-height: 50px}
-
   .culture_section .item_cul .cul h3{
     font-size: 28px;
   }
